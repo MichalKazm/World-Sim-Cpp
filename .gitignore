@@ -21,3 +21,6 @@ install_manifest.txt
 *.so
 *.exe
 *.out
+
+# Ignore executable
+World_Sim_Cpp
