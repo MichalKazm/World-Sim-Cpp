@@ -1,7 +1,7 @@
 #include "Organism.h"
 
 Organism::Organism(int strength, int initiative, int x, int y, char symbol, World* world)
-    : strength(strength), initiative(initiative), x(x), y(y), symbol(symbol), alive(true), world(world) {}
+    : strength(strength), initiative(initiative), x(x), y(y), age(0), symbol(symbol), alive(true), world(world) {}
 int Organism::GetStrength() const {
     return strength;
 }
@@ -13,6 +13,9 @@ int Organism::GetX() const {
 }
 int Organism::GetY() const {
     return y;
+}
+int Organism::GetAge() const {
+    return age;
 }
 char Organism::GetSymbol() const {
     return symbol;
