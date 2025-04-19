@@ -5,6 +5,12 @@
 
 World::World(int rows, int cols)
     : rows(rows), cols(cols) {}
+int World::GetCols() const {
+    return cols;
+}
+int World::GetRows() const {
+    return rows;
+}
 void World::AddOrganism(Organism* organism) {
     if ((organism->GetX() < cols) && (organism->GetY() < rows) && (organism->GetX() >= 0) && (organism->GetY() >= 0)) {
         order.push_back(organism);

@@ -11,6 +11,9 @@ private:
 public:
     World(int rows, int cols);
 
+    int GetRows() const;
+    int GetCols() const;
+
     void AddOrganism(Organism* organism);
     void SortOrder();
 

@@ -4,7 +4,7 @@
 class World;
 
 class Organism {
-private:
+protected:
     int strength, initiative, x, y, age;
     char symbol;
     bool alive;
