@@ -7,4 +7,6 @@ add_executable(World_Sim_Cpp
         main.cpp
         Organism.cpp
         Organism.h
+        World.cpp
+        World.h
 )
