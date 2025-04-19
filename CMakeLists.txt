@@ -12,3 +12,7 @@ add_executable(World_Sim_Cpp
         Animal.cpp
         Animal.h
 )
+
+find_package(Curses REQUIRED)
+target_link_libraries(World_Sim_Cpp ${CURSES_LIBRARIES})
+include_directories(${CURSES_INCLUDE_DIRS})

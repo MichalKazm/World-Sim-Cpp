@@ -1,10 +1,11 @@
 #include "World.h"
 
+#include <curses.h>
 #include <iostream>
 #include <vector>
 
-World::World(int rows, int cols)
-    : rows(rows), cols(cols) {}
+World::World(int rows, int cols, WINDOW* window)
+    : rows(rows), cols(cols), window(window) {}
 int World::GetCols() const {
     return cols;
 }
@@ -31,10 +32,24 @@ void World::SortOrder() {
         }
     }
 }
+void World::Print() {
+    werase(window);
+
+    box(window, 0, 0);
+
+    for (Organism* organism : order) {
+        mvwprintw( window, organism->GetY() + 1, organism->GetX() + 1, "%c",organism->GetSymbol());
+    }
+
+    wrefresh(window);
+}
+
 World::~World() {
     for (int i = 0; i < order.size(); i++) {
         delete order[i];
     }
+
+    delwin(window);
 }
 
 
