@@ -9,4 +9,6 @@ add_executable(World_Sim_Cpp
         Organism.h
         World.cpp
         World.h
+        Animal.cpp
+        Animal.h
 )
