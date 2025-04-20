@@ -11,6 +11,9 @@ int World::getCols() const {
 int World::getRows() const {
     return rows;
 }
+WINDOW *World::getWindow() const {
+    return window;
+}
 void World::addOrganism(Organism* organism) {
     if ((organism->getX() < cols) && (organism->getY() < rows) && (organism->getX() >= 0) && (organism->getY() >= 0)) {
         order.push_back(organism);
@@ -37,7 +40,7 @@ void World::print() const {
     box(window, 0, 0);
 
     for (Organism* organism : order) {
-        mvwprintw( window, organism->getY() + 1, organism->getX() + 1, "%c",organism->getSymbol());
+        organism->print();
     }
 
     wrefresh(window);

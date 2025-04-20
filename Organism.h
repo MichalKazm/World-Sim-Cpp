@@ -20,6 +20,8 @@ public:
     char getSymbol() const;
     bool isDead() const;
 
+    void print() const;
+
     virtual void action() = 0;
     virtual void collision(Organism& other) = 0;
 

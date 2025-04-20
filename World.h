@@ -15,6 +15,7 @@ public:
 
     int getRows() const;
     int getCols() const;
+    WINDOW* getWindow() const;
 
     void addOrganism(Organism* organism);
     void sortOrder();

@@ -1,5 +1,9 @@
 #include "Organism.h"
 
+#include <curses.h>
+
+#include "World.h"
+
 Organism::Organism(int strength, int initiative, int x, int y, char symbol, World* world)
     : strength(strength), initiative(initiative), x(x), y(y), age(0), symbol(symbol), alive(true), world(world) {}
 int Organism::getStrength() const {
@@ -23,6 +27,10 @@ char Organism::getSymbol() const {
 bool Organism::isDead() const {
     return !alive;
 }
+void Organism::print() const {
+    mvwprintw( world->getWindow(), y + 1, x + 1, "%c", symbol);
+}
+
 
 
 
