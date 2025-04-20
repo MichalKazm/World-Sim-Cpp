@@ -7,6 +7,7 @@ public:
     Animal(int strength, int initiative, int x, int y, char symbol, World* world);
 
     void Action() override;
+    void Collision(Organism &other) override {};
 
     ~Animal() override = default;
 };

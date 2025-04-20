@@ -1,8 +1,7 @@
 #include "Animal.h"
+#include "World.h"
 
 #include <cstdlib>
-
-#include "World.h"
 
 Animal::Animal(int strength, int initiative, int x, int y, char symbol, World *world)
     : Organism(strength, initiative, x, y, symbol, world) {}
@@ -11,7 +10,7 @@ void Animal::Action() {
 
     // Move in a random available direction
     while (direction < 0) {
-        direction = std::rand() % 4;
+        direction = rand() % 4;
 
         switch (direction) {
             // Move up
@@ -40,6 +39,7 @@ void Animal::Action() {
                 else {
                     direction = -1;
                 }
+                break;
             // Move right
             case 3:
                 if (x < world->GetCols() - 1) {
