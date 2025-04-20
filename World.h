@@ -13,14 +13,14 @@ private:
 public:
     World(int rows, int cols, WINDOW* window);
 
-    int GetRows() const;
-    int GetCols() const;
+    int getRows() const;
+    int getCols() const;
 
-    void AddOrganism(Organism* organism);
-    void SortOrder();
-    void Print();
-    void TakeTurn();
-    void Run();
+    void addOrganism(Organism* organism);
+    void sortOrder();
+    void print() const;
+    void takeTurn();
+    void run();
 
     ~World();
 };

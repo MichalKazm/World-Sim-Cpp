@@ -5,59 +5,59 @@
 
 World::World(int rows, int cols, WINDOW* window)
     : rows(rows), cols(cols), window(window) {}
-int World::GetCols() const {
+int World::getCols() const {
     return cols;
 }
-int World::GetRows() const {
+int World::getRows() const {
     return rows;
 }
-void World::AddOrganism(Organism* organism) {
-    if ((organism->GetX() < cols) && (organism->GetY() < rows) && (organism->GetX() >= 0) && (organism->GetY() >= 0)) {
+void World::addOrganism(Organism* organism) {
+    if ((organism->getX() < cols) && (organism->getY() < rows) && (organism->getX() >= 0) && (organism->getY() >= 0)) {
         order.push_back(organism);
     }
     else {
         delete organism;
     }
 }
-void World::SortOrder() {
+void World::sortOrder() {
     for (int i = 0; i < order.size() - 1; i++) {
         for (int j = i + 1; j < order.size(); j++) {
-            if (order[j]->GetInitiative() > order[i]->GetInitiative()) {
+            if (order[j]->getInitiative() > order[i]->getInitiative()) {
                 std::swap(order[j], order[i]);
             }
-            else if ((order[j]->GetInitiative() == order[i]->GetInitiative()) && (order[j]->GetAge() > order[i]->GetAge())) {
+            else if ((order[j]->getInitiative() == order[i]->getInitiative()) && (order[j]->getAge() > order[i]->getAge())) {
                 std::swap(order[j], order[i]);
             }
         }
     }
 }
-void World::Print() {
+void World::print() const {
     werase(window);
 
     box(window, 0, 0);
 
     for (Organism* organism : order) {
-        mvwprintw( window, organism->GetY() + 1, organism->GetX() + 1, "%c",organism->GetSymbol());
+        mvwprintw( window, organism->getY() + 1, organism->getX() + 1, "%c",organism->getSymbol());
     }
 
     wrefresh(window);
 }
-void World::TakeTurn() {
-    SortOrder();
+void World::takeTurn() {
+    sortOrder();
 
     for (Organism* organism : order) {
-        organism->Action();
+        organism->action();
     }
 
-    Print();
+    print();
 }
-void World::Run() {
-    Print();
+void World::run() {
+    print();
 
     char key;
     while (key = wgetch(window)) {
         if (key == ' ') {
-            TakeTurn();
+            takeTurn();
         }
 
         if (key == 'q') {
@@ -67,8 +67,8 @@ void World::Run() {
 }
 
 World::~World() {
-    for (int i = 0; i < order.size(); i++) {
-        delete order[i];
+    for (Organism* organism : order) {
+        delete organism;
     }
 
     delwin(window);

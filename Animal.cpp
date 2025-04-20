@@ -5,7 +5,7 @@
 
 Animal::Animal(int strength, int initiative, int x, int y, char symbol, World *world)
     : Organism(strength, initiative, x, y, symbol, world) {}
-void Animal::Action() {
+void Animal::action() {
     int direction = -1;
 
     // Move in a random available direction
@@ -24,7 +24,7 @@ void Animal::Action() {
                 break;
             // Move down
             case 1:
-                if (y < world->GetRows() - 1) {
+                if (y < world->getRows() - 1) {
                     y++;
                 }
                 else {
@@ -42,7 +42,7 @@ void Animal::Action() {
                 break;
             // Move right
             case 3:
-                if (x < world->GetCols() - 1) {
+                if (x < world->getCols() - 1) {
                     x++;
                 }
                 else {

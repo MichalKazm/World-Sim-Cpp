@@ -12,16 +12,16 @@ protected:
 public:
     Organism(int strength, int initiative, int x, int y, char symbol, World* world);
 
-    int GetStrength() const;
-    int GetInitiative() const;
-    int GetX() const;
-    int GetY() const;
-    int GetAge() const;
-    char GetSymbol() const;
+    int getStrength() const;
+    int getInitiative() const;
+    int getX() const;
+    int getY() const;
+    int getAge() const;
+    char getSymbol() const;
     bool isDead() const;
 
-    virtual void Action() = 0;
-    virtual void Collision(Organism& other) = 0;
+    virtual void action() = 0;
+    virtual void collision(Organism& other) = 0;
 
     virtual ~Organism() = default;
 };

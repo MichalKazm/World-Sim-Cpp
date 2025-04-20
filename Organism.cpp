@@ -2,22 +2,22 @@
 
 Organism::Organism(int strength, int initiative, int x, int y, char symbol, World* world)
     : strength(strength), initiative(initiative), x(x), y(y), age(0), symbol(symbol), alive(true), world(world) {}
-int Organism::GetStrength() const {
+int Organism::getStrength() const {
     return strength;
 }
-int Organism::GetInitiative() const {
+int Organism::getInitiative() const {
     return initiative;
 }
-int Organism::GetX() const {
+int Organism::getX() const {
     return x;
 }
-int Organism::GetY() const {
+int Organism::getY() const {
     return y;
 }
-int Organism::GetAge() const {
+int Organism::getAge() const {
     return age;
 }
-char Organism::GetSymbol() const {
+char Organism::getSymbol() const {
     return symbol;
 }
 bool Organism::isDead() const {
