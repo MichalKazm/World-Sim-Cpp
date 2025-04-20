@@ -1,7 +1,6 @@
 #include "World.h"
 
 #include <curses.h>
-#include <iostream>
 #include <vector>
 
 World::World(int rows, int cols, WINDOW* window)
@@ -42,6 +41,29 @@ void World::Print() {
     }
 
     wrefresh(window);
+}
+void World::TakeTurn() {
+    SortOrder();
+
+    for (Organism* organism : order) {
+        organism->Action();
+    }
+
+    Print();
+}
+void World::Run() {
+    Print();
+
+    char key;
+    while (key = wgetch(window)) {
+        if (key == ' ') {
+            TakeTurn();
+        }
+
+        if (key == 'q') {
+            break;
+        }
+    }
 }
 
 World::~World() {

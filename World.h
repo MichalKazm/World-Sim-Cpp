@@ -19,6 +19,8 @@ public:
     void AddOrganism(Organism* organism);
     void SortOrder();
     void Print();
+    void TakeTurn();
+    void Run();
 
     ~World();
 };

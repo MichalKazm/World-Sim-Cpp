@@ -25,17 +25,14 @@ int main() {
 
     Init();
 
-    WINDOW* temp = newwin(ROWS + 2, COLS + 2, 0, 0);
+    WINDOW* window = newwin(ROWS + 2, COLS + 2, 0, 0);
 
-
-    World* world = new World(ROWS,COLS, temp);
+    World* world = new World(ROWS,COLS, window);
     world->AddOrganism(new Animal(1,1,0,0,'w',world));
     world->AddOrganism(new Animal(1,1,19,19,'e',world));
     world->AddOrganism(new Animal(1,1,7,10,'t',world));
 
-    world->Print();
-
-    getch();
+    world->Run();
 
     delete world;
 
