@@ -4,7 +4,7 @@
 
 class Animal : public Organism {
 public:
-    Animal(int strength, int initiative, int y, int x, char symbol, World* world);
+    Animal(int strength, int initiative, int y, int x, char symbol);
 
     void collision(Organism *other) override;
     void action() override;

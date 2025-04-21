@@ -10,7 +10,7 @@ protected:
     bool alive;
     World* world;
 public:
-    Organism(int strength, int initiative, int y, int x, char symbol, World* world);
+    Organism(int strength, int initiative, int y, int x, char symbol);
 
     int getStrength() const;
     int getInitiative() const;
@@ -23,6 +23,7 @@ public:
 
     void dies();
     void print() const;
+    void setWorld(World* world);
 
     virtual Organism* createNew(int y, int x) = 0;
     virtual void collision(Organism* other) = 0;

@@ -16,6 +16,7 @@ WINDOW *World::getWindow() const {
 }
 bool World::addOrganism(Organism* organism) {
     if ((organism->getX() < cols) && (organism->getY() < rows) && (organism->getX() >= 0) && (organism->getY() >= 0)) {
+        organism->setWorld(this);
         order.push_back(organism);
         return true;
     }

@@ -2,9 +2,10 @@
 #include "World.h"
 
 #include <cstdlib>
+#include <typeinfo>
 
-Animal::Animal(int strength, int initiative, int y, int x, char symbol, World *world)
-    : Organism(strength, initiative, y, x, symbol, world) {}
+Animal::Animal(int strength, int initiative, int y, int x, char symbol)
+    : Organism(strength, initiative, y, x, symbol) {}
 void Animal::collision(Organism *other) {
     // If two organisms are of the same type, they reproduce
     if (typeid(*this) == typeid(*other)) {
