@@ -2,11 +2,12 @@
 #include <ncurses.h>
 
 #include "Animal.h"
+#include "Sheep.h"
 #include "Wolf.h"
 #include "World.h"
 
-#define ROWS    20
-#define COLS    20
+#define ROWS    5
+#define COLS    5
 
 using namespace std;
 
@@ -30,7 +31,9 @@ int main() {
 
     World* world = new World(ROWS,COLS, window);
     world->addOrganism(new Wolf(0, 0));
-    world->addOrganism(new Wolf(5, 5));
+    world->addOrganism(new Wolf(4, 4));
+    world->addOrganism(new Sheep(2,2));
+    world->addOrganism(new Sheep(1,4));
 
     world->run();
 

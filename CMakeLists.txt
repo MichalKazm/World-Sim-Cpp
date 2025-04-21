@@ -13,6 +13,8 @@ add_executable(World_Sim_Cpp
         Animal.h
         Wolf.cpp
         Wolf.h
+        Sheep.cpp
+        Sheep.h
 )
 
 find_package(Curses REQUIRED)
