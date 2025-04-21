@@ -2,6 +2,7 @@
 #include <ncurses.h>
 
 #include "Animal.h"
+#include "Wolf.h"
 #include "World.h"
 
 #define ROWS    20
@@ -28,9 +29,8 @@ int main() {
     WINDOW* window = newwin(ROWS + 2, COLS + 2, 0, 0);
 
     World* world = new World(ROWS,COLS, window);
-    world->addOrganism(new Animal(1,1,0,0,'w',world));
-    world->addOrganism(new Animal(1,1,19,19,'e',world));
-    world->addOrganism(new Animal(1,1,7,10,'t',world));
+    world->addOrganism(new Wolf(0, 0));
+    world->addOrganism(new Wolf(5, 5));
 
     world->run();
 
