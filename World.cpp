@@ -5,26 +5,46 @@
 
 World::World(int rows, int cols, WINDOW* window)
     : rows(rows), cols(cols), window(window) {}
-int World::getCols() const {
-    return cols;
-}
 int World::getRows() const {
     return rows;
+}
+int World::getCols() const {
+    return cols;
 }
 WINDOW *World::getWindow() const {
     return window;
 }
-void World::addOrganism(Organism* organism) {
+bool World::addOrganism(Organism* organism) {
     if ((organism->getX() < cols) && (organism->getY() < rows) && (organism->getX() >= 0) && (organism->getY() >= 0)) {
         order.push_back(organism);
+        return true;
     }
     else {
         delete organism;
+        return false;
+    }
+}
+Organism *World::getOrganism(int y, int x) const{
+    for (Organism* organism : order) {
+        if ((organism->getY() == y) && (organism->getX() == x)) {
+            return organism;
+        }
+    }
+
+    return nullptr;
+}
+void World::removeDead() {
+    for (size_t i = 0; i < order.size(); i++) {
+        if (order[i]->isDead()) {
+            delete order[i];
+            order.erase(order.begin() + i);
+            i--;
+        }
     }
 }
 void World::sortOrder() {
-    for (int i = 0; i < order.size() - 1; i++) {
-        for (int j = i + 1; j < order.size(); j++) {
+    for (size_t i = 0; i < order.size() - 1; i++) {
+        for (size_t j = i + 1; j < order.size(); j++) {
             if (order[j]->getInitiative() > order[i]->getInitiative()) {
                 std::swap(order[j], order[i]);
             }
@@ -40,7 +60,9 @@ void World::print() const {
     box(window, 0, 0);
 
     for (Organism* organism : order) {
-        organism->print();
+        if (!organism->isDead()) {
+            organism->print();
+        }
     }
 
     wrefresh(window);
@@ -48,10 +70,16 @@ void World::print() const {
 void World::takeTurn() {
     sortOrder();
 
-    for (Organism* organism : order) {
-        organism->action();
-    }
+    // Number of organisms before the turn
+    size_t n = order.size();
 
+    // Only organisms that are alive and created before the turn will take action
+    for (size_t i = 0; i < n; i++) {
+        if (!order[i]->isDead()) {
+            order[i]->action();
+        }
+    }
+    removeDead();
     print();
 }
 void World::run() {
@@ -68,7 +96,6 @@ void World::run() {
         }
     }
 }
-
 World::~World() {
     for (Organism* organism : order) {
         delete organism;

@@ -17,7 +17,10 @@ public:
     int getCols() const;
     WINDOW* getWindow() const;
 
-    void addOrganism(Organism* organism);
+    bool addOrganism(Organism* organism);
+    Organism* getOrganism(int y, int x) const;
+
+    void removeDead();
     void sortOrder();
     void print() const;
     void takeTurn();

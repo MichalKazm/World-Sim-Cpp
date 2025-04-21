@@ -4,8 +4,8 @@
 
 #include "World.h"
 
-Organism::Organism(int strength, int initiative, int x, int y, char symbol, World* world)
-    : strength(strength), initiative(initiative), x(x), y(y), age(0), symbol(symbol), alive(true), world(world) {}
+Organism::Organism(int strength, int initiative, int y, int x, char symbol, World* world)
+    : strength(strength), initiative(initiative), y(y), x(x), age(0), symbol(symbol), alive(true), world(world) {}
 int Organism::getStrength() const {
     return strength;
 }
@@ -26,6 +26,9 @@ char Organism::getSymbol() const {
 }
 bool Organism::isDead() const {
     return !alive;
+}
+void Organism::dies() {
+    alive = false;
 }
 void Organism::print() const {
     mvwprintw( world->getWindow(), y + 1, x + 1, "%c", symbol);
