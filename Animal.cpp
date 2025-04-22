@@ -52,49 +52,63 @@ void Animal::action() {
     int newX = x;
     int newY = y;
 
-    // Move in a random available direction
-    while (direction < 0) {
-        direction = rand() % 4;
+    // Count available directions
+    int available = 0;
 
-        switch (direction) {
-            // Move up
-            case 0:
-                if (y > 0) {
-                    newY = y - 1;
-                }
-                else {
-                    direction = -1;
-                }
-                break;
-            // Move down
-            case 1:
-                if (y < world->getRows() - 1) {
-                    newY = y + 1;
-                }
-                else {
-                    direction = -1;
-                }
-                break;
-            // Move left
-            case 2:
-                if (x > 0) {
-                    newX = x - 1;
-                }
-                else {
-                    direction = -1;
-                }
-                break;
-            // Move right
-            case 3:
-                if (x < world->getCols() - 1) {
-                    newX = x + 1;
-                }
-                else {
-                    direction = -1;
-                }
-                break;
-        }
+    if (y > 0) {
+        available++;
     }
+    if (y < world->getRows() - 1) {
+        available++;
+    }
+    if (x > 0) {
+        available++;
+    }
+    if (x < world->getCols() - 1) {
+        available++;
+    }
+
+    // Move in a random available direction
+    int chosenMove = 4;
+
+    if (available != 0) {
+        chosenMove = rand() % available;
+    }
+
+    // Move up
+    if (y > 0) {
+        if (chosenMove == 0) {
+            newY = y - 1;
+        }
+
+        chosenMove--;
+    }
+    // Move down
+    if (y < world->getRows() - 1) {
+        if (chosenMove == 0) {
+            newY = y + 1;
+        }
+
+        chosenMove--;
+    }
+
+    // Move left
+    if (x > 0) {
+        if (chosenMove == 0) {
+            newX = x - 1;
+        }
+
+        chosenMove--;
+    }
+    // Move right
+    if (x < world->getCols() - 1) {
+        if (chosenMove == 0) {
+            newX = x + 1;
+        }
+
+        chosenMove--;
+    }
+
 
     Organism* other = world->getOrganism(newY, newX);
 

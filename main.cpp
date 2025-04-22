@@ -6,8 +6,8 @@
 #include "Wolf.h"
 #include "World.h"
 
-#define ROWS    5
-#define COLS    5
+#define ROWS    30
+#define COLS    30
 
 using namespace std;
 
@@ -30,10 +30,10 @@ int main() {
     WINDOW* window = newwin(ROWS + 2, COLS + 2, 0, 0);
 
     World* world = new World(ROWS,COLS, window);
-    world->addOrganism(new Wolf(0, 0));
-    world->addOrganism(new Wolf(4, 4));
-    world->addOrganism(new Sheep(2,2));
-    world->addOrganism(new Sheep(1,4));
+    world->addOrganism(new Wolf(15, 15));
+    // world->addOrganism(new Wolf(4, 4));
+    // world->addOrganism(new Sheep(2,2));
+    // world->addOrganism(new Sheep(1,4));
 
     world->run();
 
