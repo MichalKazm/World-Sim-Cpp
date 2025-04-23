@@ -1,7 +1,7 @@
 #include <iostream>
 #include <ncurses.h>
 
-#include "Animal.h"
+#include "Fox.h"
 #include "Sheep.h"
 #include "Wolf.h"
 #include "World.h"
@@ -31,9 +31,10 @@ int main() {
 
     World* world = new World(ROWS,COLS, window);
     world->addOrganism(new Wolf(15, 15));
-    // world->addOrganism(new Wolf(4, 4));
-    // world->addOrganism(new Sheep(2,2));
-    // world->addOrganism(new Sheep(1,4));
+    world->addOrganism(new Wolf(4, 4));
+    world->addOrganism(new Sheep(2,2));
+    world->addOrganism(new Sheep(1,4));
+    world->addOrganism(new Fox(5, 10));
 
     world->run();
 

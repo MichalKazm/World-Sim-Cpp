@@ -48,78 +48,77 @@ void Animal::collision(Organism *other) {
     }
 }
 void Animal::action() {
-    int direction = -1;
-    int newX = x;
-    int newY = y;
+     int newX = x;
+     int newY = y;
 
-    // Count available directions
-    int available = 0;
+     // Count available directions
+     int available = 0;
 
-    if (y > 0) {
-        available++;
-    }
-    if (y < world->getRows() - 1) {
-        available++;
-    }
-    if (x > 0) {
-        available++;
-    }
-    if (x < world->getCols() - 1) {
-        available++;
-    }
+     if (y > 0) {
+         available++;
+     }
+     if (y < world->getRows() - 1) {
+         available++;
+     }
+     if (x > 0) {
+         available++;
+     }
+     if (x < world->getCols() - 1) {
+         available++;
+     }
 
-    // Move in a random available direction
-    int chosenMove = 4;
+     // Move in a random available direction
+     int chosenMove = 4;
 
-    if (available != 0) {
-        chosenMove = rand() % available;
-    }
+     if (available != 0) {
+         chosenMove = rand() % available;
+     }
 
-    // Move up
-    if (y > 0) {
-        if (chosenMove == 0) {
-            newY = y - 1;
-        }
+     // Move up
+     if (y > 0) {
+         if (chosenMove == 0) {
+             newY = y - 1;
+         }
 
-        chosenMove--;
-    }
-    // Move down
-    if (y < world->getRows() - 1) {
-        if (chosenMove == 0) {
-            newY = y + 1;
-        }
+         chosenMove--;
+     }
+     // Move down
+     if (y < world->getRows() - 1) {
+         if (chosenMove == 0) {
+             newY = y + 1;
+         }
 
-        chosenMove--;
-    }
+         chosenMove--;
+     }
 
-    // Move left
-    if (x > 0) {
-        if (chosenMove == 0) {
-            newX = x - 1;
-        }
+     // Move left
+     if (x > 0) {
+         if (chosenMove == 0) {
+             newX = x - 1;
+         }
 
-        chosenMove--;
-    }
-    // Move right
-    if (x < world->getCols() - 1) {
-        if (chosenMove == 0) {
-            newX = x + 1;
-        }
+         chosenMove--;
+     }
+     // Move right
+     if (x < world->getCols() - 1) {
+         if (chosenMove == 0) {
+             newX = x + 1;
+         }
 
-        chosenMove--;
-    }
+         chosenMove--;
+     }
 
 
-    Organism* other = world->getOrganism(newY, newX);
+     Organism* other = world->getOrganism(newY, newX);
 
-    if (other == nullptr) {
-        y = newY;
-        x = newX;
-    }
-    else {
-        collision(other);
-    }
+     if (other == nullptr) {
+         y = newY;
+         x = newX;
+     }
+     else {
+         collision(other);
+     }
 
-    age++;
+     age++;
 }
 
