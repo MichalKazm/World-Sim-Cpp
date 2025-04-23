@@ -24,7 +24,7 @@ int Organism::getAge() const {
 char Organism::getSymbol() const {
     return symbol;
 }
-bool Organism::didDeflectAttack(Organism* attacker) const {
+bool Organism::didDeflectAttack(Organism* attacker) {
     return false;
 }
 bool Organism::isDead() const {

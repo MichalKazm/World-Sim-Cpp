@@ -7,7 +7,7 @@ Turtle::Turtle(int y, int x)
 Organism *Turtle::createNew(int y, int x) {
     return new Turtle(y, x);
 }
-bool Turtle::didDeflectAttack(Organism *attacker) const {
+bool Turtle::didDeflectAttack(Organism *attacker) {
     if (attacker->getStrength() < 5) {
         return true;
     }

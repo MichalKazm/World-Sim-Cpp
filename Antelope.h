@@ -1,17 +1,17 @@
-#ifndef TURTLE_H
-#define TURTLE_H
+#ifndef ANTELOPE_H
+#define ANTELOPE_H
 #include "Animal.h"
 
-class Turtle : public Animal {
+class Antelope : public Animal {
 public:
-    Turtle(int y, int x);
+    Antelope(int y, int x);
 
     Organism* createNew(int y, int x) override;
     bool didDeflectAttack(Organism *attacker) override;
 
     void action() override;
 
-    ~Turtle() override = default;
+    ~Antelope() override = default;
 };
 
 #endif

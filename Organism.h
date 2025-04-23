@@ -19,7 +19,7 @@ public:
     int getAge() const;
     char getSymbol() const;
 
-    virtual bool didDeflectAttack(Organism* attacker) const;
+    virtual bool didDeflectAttack(Organism* attacker);
     bool isDead() const;
 
     void dies();
