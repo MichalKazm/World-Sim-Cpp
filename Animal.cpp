@@ -37,13 +37,15 @@ void Animal::collision(Organism *other) {
 
     }
     else {
-        if (strength >= other->getStrength()) {
-            other->dies();
-            y = other->getY();
-            x = other->getX();
-        }
-        else {
-            dies();
+        if (!other->didDeflectAttack(this)) {
+            if (strength >= other->getStrength()) {
+                other->dies();
+                y = other->getY();
+                x = other->getX();
+            }
+            else {
+                dies();
+            }
         }
     }
 }

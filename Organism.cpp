@@ -24,22 +24,18 @@ int Organism::getAge() const {
 char Organism::getSymbol() const {
     return symbol;
 }
+bool Organism::didDeflectAttack(Organism* attacker) const {
+    return false;
+}
 bool Organism::isDead() const {
     return !alive;
 }
 void Organism::dies() {
     alive = false;
 }
-void Organism::setWorld(World* world) {
-    this->world = world;
-}
 void Organism::print() const {
     mvwprintw( world->getWindow(), y + 1, x + 1, "%c", symbol);
 }
-
-
-
-
-
-
-
+void Organism::setWorld(World* world) {
+    this->world = world;
+}

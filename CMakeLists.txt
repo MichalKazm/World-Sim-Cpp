@@ -17,6 +17,8 @@ add_executable(World_Sim_Cpp
         Sheep.h
         Fox.cpp
         Fox.h
+        Turtle.cpp
+        Turtle.h
 )
 
 find_package(Curses REQUIRED)
