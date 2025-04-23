@@ -110,16 +110,17 @@ void Animal::action() {
          chosenMove--;
      }
 
+    if (chosenMove < 0) {
+        Organism* other = world->getOrganism(newY, newX);
 
-     Organism* other = world->getOrganism(newY, newX);
-
-     if (other == nullptr) {
-         y = newY;
-         x = newX;
-     }
-     else {
-         collision(other);
-     }
+        if (other == nullptr) {
+            y = newY;
+            x = newX;
+        }
+        else {
+            collision(other);
+        }
+    }
 
      age++;
 }

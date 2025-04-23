@@ -107,15 +107,16 @@ void Fox::action() {
         other = nullptr;
     }
 
+    if (chosenMove < 0) {
+        other = world->getOrganism(newY, newX);
 
-    other = world->getOrganism(newY, newX);
-
-    if (other == nullptr) {
-        y = newY;
-        x = newX;
-    }
-    else {
-        collision(other);
+        if (other == nullptr) {
+            y = newY;
+            x = newX;
+        }
+        else {
+            collision(other);
+        }
     }
 
     age++;
