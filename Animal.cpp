@@ -1,3 +1,4 @@
+#include "Plant.h"
 #include "Animal.h"
 #include "World.h"
 
@@ -118,7 +119,12 @@ void Animal::action() {
             x = newX;
         }
         else {
-            collision(other);
+            if (dynamic_cast<Plant*>(other)) {
+                other->collision(this);
+            }
+            else {
+                collision(other);
+            }
         }
     }
 

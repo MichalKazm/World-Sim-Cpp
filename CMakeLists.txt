@@ -21,6 +21,8 @@ add_executable(World_Sim_Cpp
         Turtle.h
         Antelope.cpp
         Antelope.h
+        Plant.cpp
+        Plant.h
 )
 
 find_package(Curses REQUIRED)
