@@ -1,5 +1,4 @@
 #include "Wolf.h"
-
 #include "World.h"
 
 Wolf::Wolf(int y, int x)

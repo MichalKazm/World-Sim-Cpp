@@ -1,8 +1,7 @@
+#include "World.h"
 #include "Fox.h"
 
 #include <cstdlib>
-
-#include "World.h"
 
 Fox::Fox(int y, int x)
     : Animal(3, 7, y, x, 'f') {}

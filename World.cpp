@@ -27,7 +27,7 @@ bool World::addOrganism(Organism* organism) {
 }
 Organism *World::getOrganism(int y, int x) const{
     for (Organism* organism : order) {
-        if ((organism->getY() == y) && (organism->getX() == x)) {
+        if ((!organism->isDead()) && (organism->getY() == y) && (organism->getX() == x)) {
             return organism;
         }
     }

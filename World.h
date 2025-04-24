@@ -1,9 +1,9 @@
 #ifndef WORLD_H
 #define WORLD_H
+#include "Organism.h"
+
 #include <curses.h>
 #include <vector>
-
-#include "Organism.h"
 
 class World {
 private:

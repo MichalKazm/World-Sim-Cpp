@@ -1,8 +1,7 @@
+#include "World.h"
 #include "Antelope.h"
 
 #include <cstdlib>
-
-#include "World.h"
 
 Antelope::Antelope(int y, int x)
     : Animal(4, 4, y, x, 'a') {}

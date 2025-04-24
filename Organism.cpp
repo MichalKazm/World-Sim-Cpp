@@ -1,8 +1,7 @@
 #include "Organism.h"
+#include "World.h"
 
 #include <curses.h>
-
-#include "World.h"
 
 Organism::Organism(int strength, int initiative, int y, int x, char symbol)
     : strength(strength), initiative(initiative), y(y), x(x), age(0), symbol(symbol), alive(true), world(nullptr) {}
