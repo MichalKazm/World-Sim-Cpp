@@ -11,9 +11,6 @@ void Plant::collision(Organism *other) {
 void Plant::action() {
     // 10% chance
     if (rand() % 10 == 0) {
-        int newX = x;
-        int newY = y;
-
         // Count available directions
         int available = 0;
 
@@ -40,7 +37,7 @@ void Plant::action() {
         // Cell above
         if ((y > 0) && (world->getOrganism(y - 1, x)) == nullptr) {
             if (chosenCell == 0) {
-                createNew(y - 1, x);
+                world->addOrganism(createNew(y - 1, x));
             }
 
             chosenCell--;
@@ -48,7 +45,7 @@ void Plant::action() {
         // Cell below
         if ((y < world->getRows() - 1) && (world->getOrganism(y + 1, x)) == nullptr)  {
             if (chosenCell == 0) {
-                createNew(y + 1, x);
+                world->addOrganism(createNew(y + 1, x));
             }
 
             chosenCell--;
@@ -57,7 +54,7 @@ void Plant::action() {
         // Cell to the left
         if ((x > 0) && (world->getOrganism(y, x - 1)) == nullptr) {
             if (chosenCell == 0) {
-                createNew(y, x - 1);
+                world->addOrganism(createNew(y, x - 1));
             }
 
             chosenCell--;
@@ -65,7 +62,7 @@ void Plant::action() {
         // Cell to the right
         if ((x < world->getCols() - 1) && (world->getOrganism(y, x + 1)) == nullptr) {
             if (chosenCell == 0) {
-                createNew(y, x + 1);
+                world->addOrganism(createNew(y, x + 1));
             }
 
             chosenCell--;

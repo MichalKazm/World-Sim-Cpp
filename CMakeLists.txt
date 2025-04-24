@@ -23,6 +23,8 @@ add_executable(World_Sim_Cpp
         Antelope.h
         Plant.cpp
         Plant.h
+        Grass.cpp
+        Grass.h
 )
 
 find_package(Curses REQUIRED)
