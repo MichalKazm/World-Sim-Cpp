@@ -14,16 +14,16 @@ void Plant::action() {
         // Count available directions
         int available = 0;
 
-        if ((y > 0) && (world->getOrganism(y - 1, x)) == nullptr) {
+        if ((y > 0) && (world->getOrganism(y - 1, x) == nullptr)) {
             available++;
         }
-        if ((y < world->getRows() - 1) && (world->getOrganism(y + 1, x)) == nullptr) {
+        if ((y < world->getRows() - 1) && (world->getOrganism(y + 1, x) == nullptr)) {
             available++;
         }
-        if ((x > 0) && (world->getOrganism(y, x - 1)) == nullptr) {
+        if ((x > 0) && (world->getOrganism(y, x - 1) == nullptr)) {
             available++;
         }
-        if ((x < world->getCols() - 1) && (world->getOrganism(y, x + 1)) == nullptr) {
+        if ((x < world->getCols() - 1) && (world->getOrganism(y, x + 1) == nullptr)) {
             available++;
         }
 
@@ -35,7 +35,7 @@ void Plant::action() {
         }
 
         // Cell above
-        if ((y > 0) && (world->getOrganism(y - 1, x)) == nullptr) {
+        if ((y > 0) && (world->getOrganism(y - 1, x) == nullptr)) {
             if (chosenCell == 0) {
                 world->addOrganism(createNew(y - 1, x));
             }
@@ -43,7 +43,7 @@ void Plant::action() {
             chosenCell--;
         }
         // Cell below
-        if ((y < world->getRows() - 1) && (world->getOrganism(y + 1, x)) == nullptr)  {
+        if ((y < world->getRows() - 1) && (world->getOrganism(y + 1, x) == nullptr))  {
             if (chosenCell == 0) {
                 world->addOrganism(createNew(y + 1, x));
             }
@@ -52,7 +52,7 @@ void Plant::action() {
         }
 
         // Cell to the left
-        if ((x > 0) && (world->getOrganism(y, x - 1)) == nullptr) {
+        if ((x > 0) && (world->getOrganism(y, x - 1) == nullptr)) {
             if (chosenCell == 0) {
                 world->addOrganism(createNew(y, x - 1));
             }
@@ -60,7 +60,7 @@ void Plant::action() {
             chosenCell--;
         }
         // Cell to the right
-        if ((x < world->getCols() - 1) && (world->getOrganism(y, x + 1)) == nullptr) {
+        if ((x < world->getCols() - 1) && (world->getOrganism(y, x + 1) == nullptr)) {
             if (chosenCell == 0) {
                 world->addOrganism(createNew(y, x + 1));
             }

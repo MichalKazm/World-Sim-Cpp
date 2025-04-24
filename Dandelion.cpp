@@ -9,6 +9,9 @@ void Dandelion::action() {
     for (int i = 0; i < 3; i++) {
         Plant::action();
     }
+
+    // Age is incremented 3 times in loop
+    age = age - 2;
 }
 
 
