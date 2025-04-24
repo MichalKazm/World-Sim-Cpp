@@ -29,6 +29,8 @@ add_executable(World_Sim_Cpp
         Dandelion.h
         Guarana.cpp
         Guarana.h
+        DeadlyNightshade.cpp
+        DeadlyNightshade.h
 )
 
 find_package(Curses REQUIRED)
