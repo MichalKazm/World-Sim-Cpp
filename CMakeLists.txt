@@ -31,6 +31,8 @@ add_executable(World_Sim_Cpp
         Guarana.h
         DeadlyNightshade.cpp
         DeadlyNightshade.h
+        Hogweed.cpp
+        Hogweed.h
 )
 
 find_package(Curses REQUIRED)
