@@ -8,8 +8,6 @@ public:
 
     Organism *createNew(int y, int x) override;
 
-    void killAdjacent();
-
     void collision(Organism *other) override;
     void action() override;
 
