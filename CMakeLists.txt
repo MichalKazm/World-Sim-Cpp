@@ -25,6 +25,8 @@ add_executable(World_Sim_Cpp
         Plant.h
         Grass.cpp
         Grass.h
+        Dandelion.cpp
+        Dandelion.h
 )
 
 find_package(Curses REQUIRED)

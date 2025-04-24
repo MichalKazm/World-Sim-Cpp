@@ -8,6 +8,7 @@
 #include <iostream>
 #include <ncurses.h>
 
+#include "Dandelion.h"
 #include "Grass.h"
 
 #define ROWS    20
@@ -43,7 +44,8 @@ int main() {
     // world->addOrganism(new Sheep(1,0));
     // world->addOrganism(new Sheep(0,1));
     // world->addOrganism(new Antelope(0,0));
-    world->addOrganism(new Grass(10, 20));
+    world->addOrganism(new Grass(0, 0));
+    world->addOrganism(new Dandelion(19, 39));
 
     world->run();
 
