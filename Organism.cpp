@@ -38,3 +38,6 @@ void Organism::print() const {
 void Organism::setWorld(World* world) {
     this->world = world;
 }
+void Organism::setStrength(int strength) {
+    this->strength = strength;
+}

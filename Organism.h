@@ -25,6 +25,7 @@ public:
     void dies();
     void print() const;
     void setWorld(World* world);
+    void setStrength(int strength);
 
     virtual Organism* createNew(int y, int x) = 0;
     virtual void collision(Organism* other) = 0;

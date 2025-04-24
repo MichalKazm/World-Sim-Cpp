@@ -120,6 +120,8 @@ void Animal::action() {
         }
         else {
             if (dynamic_cast<Plant*>(other)) {
+                y = newY;
+                x = newX;
                 other->collision(this);
             }
             else {
