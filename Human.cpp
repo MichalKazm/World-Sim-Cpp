@@ -1,6 +1,7 @@
 #include "Human.h"
 #include "World.h"
 #include "Plant.h"
+#include "Turtle.h"
 
 #include <curses.h>
 #include <cstdlib>
@@ -23,11 +24,13 @@ Organism *Human::createNew(int y, int x) {
     return nullptr;
 }
 void Human::collision(Organism *other) {
+    if (!dynamic_cast<Turtle*>(other)) {
+        y = other->getY();
+        x = other->getX();
+    }
     if (!other->didDeflectAttack(this)) {
         if (strength >= other->getStrength()) {
             other->dies();
-            y = other->getY();
-            x = other->getX();
         }
         else {
             dies();

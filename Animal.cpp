@@ -1,6 +1,7 @@
 #include "Plant.h"
 #include "Animal.h"
 #include "World.h"
+#include "Turtle.h"
 
 #include <cstdlib>
 #include <typeinfo>
@@ -38,11 +39,13 @@ void Animal::collision(Organism *other) {
 
     }
     else {
+        if (!dynamic_cast<Turtle*>(other)) {
+            y = other->getY();
+            x = other->getX();
+        }
         if (!other->didDeflectAttack(this)) {
             if (strength >= other->getStrength()) {
                 other->dies();
-                y = other->getY();
-                x = other->getX();
             }
             else {
                 dies();
