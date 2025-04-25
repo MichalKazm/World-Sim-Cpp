@@ -1,10 +1,11 @@
 #include "World.h"
+#include "Human.h"
 
 #include <curses.h>
 #include <vector>
 
 World::World(int rows, int cols, WINDOW* window)
-    : rows(rows), cols(cols), window(window) {}
+    : rows(rows), cols(cols), window(window), human(nullptr) {}
 int World::getRows() const {
     return rows;
 }
@@ -15,12 +16,29 @@ WINDOW *World::getWindow() const {
     return window;
 }
 bool World::addOrganism(Organism* organism) {
+    bool addedHuman = false;
+
+    // Only one human can be present in the world
+    if (dynamic_cast<Human*>(organism)) {
+        if (human == nullptr) {
+            human = dynamic_cast<Human*>(organism);
+            addedHuman = true;
+        }
+        else {
+            delete organism;
+            return false;
+        }
+    }
+
     if ((organism->getX() < cols) && (organism->getY() < rows) && (organism->getX() >= 0) && (organism->getY() >= 0)) {
         organism->setWorld(this);
         order.push_back(organism);
         return true;
     }
     else {
+        if (addedHuman) {
+            human = nullptr;
+        }
         delete organism;
         return false;
     }
@@ -37,6 +55,9 @@ Organism *World::getOrganism(int y, int x) const{
 void World::removeDead() {
     for (size_t i = 0; i < order.size(); i++) {
         if (order[i]->isDead()) {
+            if (dynamic_cast<Human*>(order[i])) {
+                human = nullptr;
+            }
             delete order[i];
             order.erase(order.begin() + i);
             i--;
@@ -86,14 +107,46 @@ void World::takeTurn() {
 void World::run() {
     print();
 
-    char key;
-    while (key = wgetch(window)) {
-        if (key == ' ') {
-            takeTurn();
+    int key;
+    while (key = getch()) {
+        if (human != nullptr) {
+            human->setNextMove(' ');
         }
-
-        if (key == 'q') {
-            break;
+        switch (key) {
+            case ' ':
+                takeTurn();
+                break;
+            case KEY_UP:
+                if (human != nullptr) {
+                    human->setNextMove(KEY_UP);
+                    takeTurn();
+                }
+                break;
+            case KEY_DOWN:
+                if (human != nullptr) {
+                    human->setNextMove(KEY_DOWN);
+                    takeTurn();
+                }
+                break;
+            case KEY_LEFT:
+                if (human != nullptr) {
+                    human->setNextMove(KEY_LEFT);
+                    takeTurn();
+                }
+                break;
+            case KEY_RIGHT:
+                if (human != nullptr) {
+                    human->setNextMove(KEY_RIGHT);
+                    takeTurn();
+                }
+                break;
+            case 'f':
+                if ((human != nullptr) && (human->getAbilityTimer() == - 5)) {
+                    human->setAbilityTimer(5);
+                }
+                break;
+            case 'q':
+                return;
         }
     }
 }

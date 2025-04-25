@@ -33,6 +33,8 @@ add_executable(World_Sim_Cpp
         DeadlyNightshade.h
         Hogweed.cpp
         Hogweed.h
+        Human.cpp
+        Human.h
 )
 
 find_package(Curses REQUIRED)

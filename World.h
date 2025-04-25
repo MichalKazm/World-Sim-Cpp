@@ -1,6 +1,7 @@
 #ifndef WORLD_H
 #define WORLD_H
 #include "Organism.h"
+#include "Human.h"
 
 #include <curses.h>
 #include <vector>
@@ -10,6 +11,7 @@ private:
     int rows, cols;
     std::vector<Organism*> order;
     WINDOW* window;
+    Human* human;
 public:
     World(int rows, int cols, WINDOW* window);
 
