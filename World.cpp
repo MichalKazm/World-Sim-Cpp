@@ -83,7 +83,27 @@ void World::print() const {
 
     for (Organism* organism : order) {
         if (!organism->isDead()) {
+            if (dynamic_cast<Human*>(organism)) {
+                if (human->getAbilityTimer() > 0) {
+                    wattron(window, COLOR_PAIR(4));
+                }
+                else {
+                    wattron(window, COLOR_PAIR(3));
+                }
+            }
+            else if (dynamic_cast<Animal*>(organism)) {
+                wattron(window, COLOR_PAIR(1));
+            }
+            else {
+                wattron(window, COLOR_PAIR(2));
+            }
+
             organism->print();
+
+            wattroff(window, COLOR_PAIR(1));
+            wattroff(window, COLOR_PAIR(2));
+            wattroff(window, COLOR_PAIR(3));
+            wattroff(window, COLOR_PAIR(4));
         }
     }
 
@@ -143,6 +163,12 @@ void World::run() {
             case 'f':
                 if ((human != nullptr) && (human->getAbilityTimer() == - 5)) {
                     human->setAbilityTimer(5);
+
+                    wattron(window, COLOR_PAIR(4));
+                    human->print();
+                    wattroff(window, COLOR_PAIR(4));
+
+                    wrefresh(window);
                 }
                 break;
             case 'q':
