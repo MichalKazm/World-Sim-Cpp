@@ -1,7 +1,7 @@
 #include "Human.h"
 #include "World.h"
 #include "Plant.h"
-#include "Turtle.h"
+#include "Antelope.h"
 
 #include <curses.h>
 #include <cstdlib>
@@ -20,15 +20,23 @@ void Human::setAbilityTimer(int abilityTimer) {
 void Human::setNextMove(int nextMove) {
     this->nextMove = nextMove;
 }
+std::string Human::getName() const {
+    return "Human (" + std::to_string(y) + ", " + std::to_string(x) + ")";
+}
 Organism *Human::createNew(int y, int x) {
     return nullptr;
 }
 void Human::collision(Organism *other) {
-    if (!dynamic_cast<Turtle*>(other)) {
+    world->addLog(getName() + ": Attacked " + other->getName());
+
+    if (dynamic_cast<Antelope*>(other)) {
         y = other->getY();
         x = other->getX();
     }
     if (!other->didDeflectAttack(this)) {
+        y = other->getY();
+        x = other->getX();
+
         if (strength >= other->getStrength()) {
             other->dies();
         }
@@ -115,11 +123,13 @@ void Human::action() {
         Organism* other = world->getOrganism(newY, newX);
 
         if (other == nullptr) {
+            world->addLog(getName() + ": Moved to (" + std::to_string(newY) + ", " + std::to_string(newX) + ")");
             y = newY;
             x = newX;
         }
         else {
             if (dynamic_cast<Plant*>(other)) {
+                world->addLog(getName() + ": Moved to (" + std::to_string(newY) + ", " + std::to_string(newX) + ")");
                 y = newY;
                 x = newX;
                 other->collision(this);

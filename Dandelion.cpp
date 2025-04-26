@@ -2,6 +2,9 @@
 
 Dandelion::Dandelion(int y, int x)
     : Plant(0, y, x, 'd') {}
+std::string Dandelion::getName() const {
+    return  "Dandelion (" + std::to_string(y) + ", " + std::to_string(x) + ")";;
+}
 Organism *Dandelion::createNew(int y, int x) {
     return new Dandelion(y, x);
 }

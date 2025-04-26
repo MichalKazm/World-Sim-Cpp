@@ -14,8 +14,8 @@ public:
     void setAbilityTimer(int abilityTimer);
     void setNextMove(int nextMove);
 
+    std::string getName() const override;
     Organism *createNew(int y, int x) override;
-
     void collision(Organism *other) override;
     void action() override;
 

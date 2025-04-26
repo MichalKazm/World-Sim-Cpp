@@ -1,7 +1,7 @@
 #include "Plant.h"
 #include "Animal.h"
 #include "World.h"
-#include "Turtle.h"
+#include "Antelope.h"
 
 #include <cstdlib>
 #include <typeinfo>
@@ -37,13 +37,21 @@ void Animal::collision(Organism *other) {
             success = world->addOrganism(createNew(other->getY(), other->getX() - 1));
         }
 
+        if (success) {
+            world->addLog(getName() + ": Reproduce with " + other->getName());
+        }
     }
     else {
-        if (!dynamic_cast<Turtle*>(other)) {
+        world->addLog(getName() + ": Attacked " + other->getName());
+
+        if (dynamic_cast<Antelope*>(other)) {
             y = other->getY();
             x = other->getX();
         }
         if (!other->didDeflectAttack(this)) {
+            y = other->getY();
+            x = other->getX();
+
             if (strength >= other->getStrength()) {
                 other->dies();
             }
@@ -118,11 +126,13 @@ void Animal::action() {
         Organism* other = world->getOrganism(newY, newX);
 
         if (other == nullptr) {
+            world->addLog(getName() + ": Moved to (" + std::to_string(newY) + ", " + std::to_string(newX) + ")");
             y = newY;
             x = newX;
         }
         else {
             if (dynamic_cast<Plant*>(other)) {
+                world->addLog(getName() + ": Moved to (" + std::to_string(newY) + ", " + std::to_string(newX) + ")");
                 y = newY;
                 x = newX;
                 other->collision(this);
@@ -133,6 +143,6 @@ void Animal::action() {
         }
     }
 
-     age++;
+    age++;
 }
 

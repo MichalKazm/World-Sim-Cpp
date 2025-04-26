@@ -3,17 +3,20 @@
 
 #include <curses.h>
 #include <vector>
+#include <string>
 
-World::World(int rows, int cols, WINDOW* window)
-    : rows(rows), cols(cols), window(window), human(nullptr) {}
+World::World(int rows, int cols, int logRows, WINDOW* gameWindow, WINDOW* logWindow)
+    : rows(rows), cols(cols), logRows(logRows), turn(1), gameWindow(gameWindow), logWindow(logWindow), human(nullptr) {
+    logs.push_back("-- Turn 0 --");
+}
 int World::getRows() const {
     return rows;
 }
 int World::getCols() const {
     return cols;
 }
-WINDOW *World::getWindow() const {
-    return window;
+WINDOW *World::getGameWindow() const {
+    return gameWindow;
 }
 bool World::addOrganism(Organism* organism) {
     bool addedHuman = false;
@@ -33,6 +36,7 @@ bool World::addOrganism(Organism* organism) {
     if ((organism->getX() < cols) && (organism->getY() < rows) && (organism->getX() >= 0) && (organism->getY() >= 0)) {
         organism->setWorld(this);
         order.push_back(organism);
+        addLog(organism->getName() + ": Was created");
         return true;
     }
     else {
@@ -51,6 +55,9 @@ Organism *World::getOrganism(int y, int x) const{
     }
 
     return nullptr;
+}
+void World::addLog(std::string message) {
+    logs.push_back(message);
 }
 void World::removeDead() {
     for (size_t i = 0; i < order.size(); i++) {
@@ -76,44 +83,67 @@ void World::sortOrder() {
         }
     }
 }
-void World::print() const {
-    werase(window);
+void World::printGame() const {
+    werase(gameWindow);
 
-    box(window, 0, 0);
+    box(gameWindow, 0, 0);
 
     for (Organism* organism : order) {
         if (!organism->isDead()) {
             if (dynamic_cast<Human*>(organism)) {
                 if (human->getAbilityTimer() > 0) {
-                    wattron(window, COLOR_PAIR(4));
+                    wattron(gameWindow, COLOR_PAIR(4));
                 }
                 else {
-                    wattron(window, COLOR_PAIR(3));
+                    wattron(gameWindow, COLOR_PAIR(3));
                 }
             }
             else if (dynamic_cast<Animal*>(organism)) {
-                wattron(window, COLOR_PAIR(1));
+                wattron(gameWindow, COLOR_PAIR(1));
             }
             else {
-                wattron(window, COLOR_PAIR(2));
+                wattron(gameWindow, COLOR_PAIR(2));
             }
 
             organism->print();
 
-            wattroff(window, COLOR_PAIR(1));
-            wattroff(window, COLOR_PAIR(2));
-            wattroff(window, COLOR_PAIR(3));
-            wattroff(window, COLOR_PAIR(4));
+            wattroff(gameWindow, COLOR_PAIR(1));
+            wattroff(gameWindow, COLOR_PAIR(2));
+            wattroff(gameWindow, COLOR_PAIR(3));
+            wattroff(gameWindow, COLOR_PAIR(4));
         }
     }
 
-    wrefresh(window);
+    wrefresh(gameWindow);
+}
+void World::printLogs(size_t offset) const {
+    werase(logWindow);
+
+    box(logWindow, 0, 0);
+
+    int printRow = 1;
+
+    if (logs.size() < logRows) {
+        for (std::string log : logs) {
+            mvwprintw(logWindow, printRow, 1, "%s", log.c_str());
+            printRow++;
+        }
+    }
+    else {
+        for (size_t i = logs.size() - offset - logRows; printRow <= logRows; i++, printRow++) {
+            mvwprintw(logWindow, printRow, 1, "%s", logs[i].c_str());
+        }
+    }
+
+    wrefresh(logWindow);
 }
 void World::takeTurn() {
     sortOrder();
 
     // Number of organisms before the turn
     size_t n = order.size();
+
+    addLog("-- Turn " + std::to_string(turn) + " --");
 
     // Only organisms that are alive and created before the turn will take action
     for (size_t i = 0; i < n; i++) {
@@ -122,10 +152,14 @@ void World::takeTurn() {
         }
     }
     removeDead();
-    print();
+    printGame();
+    turn++;
 }
 void World::run() {
-    print();
+    printGame();
+    printLogs(0);
+
+    int offset = 0;
 
     int key;
     while (key = getch()) {
@@ -135,45 +169,62 @@ void World::run() {
         switch (key) {
             case ' ':
                 takeTurn();
+                offset = 0;
                 break;
             case KEY_UP:
                 if (human != nullptr) {
                     human->setNextMove(KEY_UP);
                     takeTurn();
+                    offset = 0;
                 }
                 break;
             case KEY_DOWN:
                 if (human != nullptr) {
                     human->setNextMove(KEY_DOWN);
                     takeTurn();
+                    offset = 0;
                 }
                 break;
             case KEY_LEFT:
                 if (human != nullptr) {
                     human->setNextMove(KEY_LEFT);
                     takeTurn();
+                    offset = 0;
                 }
                 break;
             case KEY_RIGHT:
                 if (human != nullptr) {
                     human->setNextMove(KEY_RIGHT);
                     takeTurn();
+                    offset = 0;
                 }
                 break;
             case 'f':
                 if ((human != nullptr) && (human->getAbilityTimer() == - 5)) {
                     human->setAbilityTimer(5);
 
-                    wattron(window, COLOR_PAIR(4));
+                    wattron(gameWindow, COLOR_PAIR(4));
                     human->print();
-                    wattroff(window, COLOR_PAIR(4));
+                    wattroff(gameWindow, COLOR_PAIR(4));
 
-                    wrefresh(window);
+                    wrefresh(gameWindow);
+                }
+                break;
+            case 'w':
+                if (offset < logs.size() - logRows - 1) {
+                    offset++;
+                }
+                break;
+            case 's':
+                if (offset > 0) {
+                    offset--;
                 }
                 break;
             case 'q':
                 return;
         }
+
+        printLogs(offset);
     }
 }
 World::~World() {
@@ -181,7 +232,15 @@ World::~World() {
         delete organism;
     }
 
-    delwin(window);
+    if (gameWindow != nullptr) {
+        delwin(gameWindow);
+        gameWindow = nullptr;
+    }
+    if (logWindow != nullptr) {
+        delwin(logWindow);
+        logWindow = nullptr;
+    }
 }
+
 
 

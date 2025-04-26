@@ -5,26 +5,31 @@
 
 #include <curses.h>
 #include <vector>
+#include <string>
 
 class World {
 private:
-    int rows, cols;
+    int rows, cols, logRows, turn;
     std::vector<Organism*> order;
-    WINDOW* window;
+    std::vector<std::string> logs;
+    WINDOW* gameWindow;
+    WINDOW* logWindow;
     Human* human;
 public:
-    World(int rows, int cols, WINDOW* window);
+    World(int rows, int cols, int logRows, WINDOW* GameWindow, WINDOW* logWindow);
 
     int getRows() const;
     int getCols() const;
-    WINDOW* getWindow() const;
+    WINDOW* getGameWindow() const;
 
     bool addOrganism(Organism* organism);
     Organism* getOrganism(int y, int x) const;
 
+    void addLog(std::string message);
     void removeDead();
     void sortOrder();
-    void print() const;
+    void printGame() const;
+    void printLogs(size_t start) const;
     void takeTurn();
     void run();
 

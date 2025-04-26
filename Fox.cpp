@@ -1,10 +1,14 @@
 #include "World.h"
 #include "Fox.h"
+#include "Plant.h"
 
 #include <cstdlib>
 
 Fox::Fox(int y, int x)
     : Animal(3, 7, y, x, 'f') {}
+std::string Fox::getName() const {
+    return "Fox (" + std::to_string(y) + ", " + std::to_string(x) + ")";
+}
 Organism *Fox::createNew(int y, int x) {
     return new Fox(y, x);
 }
@@ -107,14 +111,23 @@ void Fox::action() {
     }
 
     if (chosenMove < 0) {
-        other = world->getOrganism(newY, newX);
+        Organism* other = world->getOrganism(newY, newX);
 
         if (other == nullptr) {
+            world->addLog(getName() + ": Moved to (" + std::to_string(newY) + ", " + std::to_string(newX) + ")");
             y = newY;
             x = newX;
         }
         else {
-            collision(other);
+            if (dynamic_cast<Plant*>(other)) {
+                world->addLog(getName() + ": Moved to (" + std::to_string(newY) + ", " + std::to_string(newX) + ")");
+                y = newY;
+                x = newX;
+                other->collision(this);
+            }
+            else {
+                collision(other);
+            }
         }
     }
 

@@ -30,10 +30,11 @@ bool Organism::isDead() const {
     return !alive;
 }
 void Organism::dies() {
+    world->addLog(getName() + ": Died");
     alive = false;
 }
 void Organism::print() const {
-    mvwprintw( world->getWindow(), y + 1, x + 1, "%c", symbol);
+    mvwprintw( world->getGameWindow(), y + 1, x + 1, "%c", symbol);
 }
 void Organism::setWorld(World* world) {
     this->world = world;

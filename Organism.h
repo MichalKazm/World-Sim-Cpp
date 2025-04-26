@@ -1,5 +1,6 @@
 #ifndef ORGANISM_H
 #define ORGANISM_H
+#include <string>
 
 class World;
 
@@ -27,6 +28,7 @@ public:
     void setWorld(World* world);
     void setStrength(int strength);
 
+    virtual std::string getName() const = 0;
     virtual Organism* createNew(int y, int x) = 0;
     virtual void collision(Organism* other) = 0;
     virtual void action() = 0;

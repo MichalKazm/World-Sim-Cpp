@@ -1,48 +1,59 @@
 #include "World.h"
 #include "Antelope.h"
+#include "Plant.h"
 
 #include <cstdlib>
 
 Antelope::Antelope(int y, int x)
     : Animal(4, 4, y, x, 'a') {}
-Organism *Antelope::createNew(int y, int x) {
-    return new Antelope(y, x);
-}
 bool Antelope::didDeflectAttack(Organism *attacker) {
     // 50% chance
     if (rand() % 2 == 0) {
+        int newY = y;
+        int newX = x;
+
         bool success = false;
         if (y > 0) {
             if (world->getOrganism(y - 1, x) == nullptr) {
-                y--;
+                newY = y - 1;
                 success = true;
             }
         }
         if (y < world->getRows() - 1) {
             if ((!success) && (world->getOrganism(y + 1, x) == nullptr)) {
-                y++;
+                newY = y + 1;
                 success = true;
             }
         }
         if (x > 0) {
             if ((!success) && (world->getOrganism(y, x - 1) == nullptr)) {
-                x--;
+                newX = x - 1;
                 success = true;
             }
         }
         if (x < world->getCols() - 1) {
             if ((!success) && (world->getOrganism(y, x + 1) == nullptr)) {
-                x++;
+                newX = x + 1;
                 success = true;
             }
         }
 
         if (success) {
+            world->addLog(getName() + ": Fled to (" + std::to_string(newY) + ", " + std::to_string(newX) + ")");
+            world->addLog(attacker->getName() + ": Moved to (" + std::to_string(y) + ", " + std::to_string(x) + ")");
+            y = newY;
+            x = newX;
             return true;
         }
     }
 
     return false;
+}
+std::string Antelope::getName() const {
+    return "Antelope (" + std::to_string(y) + ", " + std::to_string(x) + ")";
+}
+Organism *Antelope::createNew(int y, int x) {
+    return new Antelope(y, x);
 }
 void Antelope::action() {
     int newX = x;
@@ -109,10 +120,19 @@ void Antelope::action() {
         Organism *other = world->getOrganism(newY, newX);
 
         if (other == nullptr) {
+            world->addLog(getName() + ": Moved to (" + std::to_string(newY) + ", " + std::to_string(newX) + ")");
             y = newY;
             x = newX;
-        } else {
-            collision(other);
+        }
+        else {
+            if (dynamic_cast<Plant*>(other)) {
+                y = newY;
+                x = newX;
+                other->collision(this);
+            }
+            else {
+                collision(other);
+            }
         }
     }
 
