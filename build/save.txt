@@ -1,0 +1,3798 @@
+WORLD:
+
+Rows: 20
+Columns: 80
+Log Rows: 10
+Log Columns: 100
+Turn: 73
+
+ORGANISM:
+
+Wolf (11, 13): Age - 72, Strength - 9
+Sheep (1, 1): Age - 72, Strength - 4
+Sheep (1, 5): Age - 72, Strength - 4
+Sheep (2, 3): Age - 41, Strength - 4
+Sheep (1, 4): Age - 24, Strength - 4
+Sheep (1, 3): Age - 24, Strength - 4
+Sheep (3, 5): Age - 23, Strength - 4
+Sheep (2, 4): Age - 23, Strength - 4
+Sheep (0, 4): Age - 23, Strength - 4
+Sheep (4, 7): Age - 22, Strength - 4
+Sheep (0, 3): Age - 22, Strength - 4
+Sheep (4, 6): Age - 22, Strength - 4
+Sheep (3, 2): Age - 21, Strength - 4
+Sheep (3, 4): Age - 21, Strength - 4
+Sheep (1, 2): Age - 21, Strength - 4
+Sheep (2, 5): Age - 21, Strength - 4
+Sheep (5, 2): Age - 21, Strength - 4
+Sheep (0, 5): Age - 21, Strength - 4
+Sheep (0, 2): Age - 21, Strength - 4
+Sheep (1, 7): Age - 20, Strength - 4
+Sheep (2, 2): Age - 20, Strength - 4
+Sheep (4, 5): Age - 20, Strength - 4
+Sheep (1, 6): Age - 20, Strength - 4
+Sheep (3, 3): Age - 20, Strength - 4
+Sheep (2, 1): Age - 20, Strength - 4
+Sheep (2, 7): Age - 20, Strength - 4
+Sheep (0, 10): Age - 20, Strength - 4
+Sheep (0, 0): Age - 20, Strength - 4
+Sheep (1, 0): Age - 19, Strength - 4
+Sheep (3, 6): Age - 19, Strength - 4
+Sheep (4, 4): Age - 19, Strength - 4
+Sheep (4, 2): Age - 19, Strength - 4
+Sheep (5, 5): Age - 19, Strength - 4
+Sheep (4, 3): Age - 19, Strength - 4
+Sheep (3, 1): Age - 19, Strength - 4
+Sheep (0, 1): Age - 18, Strength - 4
+Sheep (0, 6): Age - 18, Strength - 4
+Sheep (2, 6): Age - 18, Strength - 4
+Sheep (3, 7): Age - 18, Strength - 4
+Sheep (5, 6): Age - 18, Strength - 4
+Sheep (0, 7): Age - 18, Strength - 4
+Sheep (2, 0): Age - 18, Strength - 4
+Sheep (5, 4): Age - 18, Strength - 4
+Sheep (4, 0): Age - 18, Strength - 4
+Sheep (2, 8): Age - 18, Strength - 4
+Sheep (1, 8): Age - 18, Strength - 4
+Sheep (3, 8): Age - 18, Strength - 4
+Sheep (6, 4): Age - 18, Strength - 4
+Sheep (4, 1): Age - 18, Strength - 4
+Sheep (6, 5): Age - 18, Strength - 4
+Sheep (5, 3): Age - 18, Strength - 4
+Sheep (5, 7): Age - 17, Strength - 4
+Sheep (4, 8): Age - 17, Strength - 4
+Sheep (6, 2): Age - 17, Strength - 4
+Sheep (2, 9): Age - 17, Strength - 4
+Sheep (6, 6): Age - 17, Strength - 4
+Sheep (0, 9): Age - 17, Strength - 4
+Sheep (3, 9): Age - 17, Strength - 4
+Sheep (1, 9): Age - 17, Strength - 4
+Sheep (5, 8): Age - 17, Strength - 4
+Sheep (7, 4): Age - 17, Strength - 4
+Sheep (5, 1): Age - 17, Strength - 4
+Sheep (7, 5): Age - 17, Strength - 4
+Sheep (8, 1): Age - 17, Strength - 4
+Sheep (4, 9): Age - 16, Strength - 4
+Sheep (7, 0): Age - 16, Strength - 4
+Sheep (3, 0): Age - 16, Strength - 4
+Sheep (5, 0): Age - 16, Strength - 4
+Sheep (8, 5): Age - 16, Strength - 4
+Sheep (6, 7): Age - 16, Strength - 4
+Sheep (6, 8): Age - 16, Strength - 4
+Sheep (7, 3): Age - 16, Strength - 4
+Sheep (2, 10): Age - 16, Strength - 4
+Sheep (7, 6): Age - 16, Strength - 4
+Sheep (3, 10): Age - 16, Strength - 4
+Sheep (1, 10): Age - 16, Strength - 4
+Sheep (7, 9): Age - 16, Strength - 4
+Sheep (8, 4): Age - 16, Strength - 4
+Sheep (6, 3): Age - 15, Strength - 4
+Sheep (0, 8): Age - 15, Strength - 4
+Sheep (0, 11): Age - 15, Strength - 4
+Sheep (8, 7): Age - 15, Strength - 4
+Sheep (4, 10): Age - 15, Strength - 4
+Sheep (6, 0): Age - 15, Strength - 4
+Sheep (9, 5): Age - 15, Strength - 4
+Sheep (7, 7): Age - 15, Strength - 4
+Sheep (9, 8): Age - 15, Strength - 4
+Sheep (2, 14): Age - 15, Strength - 4
+Sheep (3, 11): Age - 15, Strength - 4
+Sheep (1, 11): Age - 15, Strength - 4
+Sheep (9, 4): Age - 15, Strength - 4
+Sheep (7, 2): Age - 14, Strength - 4
+Sheep (0, 12): Age - 14, Strength - 4
+Sheep (5, 9): Age - 14, Strength - 4
+Sheep (6, 1): Age - 14, Strength - 4
+Sheep (5, 10): Age - 14, Strength - 4
+Sheep (4, 11): Age - 14, Strength - 4
+Sheep (10, 5): Age - 14, Strength - 4
+Sheep (8, 3): Age - 14, Strength - 4
+Sheep (9, 6): Age - 14, Strength - 4
+Sheep (10, 3): Age - 14, Strength - 4
+Sheep (2, 13): Age - 14, Strength - 4
+Sheep (10, 6): Age - 14, Strength - 4
+Sheep (2, 11): Age - 14, Strength - 4
+Sheep (9, 3): Age - 14, Strength - 4
+Sheep (8, 6): Age - 13, Strength - 4
+Sheep (7, 1): Age - 13, Strength - 4
+Sheep (6, 9): Age - 13, Strength - 4
+Sheep (9, 0): Age - 13, Strength - 4
+Sheep (7, 8): Age - 13, Strength - 4
+Sheep (6, 10): Age - 13, Strength - 4
+Sheep (8, 2): Age - 13, Strength - 4
+Sheep (9, 10): Age - 13, Strength - 4
+Sheep (1, 13): Age - 13, Strength - 4
+Sheep (9, 7): Age - 13, Strength - 4
+Sheep (3, 12): Age - 13, Strength - 4
+Sheep (5, 11): Age - 13, Strength - 4
+Sheep (6, 13): Age - 13, Strength - 4
+Sheep (4, 12): Age - 13, Strength - 4
+Sheep (11, 5): Age - 13, Strength - 4
+Sheep (11, 6): Age - 13, Strength - 4
+Sheep (10, 7): Age - 13, Strength - 4
+Sheep (9, 2): Age - 13, Strength - 4
+Sheep (9, 1): Age - 12, Strength - 4
+Sheep (8, 8): Age - 12, Strength - 4
+Sheep (7, 10): Age - 12, Strength - 4
+Sheep (1, 12): Age - 12, Strength - 4
+Sheep (10, 8): Age - 12, Strength - 4
+Sheep (2, 12): Age - 12, Strength - 4
+Sheep (10, 4): Age - 12, Strength - 4
+Sheep (0, 14): Age - 12, Strength - 4
+Sheep (17, 5): Age - 12, Strength - 4
+Sheep (11, 3): Age - 12, Strength - 4
+Sheep (1, 14): Age - 12, Strength - 4
+Sheep (10, 2): Age - 12, Strength - 4
+Sheep (8, 0): Age - 12, Strength - 4
+Sheep (10, 10): Age - 12, Strength - 4
+Sheep (3, 13): Age - 12, Strength - 4
+Sheep (5, 13): Age - 12, Strength - 4
+Sheep (4, 13): Age - 12, Strength - 4
+Sheep (11, 4): Age - 12, Strength - 4
+Sheep (11, 7): Age - 12, Strength - 4
+Sheep (10, 1): Age - 12, Strength - 4
+Sheep (8, 9): Age - 11, Strength - 4
+Sheep (6, 11): Age - 11, Strength - 4
+Sheep (10, 0): Age - 11, Strength - 4
+Sheep (7, 11): Age - 11, Strength - 4
+Sheep (9, 11): Age - 11, Strength - 4
+Sheep (3, 14): Age - 11, Strength - 4
+Sheep (12, 7): Age - 11, Strength - 4
+Sheep (8, 11): Age - 11, Strength - 4
+Sheep (0, 13): Age - 11, Strength - 4
+Sheep (11, 8): Age - 11, Strength - 4
+Sheep (13, 3): Age - 11, Strength - 4
+Sheep (0, 16): Age - 11, Strength - 4
+Sheep (11, 2): Age - 11, Strength - 4
+Sheep (4, 14): Age - 11, Strength - 4
+Sheep (12, 4): Age - 11, Strength - 4
+Sheep (11, 1): Age - 11, Strength - 4
+Sheep (9, 9): Age - 10, Strength - 4
+Sheep (2, 15): Age - 10, Strength - 4
+Sheep (5, 12): Age - 10, Strength - 4
+Sheep (11, 0): Age - 10, Strength - 4
+Sheep (6, 12): Age - 10, Strength - 4
+Sheep (7, 13): Age - 10, Strength - 4
+Sheep (12, 5): Age - 10, Strength - 4
+Sheep (12, 6): Age - 10, Strength - 4
+Sheep (11, 9): Age - 10, Strength - 4
+Sheep (5, 14): Age - 10, Strength - 4
+Sheep (7, 12): Age - 10, Strength - 4
+Sheep (3, 16): Age - 10, Strength - 4
+Sheep (13, 7): Age - 10, Strength - 4
+Sheep (8, 12): Age - 10, Strength - 4
+Sheep (12, 8): Age - 10, Strength - 4
+Sheep (12, 2): Age - 10, Strength - 4
+Sheep (4, 15): Age - 10, Strength - 4
+Sheep (13, 4): Age - 10, Strength - 4
+Sheep (12, 1): Age - 10, Strength - 4
+Sheep (10, 9): Age - 9, Strength - 4
+Sheep (1, 15): Age - 9, Strength - 4
+Sheep (6, 14): Age - 9, Strength - 4
+Sheep (15, 7): Age - 9, Strength - 4
+Sheep (8, 10): Age - 9, Strength - 4
+Sheep (12, 3): Age - 9, Strength - 4
+Sheep (11, 10): Age - 9, Strength - 4
+Sheep (5, 15): Age - 9, Strength - 4
+Sheep (10, 11): Age - 9, Strength - 4
+Sheep (13, 8): Age - 9, Strength - 4
+Sheep (14, 3): Age - 9, Strength - 4
+Sheep (12, 0): Age - 9, Strength - 4
+Sheep (2, 16): Age - 9, Strength - 4
+Sheep (10, 15): Age - 9, Strength - 4
+Sheep (13, 5): Age - 9, Strength - 4
+Sheep (13, 9): Age - 9, Strength - 4
+Sheep (11, 18): Age - 9, Strength - 4
+Sheep (9, 12): Age - 9, Strength - 4
+Sheep (14, 7): Age - 9, Strength - 4
+Sheep (13, 2): Age - 9, Strength - 4
+Sheep (3, 15): Age - 9, Strength - 4
+Sheep (15, 4): Age - 9, Strength - 4
+Sheep (13, 1): Age - 9, Strength - 4
+Sheep (7, 14): Age - 8, Strength - 4
+Sheep (0, 15): Age - 8, Strength - 4
+Sheep (12, 14): Age - 8, Strength - 4
+Sheep (1, 16): Age - 8, Strength - 4
+Sheep (8, 14): Age - 8, Strength - 4
+Sheep (12, 10): Age - 8, Strength - 4
+Sheep (4, 16): Age - 8, Strength - 4
+Sheep (16, 7): Age - 8, Strength - 4
+Sheep (11, 11): Age - 8, Strength - 4
+Sheep (5, 16): Age - 8, Strength - 4
+Sheep (14, 8): Age - 8, Strength - 4
+Sheep (15, 3): Age - 8, Strength - 4
+Sheep (13, 0): Age - 8, Strength - 4
+Sheep (3, 18): Age - 8, Strength - 4
+Sheep (14, 5): Age - 8, Strength - 4
+Sheep (13, 6): Age - 8, Strength - 4
+Sheep (14, 2): Age - 8, Strength - 4
+Sheep (14, 1): Age - 8, Strength - 4
+Sheep (8, 13): Age - 7, Strength - 4
+Sheep (12, 9): Age - 7, Strength - 4
+Sheep (14, 4): Age - 7, Strength - 4
+Sheep (0, 17): Age - 7, Strength - 4
+Sheep (6, 15): Age - 7, Strength - 4
+Sheep (3, 17): Age - 7, Strength - 4
+Sheep (4, 17): Age - 7, Strength - 4
+Sheep (6, 16): Age - 7, Strength - 4
+Sheep (14, 11): Age - 7, Strength - 4
+Sheep (14, 9): Age - 7, Strength - 4
+Sheep (16, 3): Age - 7, Strength - 4
+Sheep (1, 17): Age - 7, Strength - 4
+Sheep (14, 6): Age - 7, Strength - 4
+Sheep (13, 12): Age - 7, Strength - 4
+Sheep (15, 8): Age - 7, Strength - 4
+Sheep (15, 2): Age - 7, Strength - 4
+Sheep (17, 4): Age - 7, Strength - 4
+Sheep (7, 15): Age - 7, Strength - 4
+Sheep (8, 15): Age - 7, Strength - 4
+Sheep (12, 11): Age - 7, Strength - 4
+Sheep (5, 17): Age - 7, Strength - 4
+Sheep (6, 17): Age - 7, Strength - 4
+Sheep (16, 8): Age - 7, Strength - 4
+Sheep (16, 1): Age - 7, Strength - 4
+Sheep (14, 0): Age - 7, Strength - 4
+Sheep (15, 1): Age - 7, Strength - 4
+Sheep (15, 0): Age - 7, Strength - 4
+Sheep (0, 18): Age - 6, Strength - 4
+Sheep (2, 17): Age - 6, Strength - 4
+Sheep (15, 9): Age - 6, Strength - 4
+Sheep (15, 6): Age - 6, Strength - 4
+Sheep (15, 5): Age - 6, Strength - 4
+Sheep (7, 16): Age - 6, Strength - 4
+Sheep (9, 14): Age - 6, Strength - 4
+Sheep (12, 12): Age - 6, Strength - 4
+Sheep (18, 7): Age - 6, Strength - 4
+Sheep (1, 18): Age - 6, Strength - 4
+Sheep (4, 19): Age - 6, Strength - 4
+Sheep (4, 18): Age - 6, Strength - 4
+Sheep (17, 2): Age - 6, Strength - 4
+Sheep (7, 17): Age - 6, Strength - 4
+Sheep (9, 15): Age - 6, Strength - 4
+Sheep (5, 18): Age - 6, Strength - 4
+Sheep (17, 7): Age - 6, Strength - 4
+Sheep (17, 1): Age - 6, Strength - 4
+Sheep (16, 0): Age - 6, Strength - 4
+Sheep (9, 13): Age - 5, Strength - 4
+Sheep (14, 10): Age - 5, Strength - 4
+Sheep (16, 4): Age - 5, Strength - 4
+Sheep (16, 6): Age - 5, Strength - 4
+Sheep (16, 2): Age - 5, Strength - 4
+Sheep (2, 18): Age - 5, Strength - 4
+Sheep (0, 19): Age - 5, Strength - 4
+Sheep (15, 10): Age - 5, Strength - 4
+Sheep (16, 5): Age - 5, Strength - 4
+Sheep (1, 19): Age - 5, Strength - 4
+Sheep (18, 4): Age - 5, Strength - 4
+Sheep (8, 16): Age - 5, Strength - 4
+Sheep (13, 10): Age - 5, Strength - 4
+Sheep (16, 9): Age - 5, Strength - 4
+Sheep (18, 1): Age - 5, Strength - 4
+Sheep (17, 0): Age - 5, Strength - 4
+Sheep (16, 10): Age - 5, Strength - 4
+Sheep (8, 20): Age - 5, Strength - 4
+Sheep (7, 18): Age - 5, Strength - 4
+Sheep (18, 0): Age - 5, Strength - 4
+Sheep (18, 5): Age - 4, Strength - 4
+Sheep (11, 15): Age - 4, Strength - 4
+Sheep (17, 8): Age - 4, Strength - 4
+Sheep (3, 19): Age - 4, Strength - 4
+Sheep (17, 3): Age - 4, Strength - 4
+Sheep (19, 4): Age - 4, Strength - 4
+Sheep (9, 16): Age - 4, Strength - 4
+Sheep (13, 11): Age - 4, Strength - 4
+Sheep (6, 18): Age - 4, Strength - 4
+Sheep (18, 8): Age - 4, Strength - 4
+Sheep (17, 9): Age - 4, Strength - 4
+Sheep (14, 12): Age - 4, Strength - 4
+Sheep (19, 7): Age - 4, Strength - 4
+Sheep (2, 19): Age - 4, Strength - 4
+Sheep (5, 19): Age - 4, Strength - 4
+Sheep (18, 2): Age - 4, Strength - 4
+Sheep (10, 16): Age - 4, Strength - 4
+Sheep (17, 6): Age - 4, Strength - 4
+Sheep (2, 20): Age - 4, Strength - 4
+Sheep (0, 20): Age - 4, Strength - 4
+Sheep (15, 11): Age - 4, Strength - 4
+Sheep (1, 20): Age - 4, Strength - 4
+Sheep (11, 14): Age - 4, Strength - 4
+Sheep (18, 3): Age - 4, Strength - 4
+Sheep (19, 1): Age - 4, Strength - 4
+Sheep (19, 0): Age - 4, Strength - 4
+Sheep (17, 10): Age - 4, Strength - 4
+Sheep (7, 19): Age - 4, Strength - 4
+Sheep (18, 6): Age - 3, Strength - 4
+Sheep (11, 16): Age - 3, Strength - 4
+Sheep (13, 16): Age - 3, Strength - 4
+Sheep (3, 20): Age - 3, Strength - 4
+Sheep (13, 13): Age - 3, Strength - 4
+Sheep (8, 17): Age - 3, Strength - 4
+Sheep (19, 8): Age - 3, Strength - 4
+Sheep (4, 20): Age - 3, Strength - 4
+Sheep (19, 2): Age - 3, Strength - 4
+Sheep (9, 17): Age - 3, Strength - 4
+Sheep (6, 19): Age - 3, Strength - 4
+Sheep (0, 21): Age - 3, Strength - 4
+Sheep (19, 3): Age - 3, Strength - 4
+Sheep (18, 9): Age - 3, Strength - 4
+Sheep (16, 12): Age - 3, Strength - 4
+Sheep (8, 18): Age - 3, Strength - 4
+Sheep (19, 5): Age - 3, Strength - 4
+Sheep (12, 15): Age - 3, Strength - 4
+Sheep (10, 17): Age - 3, Strength - 4
+Sheep (6, 20): Age - 3, Strength - 4
+Sheep (19, 9): Age - 3, Strength - 4
+Sheep (15, 12): Age - 3, Strength - 4
+Sheep (19, 6): Age - 3, Strength - 4
+Sheep (2, 22): Age - 3, Strength - 4
+Sheep (5, 20): Age - 3, Strength - 4
+Sheep (12, 16): Age - 3, Strength - 4
+Sheep (1, 21): Age - 3, Strength - 4
+Sheep (16, 11): Age - 3, Strength - 4
+Sheep (18, 10): Age - 3, Strength - 4
+Sheep (7, 20): Age - 3, Strength - 4
+Sheep (12, 13): Age - 2, Strength - 4
+Sheep (14, 13): Age - 2, Strength - 4
+Sheep (4, 21): Age - 2, Strength - 4
+Sheep (9, 19): Age - 2, Strength - 4
+Sheep (3, 21): Age - 2, Strength - 4
+Sheep (9, 18): Age - 2, Strength - 4
+Sheep (11, 17): Age - 2, Strength - 4
+Sheep (1, 22): Age - 2, Strength - 4
+Sheep (13, 14): Age - 2, Strength - 4
+Sheep (19, 10): Age - 2, Strength - 4
+Sheep (0, 22): Age - 2, Strength - 4
+Sheep (18, 11): Age - 2, Strength - 4
+Sheep (14, 16): Age - 2, Strength - 4
+Sheep (6, 21): Age - 2, Strength - 4
+Sheep (15, 13): Age - 2, Strength - 4
+Sheep (5, 21): Age - 2, Strength - 4
+Sheep (2, 21): Age - 2, Strength - 4
+Sheep (17, 11): Age - 2, Strength - 4
+Sheep (10, 14): Age - 1, Strength - 4
+Sheep (17, 12): Age - 1, Strength - 4
+Sheep (14, 15): Age - 1, Strength - 4
+Sheep (10, 19): Age - 1, Strength - 4
+Sheep (0, 23): Age - 1, Strength - 4
+Sheep (16, 13): Age - 1, Strength - 4
+Sheep (7, 21): Age - 1, Strength - 4
+Sheep (3, 22): Age - 1, Strength - 4
+Sheep (13, 18): Age - 1, Strength - 4
+Sheep (19, 11): Age - 1, Strength - 4
+Sheep (14, 14): Age - 1, Strength - 4
+Sheep (4, 22): Age - 1, Strength - 4
+Sheep (1, 23): Age - 1, Strength - 4
+Sheep (19, 12): Age - 1, Strength - 4
+Sheep (18, 12): Age - 1, Strength - 4
+Sheep (6, 22): Age - 1, Strength - 4
+Sheep (15, 14): Age - 1, Strength - 4
+Sheep (5, 22): Age - 1, Strength - 4
+Hogweed (19, 25): Age - 72, Strength - 10
+Grass (10, 50): Age - 72, Strength - 0
+Dandelion (19, 39): Age - 72, Strength - 0
+Guarana (0, 40): Age - 72, Strength - 0
+Deadly Nightshade (19, 20): Age - 72, Strength - 99
+Deadly Nightshade (19, 21): Age - 71, Strength - 99
+Dandelion (18, 39): Age - 70, Strength - 0
+Dandelion (19, 38): Age - 69, Strength - 0
+Dandelion (19, 37): Age - 68, Strength - 0
+Dandelion (17, 39): Age - 67, Strength - 0
+Hogweed (18, 25): Age - 67, Strength - 10
+Guarana (0, 41): Age - 65, Strength - 0
+Dandelion (19, 40): Age - 65, Strength - 0
+Guarana (1, 41): Age - 64, Strength - 0
+Hogweed (19, 24): Age - 64, Strength - 10
+Dandelion (18, 37): Age - 64, Strength - 0
+Hogweed (18, 24): Age - 64, Strength - 10
+Dandelion (17, 38): Age - 64, Strength - 0
+Dandelion (16, 39): Age - 63, Strength - 0
+Dandelion (16, 38): Age - 62, Strength - 0
+Grass (11, 50): Age - 62, Strength - 0
+Guarana (1, 40): Age - 62, Strength - 0
+Dandelion (18, 38): Age - 62, Strength - 0
+Dandelion (18, 36): Age - 62, Strength - 0
+Dandelion (17, 37): Age - 62, Strength - 0
+Dandelion (16, 37): Age - 61, Strength - 0
+Dandelion (18, 40): Age - 61, Strength - 0
+Guarana (2, 41): Age - 61, Strength - 0
+Dandelion (15, 39): Age - 61, Strength - 0
+Dandelion (18, 35): Age - 61, Strength - 0
+Dandelion (16, 36): Age - 60, Strength - 0
+Dandelion (19, 36): Age - 60, Strength - 0
+Dandelion (19, 41): Age - 60, Strength - 0
+Hogweed (19, 23): Age - 60, Strength - 10
+Dandelion (16, 40): Age - 60, Strength - 0
+Dandelion (17, 36): Age - 60, Strength - 0
+Dandelion (17, 35): Age - 59, Strength - 0
+Dandelion (15, 38): Age - 59, Strength - 0
+Dandelion (14, 39): Age - 59, Strength - 0
+Dandelion (17, 34): Age - 58, Strength - 0
+Dandelion (18, 41): Age - 58, Strength - 0
+Hogweed (18, 23): Age - 58, Strength - 10
+Dandelion (15, 36): Age - 57, Strength - 0
+Dandelion (14, 38): Age - 57, Strength - 0
+Dandelion (16, 34): Age - 57, Strength - 0
+Grass (10, 49): Age - 57, Strength - 0
+Grass (11, 51): Age - 57, Strength - 0
+Dandelion (15, 37): Age - 57, Strength - 0
+Dandelion (19, 35): Age - 57, Strength - 0
+Dandelion (19, 42): Age - 57, Strength - 0
+Dandelion (15, 40): Age - 56, Strength - 0
+Dandelion (17, 33): Age - 56, Strength - 0
+Dandelion (16, 33): Age - 56, Strength - 0
+Grass (12, 50): Age - 56, Strength - 0
+Guarana (3, 41): Age - 55, Strength - 0
+Hogweed (19, 22): Age - 55, Strength - 10
+Dandelion (16, 41): Age - 55, Strength - 0
+Dandelion (16, 35): Age - 55, Strength - 0
+Dandelion (14, 40): Age - 55, Strength - 0
+Dandelion (19, 34): Age - 55, Strength - 0
+Dandelion (15, 41): Age - 55, Strength - 0
+Deadly Nightshade (19, 19): Age - 55, Strength - 99
+Dandelion (17, 40): Age - 55, Strength - 0
+Dandelion (18, 33): Age - 54, Strength - 0
+Dandelion (17, 41): Age - 54, Strength - 0
+Dandelion (16, 42): Age - 54, Strength - 0
+Dandelion (13, 39): Age - 54, Strength - 0
+Dandelion (18, 34): Age - 54, Strength - 0
+Grass (11, 52): Age - 54, Strength - 0
+Dandelion (14, 37): Age - 54, Strength - 0
+Dandelion (13, 37): Age - 53, Strength - 0
+Dandelion (18, 32): Age - 53, Strength - 0
+Dandelion (17, 42): Age - 53, Strength - 0
+Guarana (1, 42): Age - 53, Strength - 0
+Grass (11, 49): Age - 53, Strength - 0
+Guarana (1, 39): Age - 53, Strength - 0
+Guarana (2, 40): Age - 53, Strength - 0
+Dandelion (18, 42): Age - 53, Strength - 0
+Grass (12, 51): Age - 53, Strength - 0
+Dandelion (13, 38): Age - 53, Strength - 0
+Dandelion (15, 34): Age - 53, Strength - 0
+Guarana (3, 40): Age - 53, Strength - 0
+Grass (11, 53): Age - 53, Strength - 0
+Dandelion (14, 36): Age - 53, Strength - 0
+Dandelion (18, 31): Age - 52, Strength - 0
+Dandelion (15, 35): Age - 52, Strength - 0
+Grass (12, 49): Age - 52, Strength - 0
+Hogweed (18, 22): Age - 52, Strength - 10
+Dandelion (19, 33): Age - 52, Strength - 0
+Hogweed (17, 22): Age - 51, Strength - 10
+Grass (9, 50): Age - 51, Strength - 0
+Guarana (0, 42): Age - 51, Strength - 0
+Dandelion (15, 33): Age - 51, Strength - 0
+Dandelion (14, 41): Age - 51, Strength - 0
+Grass (11, 48): Age - 51, Strength - 0
+Guarana (0, 39): Age - 51, Strength - 0
+Dandelion (18, 43): Age - 51, Strength - 0
+Dandelion (12, 38): Age - 51, Strength - 0
+Dandelion (17, 32): Age - 51, Strength - 0
+Dandelion (17, 43): Age - 51, Strength - 0
+Dandelion (14, 35): Age - 51, Strength - 0
+Grass (12, 48): Age - 51, Strength - 0
+Grass (13, 49): Age - 50, Strength - 0
+Dandelion (19, 32): Age - 50, Strength - 0
+Dandelion (17, 31): Age - 50, Strength - 0
+Dandelion (14, 42): Age - 50, Strength - 0
+Dandelion (12, 37): Age - 50, Strength - 0
+Dandelion (17, 44): Age - 50, Strength - 0
+Dandelion (14, 34): Age - 50, Strength - 0
+Grass (13, 50): Age - 50, Strength - 0
+Dandelion (12, 39): Age - 50, Strength - 0
+Grass (12, 52): Age - 50, Strength - 0
+Guarana (3, 39): Age - 50, Strength - 0
+Dandelion (16, 32): Age - 49, Strength - 0
+Dandelion (16, 43): Age - 49, Strength - 0
+Dandelion (17, 30): Age - 49, Strength - 0
+Hogweed (17, 24): Age - 49, Strength - 10
+Dandelion (19, 43): Age - 49, Strength - 0
+Guarana (4, 40): Age - 49, Strength - 0
+Dandelion (13, 36): Age - 49, Strength - 0
+Dandelion (15, 32): Age - 49, Strength - 0
+Dandelion (18, 44): Age - 48, Strength - 0
+Dandelion (13, 34): Age - 48, Strength - 0
+Dandelion (13, 35): Age - 48, Strength - 0
+Deadly Nightshade (18, 20): Age - 48, Strength - 99
+Grass (10, 48): Age - 48, Strength - 0
+Dandelion (15, 42): Age - 48, Strength - 0
+Grass (13, 51): Age - 48, Strength - 0
+Hogweed (18, 21): Age - 48, Strength - 10
+Dandelion (13, 41): Age - 48, Strength - 0
+Grass (13, 48): Age - 48, Strength - 0
+Grass (14, 49): Age - 48, Strength - 0
+Dandelion (19, 31): Age - 48, Strength - 0
+Dandelion (16, 31): Age - 48, Strength - 0
+Dandelion (12, 36): Age - 48, Strength - 0
+Dandelion (12, 34): Age - 47, Strength - 0
+Grass (10, 52): Age - 47, Strength - 0
+Guarana (0, 38): Age - 47, Strength - 0
+Dandelion (12, 40): Age - 47, Strength - 0
+Dandelion (16, 44): Age - 47, Strength - 0
+Dandelion (14, 33): Age - 47, Strength - 0
+Dandelion (15, 31): Age - 47, Strength - 0
+Dandelion (15, 43): Age - 47, Strength - 0
+Dandelion (16, 30): Age - 47, Strength - 0
+Dandelion (12, 41): Age - 47, Strength - 0
+Dandelion (11, 34): Age - 46, Strength - 0
+Dandelion (18, 30): Age - 46, Strength - 0
+Dandelion (14, 43): Age - 46, Strength - 0
+Dandelion (17, 45): Age - 46, Strength - 0
+Guarana (4, 39): Age - 46, Strength - 0
+Dandelion (14, 32): Age - 46, Strength - 0
+Grass (13, 52): Age - 46, Strength - 0
+Dandelion (13, 42): Age - 46, Strength - 0
+Dandelion (13, 33): Age - 46, Strength - 0
+Dandelion (15, 44): Age - 46, Strength - 0
+Grass (11, 47): Age - 45, Strength - 0
+Grass (9, 48): Age - 45, Strength - 0
+Dandelion (19, 30): Age - 45, Strength - 0
+Dandelion (11, 40): Age - 45, Strength - 0
+Dandelion (16, 29): Age - 45, Strength - 0
+Dandelion (11, 41): Age - 45, Strength - 0
+Dandelion (13, 32): Age - 45, Strength - 0
+Grass (10, 51): Age - 45, Strength - 0
+Dandelion (13, 40): Age - 45, Strength - 0
+Dandelion (15, 45): Age - 44, Strength - 0
+Grass (9, 47): Age - 44, Strength - 0
+Dandelion (11, 42): Age - 44, Strength - 0
+Grass (12, 53): Age - 44, Strength - 0
+Dandelion (19, 44): Age - 44, Strength - 0
+Dandelion (18, 45): Age - 44, Strength - 0
+Dandelion (12, 42): Age - 44, Strength - 0
+Dandelion (13, 43): Age - 44, Strength - 0
+Dandelion (12, 32): Age - 43, Strength - 0
+Deadly Nightshade (18, 19): Age - 43, Strength - 99
+Dandelion (11, 38): Age - 43, Strength - 0
+Hogweed (16, 22): Age - 43, Strength - 10
+Guarana (3, 38): Age - 43, Strength - 0
+Grass (14, 48): Age - 43, Strength - 0
+Dandelion (12, 35): Age - 43, Strength - 0
+Dandelion (15, 30): Age - 43, Strength - 0
+Dandelion (14, 44): Age - 43, Strength - 0
+Dandelion (16, 45): Age - 43, Strength - 0
+Dandelion (11, 32): Age - 42, Strength - 0
+Hogweed (17, 23): Age - 42, Strength - 10
+Dandelion (11, 39): Age - 42, Strength - 0
+Guarana (4, 41): Age - 42, Strength - 0
+Grass (14, 51): Age - 42, Strength - 0
+Grass (9, 52): Age - 42, Strength - 0
+Dandelion (10, 41): Age - 42, Strength - 0
+Grass (9, 46): Age - 42, Strength - 0
+Dandelion (10, 42): Age - 42, Strength - 0
+Dandelion (11, 35): Age - 42, Strength - 0
+Dandelion (9, 42): Age - 41, Strength - 0
+Dandelion (11, 36): Age - 41, Strength - 0
+Dandelion (17, 29): Age - 41, Strength - 0
+Hogweed (17, 21): Age - 41, Strength - 10
+Dandelion (14, 31): Age - 41, Strength - 0
+Dandelion (17, 46): Age - 41, Strength - 0
+Dandelion (11, 33): Age - 41, Strength - 0
+Dandelion (19, 29): Age - 41, Strength - 0
+Dandelion (13, 31): Age - 41, Strength - 0
+Dandelion (12, 43): Age - 41, Strength - 0
+Dandelion (13, 44): Age - 41, Strength - 0
+Dandelion (15, 46): Age - 41, Strength - 0
+Dandelion (15, 29): Age - 41, Strength - 0
+Dandelion (11, 31): Age - 40, Strength - 0
+Dandelion (10, 33): Age - 40, Strength - 0
+Guarana (3, 42): Age - 40, Strength - 0
+Grass (9, 51): Age - 40, Strength - 0
+Guarana (2, 39): Age - 40, Strength - 0
+Dandelion (11, 37): Age - 40, Strength - 0
+Grass (13, 47): Age - 40, Strength - 0
+Grass (10, 53): Age - 40, Strength - 0
+Dandelion (12, 33): Age - 40, Strength - 0
+Dandelion (16, 28): Age - 40, Strength - 0
+Dandelion (19, 45): Age - 40, Strength - 0
+Dandelion (11, 43): Age - 40, Strength - 0
+Dandelion (10, 38): Age - 40, Strength - 0
+Grass (14, 52): Age - 40, Strength - 0
+Dandelion (10, 43): Age - 40, Strength - 0
+Dandelion (16, 46): Age - 39, Strength - 0
+Dandelion (12, 44): Age - 39, Strength - 0
+Dandelion (15, 47): Age - 39, Strength - 0
+Dandelion (10, 36): Age - 39, Strength - 0
+Guarana (2, 42): Age - 39, Strength - 0
+Guarana (1, 38): Age - 39, Strength - 0
+Grass (11, 54): Age - 39, Strength - 0
+Guarana (1, 43): Age - 39, Strength - 0
+Guarana (5, 40): Age - 39, Strength - 0
+Dandelion (10, 34): Age - 39, Strength - 0
+Grass (8, 47): Age - 39, Strength - 0
+Grass (14, 47): Age - 39, Strength - 0
+Dandelion (14, 45): Age - 39, Strength - 0
+Dandelion (10, 39): Age - 39, Strength - 0
+Dandelion (16, 47): Age - 38, Strength - 0
+Dandelion (12, 45): Age - 38, Strength - 0
+Dandelion (9, 36): Age - 38, Strength - 0
+Guarana (0, 43): Age - 38, Strength - 0
+Grass (9, 49): Age - 38, Strength - 0
+Dandelion (18, 46): Age - 38, Strength - 0
+Grass (10, 47): Age - 38, Strength - 0
+Grass (13, 53): Age - 38, Strength - 0
+Dandelion (9, 41): Age - 38, Strength - 0
+Dandelion (17, 28): Age - 38, Strength - 0
+Dandelion (14, 30): Age - 38, Strength - 0
+Dandelion (19, 28): Age - 38, Strength - 0
+Dandelion (13, 45): Age - 38, Strength - 0
+Grass (8, 51): Age - 38, Strength - 0
+Dandelion (10, 37): Age - 38, Strength - 0
+Dandelion (9, 33): Age - 38, Strength - 0
+Dandelion (14, 46): Age - 38, Strength - 0
+Guarana (2, 38): Age - 37, Strength - 0
+Dandelion (10, 35): Age - 37, Strength - 0
+Hogweed (19, 26): Age - 37, Strength - 10
+Grass (12, 47): Age - 37, Strength - 0
+Grass (8, 50): Age - 37, Strength - 0
+Grass (15, 48): Age - 37, Strength - 0
+Guarana (5, 41): Age - 37, Strength - 0
+Grass (8, 46): Age - 37, Strength - 0
+Dandelion (9, 38): Age - 37, Strength - 0
+Grass (14, 53): Age - 37, Strength - 0
+Dandelion (11, 44): Age - 36, Strength - 0
+Dandelion (10, 44): Age - 36, Strength - 0
+Guarana (2, 43): Age - 36, Strength - 0
+Guarana (1, 37): Age - 36, Strength - 0
+Dandelion (19, 46): Age - 36, Strength - 0
+Dandelion (17, 27): Age - 36, Strength - 0
+Dandelion (18, 28): Age - 36, Strength - 0
+Dandelion (9, 39): Age - 36, Strength - 0
+Hogweed (16, 24): Age - 36, Strength - 10
+Guarana (0, 37): Age - 36, Strength - 0
+Guarana (3, 37): Age - 36, Strength - 0
+Guarana (4, 42): Age - 36, Strength - 0
+Grass (9, 45): Age - 36, Strength - 0
+Hogweed (16, 21): Age - 36, Strength - 10
+Dandelion (17, 47): Age - 36, Strength - 0
+Dandelion (9, 43): Age - 36, Strength - 0
+Grass (9, 53): Age - 36, Strength - 0
+Dandelion (16, 27): Age - 36, Strength - 0
+Dandelion (19, 27): Age - 35, Strength - 0
+Dandelion (9, 37): Age - 35, Strength - 0
+Dandelion (18, 47): Age - 35, Strength - 0
+Dandelion (8, 43): Age - 35, Strength - 0
+Dandelion (18, 29): Age - 35, Strength - 0
+Dandelion (8, 42): Age - 35, Strength - 0
+Grass (11, 55): Age - 35, Strength - 0
+Dandelion (11, 45): Age - 34, Strength - 0
+Dandelion (9, 44): Age - 34, Strength - 0
+Dandelion (19, 47): Age - 34, Strength - 0
+Dandelion (7, 43): Age - 34, Strength - 0
+Hogweed (17, 25): Age - 34, Strength - 10
+Dandelion (10, 40): Age - 34, Strength - 0
+Grass (12, 54): Age - 34, Strength - 0
+Grass (8, 52): Age - 34, Strength - 0
+Dandelion (10, 32): Age - 34, Strength - 0
+Hogweed (18, 26): Age - 34, Strength - 10
+Grass (12, 46): Age - 34, Strength - 0
+Grass (16, 48): Age - 34, Strength - 0
+Guarana (2, 37): Age - 34, Strength - 0
+Dandelion (17, 48): Age - 34, Strength - 0
+Grass (13, 54): Age - 33, Strength - 0
+Dandelion (9, 40): Age - 33, Strength - 0
+Dandelion (8, 41): Age - 33, Strength - 0
+Grass (7, 51): Age - 33, Strength - 0
+Grass (8, 45): Age - 33, Strength - 0
+Dandelion (9, 35): Age - 33, Strength - 0
+Grass (10, 45): Age - 33, Strength - 0
+Dandelion (15, 27): Age - 33, Strength - 0
+Dandelion (18, 27): Age - 33, Strength - 0
+Hogweed (17, 26): Age - 33, Strength - 10
+Grass (16, 49): Age - 33, Strength - 0
+Guarana (4, 38): Age - 33, Strength - 0
+Deadly Nightshade (18, 18): Age - 33, Strength - 99
+Hogweed (17, 20): Age - 33, Strength - 10
+Dandelion (14, 29): Age - 33, Strength - 0
+Grass (15, 52): Age - 33, Strength - 0
+Dandelion (10, 31): Age - 33, Strength - 0
+Dandelion (9, 34): Age - 33, Strength - 0
+Grass (8, 49): Age - 33, Strength - 0
+Guarana (0, 36): Age - 32, Strength - 0
+Guarana (4, 43): Age - 32, Strength - 0
+Dandelion (16, 26): Age - 32, Strength - 0
+Dandelion (7, 42): Age - 32, Strength - 0
+Dandelion (18, 48): Age - 32, Strength - 0
+Dandelion (11, 46): Age - 32, Strength - 0
+Dandelion (8, 44): Age - 32, Strength - 0
+Deadly Nightshade (18, 17): Age - 32, Strength - 99
+Guarana (0, 44): Age - 32, Strength - 0
+Dandelion (13, 46): Age - 32, Strength - 0
+Dandelion (8, 33): Age - 32, Strength - 0
+Dandelion (8, 38): Age - 32, Strength - 0
+Grass (12, 55): Age - 31, Strength - 0
+Dandelion (17, 49): Age - 31, Strength - 0
+Dandelion (19, 48): Age - 31, Strength - 0
+Deadly Nightshade (19, 18): Age - 31, Strength - 99
+Dandelion (14, 28): Age - 31, Strength - 0
+Dandelion (8, 34): Age - 31, Strength - 0
+Dandelion (7, 41): Age - 31, Strength - 0
+Dandelion (8, 35): Age - 31, Strength - 0
+Grass (10, 46): Age - 31, Strength - 0
+Guarana (1, 36): Age - 31, Strength - 0
+Dandelion (6, 42): Age - 31, Strength - 0
+Deadly Nightshade (19, 17): Age - 31, Strength - 99
+Guarana (6, 40): Age - 31, Strength - 0
+Hogweed (15, 21): Age - 31, Strength - 10
+Guarana (3, 43): Age - 31, Strength - 0
+Dandelion (8, 39): Age - 31, Strength - 0
+Hogweed (14, 21): Age - 30, Strength - 10
+Dandelion (19, 49): Age - 30, Strength - 0
+Grass (8, 48): Age - 30, Strength - 0
+Dandelion (13, 30): Age - 30, Strength - 0
+Guarana (5, 39): Age - 30, Strength - 0
+Dandelion (9, 32): Age - 30, Strength - 0
+Grass (15, 53): Age - 30, Strength - 0
+Hogweed (16, 20): Age - 30, Strength - 10
+Grass (10, 55): Age - 30, Strength - 0
+Guarana (2, 36): Age - 30, Strength - 0
+Dandelion (6, 43): Age - 30, Strength - 0
+Dandelion (13, 29): Age - 30, Strength - 0
+Dandelion (8, 40): Age - 30, Strength - 0
+Dandelion (15, 26): Age - 30, Strength - 0
+Dandelion (7, 44): Age - 30, Strength - 0
+Guarana (5, 42): Age - 29, Strength - 0
+Dandelion (7, 39): Age - 29, Strength - 0
+Dandelion (13, 28): Age - 29, Strength - 0
+Grass (7, 48): Age - 29, Strength - 0
+Hogweed (15, 20): Age - 29, Strength - 10
+Dandelion (6, 44): Age - 29, Strength - 0
+Dandelion (7, 45): Age - 29, Strength - 0
+Dandelion (19, 50): Age - 29, Strength - 0
+Hogweed (15, 22): Age - 29, Strength - 10
+Deadly Nightshade (17, 19): Age - 29, Strength - 99
+Dandelion (15, 28): Age - 29, Strength - 0
+Hogweed (13, 21): Age - 28, Strength - 10
+Dandelion (13, 27): Age - 28, Strength - 0
+Dandelion (6, 45): Age - 28, Strength - 0
+Dandelion (8, 36): Age - 28, Strength - 0
+Grass (7, 50): Age - 28, Strength - 0
+Grass (15, 49): Age - 28, Strength - 0
+Dandelion (8, 37): Age - 28, Strength - 0
+Hogweed (16, 25): Age - 28, Strength - 10
+Dandelion (14, 27): Age - 28, Strength - 0
+Dandelion (7, 38): Age - 28, Strength - 0
+Dandelion (18, 49): Age - 28, Strength - 0
+Dandelion (17, 50): Age - 28, Strength - 0
+Dandelion (6, 41): Age - 28, Strength - 0
+Hogweed (16, 19): Age - 28, Strength - 10
+Dandelion (7, 40): Age - 28, Strength - 0
+Dandelion (15, 25): Age - 28, Strength - 0
+Dandelion (14, 26): Age - 28, Strength - 0
+Dandelion (15, 24): Age - 27, Strength - 0
+Dandelion (14, 25): Age - 27, Strength - 0
+Grass (14, 50): Age - 27, Strength - 0
+Guarana (0, 45): Age - 27, Strength - 0
+Dandelion (7, 35): Age - 27, Strength - 0
+Deadly Nightshade (17, 18): Age - 27, Strength - 99
+Guarana (5, 43): Age - 27, Strength - 0
+Dandelion (19, 51): Age - 27, Strength - 0
+Dandelion (7, 36): Age - 27, Strength - 0
+Dandelion (6, 38): Age - 27, Strength - 0
+Dandelion (18, 51): Age - 26, Strength - 0
+Dandelion (6, 37): Age - 26, Strength - 0
+Dandelion (12, 31): Age - 26, Strength - 0
+Dandelion (11, 30): Age - 26, Strength - 0
+Hogweed (16, 23): Age - 26, Strength - 10
+Grass (16, 50): Age - 26, Strength - 0
+Guarana (6, 39): Age - 26, Strength - 0
+Grass (15, 54): Age - 26, Strength - 0
+Dandelion (12, 29): Age - 26, Strength - 0
+Hogweed (14, 22): Age - 26, Strength - 10
+Dandelion (17, 51): Age - 26, Strength - 0
+Dandelion (13, 26): Age - 26, Strength - 0
+Guarana (1, 45): Age - 26, Strength - 0
+Guarana (2, 44): Age - 25, Strength - 0
+Dandelion (10, 30): Age - 25, Strength - 0
+Grass (14, 54): Age - 25, Strength - 0
+Grass (10, 54): Age - 25, Strength - 0
+Grass (7, 49): Age - 25, Strength - 0
+Dandelion (19, 52): Age - 25, Strength - 0
+Dandelion (5, 38): Age - 25, Strength - 0
+Dandelion (14, 24): Age - 25, Strength - 0
+Grass (15, 51): Age - 25, Strength - 0
+Guarana (1, 44): Age - 25, Strength - 0
+Grass (9, 54): Age - 25, Strength - 0
+Guarana (4, 44): Age - 24, Strength - 0
+Hogweed (15, 23): Age - 24, Strength - 10
+Dandelion (7, 37): Age - 24, Strength - 0
+Dandelion (5, 45): Age - 24, Strength - 0
+Dandelion (6, 35): Age - 24, Strength - 0
+Dandelion (18, 52): Age - 24, Strength - 0
+Guarana (3, 36): Age - 24, Strength - 0
+Guarana (0, 35): Age - 24, Strength - 0
+Dandelion (8, 32): Age - 23, Strength - 0
+Dandelion (12, 30): Age - 23, Strength - 0
+Dandelion (18, 50): Age - 23, Strength - 0
+Dandelion (17, 52): Age - 23, Strength - 0
+Grass (9, 55): Age - 23, Strength - 0
+Dandelion (13, 24): Age - 23, Strength - 0
+Dandelion (6, 34): Age - 23, Strength - 0
+Guarana (4, 37): Age - 23, Strength - 0
+Grass (13, 55): Age - 23, Strength - 0
+Dandelion (7, 34): Age - 23, Strength - 0
+Dandelion (11, 29): Age - 22, Strength - 0
+Guarana (1, 35): Age - 22, Strength - 0
+Dandelion (7, 32): Age - 22, Strength - 0
+Dandelion (16, 52): Age - 22, Strength - 0
+Grass (16, 53): Age - 22, Strength - 0
+Grass (7, 47): Age - 22, Strength - 0
+Dandelion (13, 25): Age - 22, Strength - 0
+Dandelion (12, 26): Age - 22, Strength - 0
+Dandelion (12, 27): Age - 21, Strength - 0
+Dandelion (6, 46): Age - 21, Strength - 0
+Grass (15, 50): Age - 21, Strength - 0
+Dandelion (6, 36): Age - 21, Strength - 0
+Dandelion (19, 53): Age - 21, Strength - 0
+Dandelion (5, 44): Age - 21, Strength - 0
+Dandelion (12, 25): Age - 21, Strength - 0
+Grass (7, 46): Age - 21, Strength - 0
+Dandelion (9, 31): Age - 21, Strength - 0
+Dandelion (12, 28): Age - 21, Strength - 0
+Dandelion (7, 33): Age - 20, Strength - 0
+Dandelion (10, 29): Age - 20, Strength - 0
+Grass (16, 51): Age - 20, Strength - 0
+Guarana (4, 45): Age - 20, Strength - 0
+Hogweed (14, 23): Age - 20, Strength - 10
+Dandelion (11, 26): Age - 20, Strength - 0
+Dandelion (8, 31): Age - 20, Strength - 0
+Dandelion (11, 28): Age - 20, Strength - 0
+Dandelion (11, 27): Age - 20, Strength - 0
+Dandelion (5, 36): Age - 20, Strength - 0
+Grass (8, 53): Age - 20, Strength - 0
+Dandelion (12, 24): Age - 19, Strength - 0
+Dandelion (10, 28): Age - 19, Strength - 0
+Dandelion (10, 27): Age - 19, Strength - 0
+Dandelion (5, 37): Age - 19, Strength - 0
+Grass (8, 54): Age - 19, Strength - 0
+Dandelion (9, 30): Age - 19, Strength - 0
+Dandelion (5, 46): Age - 19, Strength - 0
+Dandelion (6, 33): Age - 19, Strength - 0
+Dandelion (9, 27): Age - 18, Strength - 0
+Deadly Nightshade (19, 16): Age - 18, Strength - 99
+Dandelion (18, 53): Age - 18, Strength - 0
+Dandelion (9, 28): Age - 17, Strength - 0
+Dandelion (9, 26): Age - 17, Strength - 0
+Grass (7, 52): Age - 17, Strength - 0
+Grass (10, 56): Age - 17, Strength - 0
+Grass (14, 55): Age - 17, Strength - 0
+Dandelion (7, 31): Age - 17, Strength - 0
+Dandelion (6, 47): Age - 17, Strength - 0
+Dandelion (11, 25): Age - 17, Strength - 0
+Dandelion (10, 26): Age - 17, Strength - 0
+Dandelion (5, 47): Age - 17, Strength - 0
+Dandelion (12, 23): Age - 17, Strength - 0
+Dandelion (9, 29): Age - 16, Strength - 0
+Dandelion (17, 53): Age - 16, Strength - 0
+Dandelion (10, 25): Age - 16, Strength - 0
+Dandelion (8, 28): Age - 16, Strength - 0
+Dandelion (8, 26): Age - 16, Strength - 0
+Dandelion (9, 25): Age - 16, Strength - 0
+Grass (6, 51): Age - 16, Strength - 0
+Guarana (4, 46): Age - 16, Strength - 0
+Dandelion (8, 30): Age - 16, Strength - 0
+Grass (7, 53): Age - 16, Strength - 0
+Hogweed (14, 20): Age - 15, Strength - 10
+Hogweed (12, 21): Age - 15, Strength - 10
+Guarana (0, 46): Age - 15, Strength - 0
+Dandelion (5, 35): Age - 15, Strength - 0
+Guarana (4, 36): Age - 15, Strength - 0
+Dandelion (6, 32): Age - 15, Strength - 0
+Dandelion (11, 24): Age - 15, Strength - 0
+Dandelion (4, 47): Age - 15, Strength - 0
+Dandelion (11, 23): Age - 15, Strength - 0
+Dandelion (7, 30): Age - 15, Strength - 0
+Dandelion (17, 54): Age - 15, Strength - 0
+Guarana (3, 44): Age - 15, Strength - 0
+Grass (12, 56): Age - 15, Strength - 0
+Dandelion (3, 47): Age - 14, Strength - 0
+Dandelion (5, 34): Age - 14, Strength - 0
+Dandelion (6, 48): Age - 14, Strength - 0
+Dandelion (10, 24): Age - 14, Strength - 0
+Dandelion (8, 25): Age - 14, Strength - 0
+Dandelion (8, 29): Age - 14, Strength - 0
+Dandelion (2, 47): Age - 13, Strength - 0
+Grass (11, 56): Age - 13, Strength - 0
+Guarana (0, 34): Age - 13, Strength - 0
+Dandelion (13, 23): Age - 13, Strength - 0
+Dandelion (5, 33): Age - 13, Strength - 0
+Deadly Nightshade (18, 16): Age - 13, Strength - 99
+Dandelion (18, 54): Age - 13, Strength - 0
+Dandelion (5, 32): Age - 13, Strength - 0
+Dandelion (6, 49): Age - 13, Strength - 0
+Hogweed (12, 20): Age - 12, Strength - 10
+Dandelion (4, 34): Age - 12, Strength - 0
+Dandelion (19, 54): Age - 12, Strength - 0
+Dandelion (2, 46): Age - 12, Strength - 0
+Hogweed (13, 22): Age - 12, Strength - 10
+Grass (8, 55): Age - 12, Strength - 0
+Grass (13, 56): Age - 12, Strength - 0
+Grass (6, 52): Age - 12, Strength - 0
+Dandelion (8, 27): Age - 12, Strength - 0
+Grass (6, 53): Age - 12, Strength - 0
+Dandelion (4, 48): Age - 12, Strength - 0
+Dandelion (10, 23): Age - 12, Strength - 0
+Dandelion (11, 22): Age - 12, Strength - 0
+Grass (12, 57): Age - 12, Strength - 0
+Grass (12, 58): Age - 11, Strength - 0
+Dandelion (3, 46): Age - 11, Strength - 0
+Deadly Nightshade (16, 18): Age - 11, Strength - 99
+Guarana (1, 46): Age - 11, Strength - 0
+Guarana (2, 35): Age - 11, Strength - 0
+Dandelion (9, 24): Age - 11, Strength - 0
+Dandelion (4, 33): Age - 11, Strength - 0
+Dandelion (9, 23): Age - 11, Strength - 0
+Dandelion (10, 22): Age - 11, Strength - 0
+Dandelion (2, 48): Age - 10, Strength - 0
+Dandelion (12, 22): Age - 10, Strength - 0
+Dandelion (4, 35): Age - 10, Strength - 0
+Dandelion (19, 55): Age - 10, Strength - 0
+Dandelion (6, 31): Age - 10, Strength - 0
+Dandelion (6, 30): Age - 10, Strength - 0
+Guarana (3, 45): Age - 10, Strength - 0
+Dandelion (16, 54): Age - 9, Strength - 0
+Dandelion (3, 48): Age - 9, Strength - 0
+Dandelion (5, 31): Age - 9, Strength - 0
+Dandelion (1, 47): Age - 9, Strength - 0
+Dandelion (3, 34): Age - 9, Strength - 0
+Dandelion (4, 32): Age - 9, Strength - 0
+Dandelion (10, 21): Age - 9, Strength - 0
+Dandelion (2, 49): Age - 9, Strength - 0
+Dandelion (3, 35): Age - 9, Strength - 0
+Grass (7, 54): Age - 9, Strength - 0
+Dandelion (7, 29): Age - 9, Strength - 0
+Grass (13, 57): Age - 8, Strength - 0
+Dandelion (1, 48): Age - 8, Strength - 0
+Dandelion (6, 29): Age - 8, Strength - 0
+Dandelion (3, 32): Age - 8, Strength - 0
+Dandelion (1, 49): Age - 8, Strength - 0
+Hogweed (11, 21): Age - 8, Strength - 10
+Dandelion (8, 24): Age - 8, Strength - 0
+Dandelion (6, 50): Age - 8, Strength - 0
+Dandelion (18, 55): Age - 7, Strength - 0
+Dandelion (4, 31): Age - 7, Strength - 0
+Dandelion (2, 34): Age - 7, Strength - 0
+Hogweed (11, 20): Age - 7, Strength - 10
+Dandelion (8, 23): Age - 7, Strength - 0
+Dandelion (6, 28): Age - 7, Strength - 0
+Dandelion (2, 32): Age - 7, Strength - 0
+Dandelion (3, 33): Age - 7, Strength - 0
+Guarana (1, 34): Age - 7, Strength - 0
+Dandelion (17, 55): Age - 7, Strength - 0
+Dandelion (2, 45): Age - 7, Strength - 0
+Grass (8, 56): Age - 7, Strength - 0
+Dandelion (4, 49): Age - 7, Strength - 0
+Grass (11, 58): Age - 7, Strength - 0
+Dandelion (5, 30): Age - 7, Strength - 0
+Dandelion (7, 25): Age - 6, Strength - 0
+Dandelion (5, 49): Age - 6, Strength - 0
+Dandelion (9, 22): Age - 6, Strength - 0
+Grass (13, 58): Age - 6, Strength - 0
+Dandelion (3, 49): Age - 6, Strength - 0
+Dandelion (16, 55): Age - 6, Strength - 0
+Dandelion (5, 50): Age - 6, Strength - 0
+Dandelion (4, 30): Age - 6, Strength - 0
+Dandelion (3, 31): Age - 6, Strength - 0
+Dandelion (6, 27): Age - 6, Strength - 0
+Dandelion (5, 48): Age - 6, Strength - 0
+Dandelion (7, 27): Age - 5, Strength - 0
+Dandelion (0, 47): Age - 5, Strength - 0
+Dandelion (2, 50): Age - 5, Strength - 0
+Dandelion (0, 48): Age - 5, Strength - 0
+Dandelion (8, 22): Age - 5, Strength - 0
+Dandelion (5, 28): Age - 5, Strength - 0
+Dandelion (9, 21): Age - 5, Strength - 0
+Dandelion (3, 50): Age - 5, Strength - 0
+Dandelion (4, 50): Age - 5, Strength - 0
+Dandelion (5, 27): Age - 5, Strength - 0
+Dandelion (7, 28): Age - 5, Strength - 0
+Grass (5, 51): Age - 5, Strength - 0
+Dandelion (2, 31): Age - 4, Strength - 0
+Dandelion (7, 26): Age - 4, Strength - 0
+Dandelion (0, 49): Age - 4, Strength - 0
+Hogweed (13, 20): Age - 4, Strength - 10
+Guarana (0, 33): Age - 4, Strength - 0
+Dandelion (15, 55): Age - 3, Strength - 0
+Dandelion (16, 56): Age - 3, Strength - 0
+Dandelion (6, 26): Age - 3, Strength - 0
+Grass (7, 55): Age - 3, Strength - 0
+Deadly Nightshade (16, 17): Age - 3, Strength - 99
+Dandelion (19, 56): Age - 3, Strength - 0
+Dandelion (5, 29): Age - 3, Strength - 0
+Dandelion (2, 33): Age - 3, Strength - 0
+Grass (14, 57): Age - 2, Strength - 0
+Dandelion (7, 23): Age - 2, Strength - 0
+Dandelion (3, 30): Age - 2, Strength - 0
+Dandelion (4, 27): Age - 2, Strength - 0
+Dandelion (2, 51): Age - 2, Strength - 0
+Hogweed (15, 19): Age - 2, Strength - 10
+Grass (11, 57): Age - 2, Strength - 0
+Dandelion (1, 50): Age - 2, Strength - 0
+Deadly Nightshade (19, 15): Age - 1, Strength - 99
+Grass (9, 56): Age - 1, Strength - 0
+Grass (5, 52): Age - 1, Strength - 0
+Dandelion (1, 32): Age - 1, Strength - 0
+Dandelion (4, 29): Age - 1, Strength - 0
+Dandelion (8, 21): Age - 1, Strength - 0
+Dandelion (5, 26): Age - 1, Strength - 0
+Dandelion (2, 30): Age - 1, Strength - 0
+Dandelion (2, 52): Age - 1, Strength - 0
+Sheep (10, 12): Age - 0, Strength - 4
+Sheep (10, 13): Age - 0, Strength - 4
+Sheep (11, 12): Age - 0, Strength - 4
+Sheep (8, 19): Age - 0, Strength - 4
+Sheep (12, 17): Age - 0, Strength - 4
+Sheep (13, 15): Age - 0, Strength - 4
+Sheep (2, 23): Age - 0, Strength - 4
+Sheep (0, 24): Age - 0, Strength - 4
+Sheep (18, 13): Age - 0, Strength - 4
+Sheep (15, 16): Age - 0, Strength - 4
+Sheep (17, 13): Age - 0, Strength - 4
+Sheep (15, 15): Age - 0, Strength - 4
+Sheep (1, 24): Age - 0, Strength - 4
+Sheep (16, 14): Age - 0, Strength - 4
+Sheep (7, 22): Age - 0, Strength - 4
+Sheep (3, 23): Age - 0, Strength - 4
+Sheep (19, 13): Age - 0, Strength - 4
+Sheep (4, 23): Age - 0, Strength - 4
+Sheep (2, 24): Age - 0, Strength - 4
+Sheep (6, 23): Age - 0, Strength - 4
+Sheep (17, 14): Age - 0, Strength - 4
+Sheep (5, 23): Age - 0, Strength - 4
+Hogweed (12, 19): Age - 0, Strength - 10
+Grass (6, 54): Age - 0, Strength - 0
+Dandelion (17, 56): Age - 0, Strength - 0
+Grass (10, 58): Age - 0, Strength - 0
+Dandelion (9, 20): Age - 0, Strength - 0
+Dandelion (19, 57): Age - 0, Strength - 0
+Dandelion (7, 24): Age - 0, Strength - 0
+Dandelion (3, 29): Age - 0, Strength - 0
+Dandelion (4, 26): Age - 0, Strength - 0
+Hogweed (14, 19): Age - 0, Strength - 10
+Dandelion (0, 50): Age - 0, Strength - 0
+Dandelion (0, 32): Age - 0, Strength - 0
+Dandelion (5, 25): Age - 0, Strength - 0
+Dandelion (1, 30): Age - 0, Strength - 0
+
+LOGS:
+
+-- Turn 0 --
+Wolf (15, 15): Was created
+Sheep (2, 2): Was created
+Sheep (1, 4): Was created
+Fox (5, 10): Was created
+Turtle (1, 12): Was created
+Antelope (0, 0): Was created
+Grass (10, 50): Was created
+Dandelion (19, 39): Was created
+Guarana (0, 40): Was created
+Deadly Nightshade (19, 20): Was created
+Hogweed (19, 25): Was created
+-- Turn 1 --
+Fox (5, 10): Moved to (5, 11)
+Wolf (15, 15): Moved to (15, 14)
+Sheep (1, 4): Moved to (0, 4)
+Sheep (2, 2): Moved to (2, 1)
+Antelope (0, 0): Moved to (2, 0)
+Deadly Nightshade (19, 21): Was created
+Deadly Nightshade (19, 20): Spread to (19, 21)
+-- Turn 2 --
+Fox (5, 11): Moved to (5, 12)
+Wolf (15, 14): Moved to (14, 14)
+Sheep (0, 4): Moved to (0, 3)
+Sheep (2, 1): Moved to (1, 1)
+Antelope (2, 0): Moved to (0, 0)
+Dandelion (18, 39): Was created
+Dandelion (19, 39): Spread to (18, 39)
+-- Turn 3 --
+Fox (5, 12): Moved to (4, 12)
+Wolf (14, 14): Moved to (15, 14)
+Sheep (0, 3): Moved to (1, 3)
+Sheep (1, 1): Moved to (1, 0)
+Antelope (0, 0): Moved to (2, 0)
+Turtle (1, 12): Moved to (0, 12)
+Dandelion (19, 38): Was created
+Dandelion (19, 39): Spread to (19, 38)
+-- Turn 4 --
+Fox (4, 12): Moved to (3, 12)
+Wolf (15, 14): Moved to (15, 13)
+Sheep (1, 3): Moved to (0, 3)
+Sheep (1, 0): Moved to (1, 1)
+Antelope (2, 0): Moved to (4, 0)
+Turtle (0, 12): Moved to (0, 11)
+Dandelion (19, 37): Was created
+Dandelion (19, 38): Spread to (19, 37)
+-- Turn 5 --
+Fox (3, 12): Moved to (4, 12)
+Wolf (15, 13): Moved to (15, 12)
+Sheep (0, 3): Moved to (0, 2)
+Sheep (1, 1): Moved to (1, 0)
+Antelope (4, 0): Moved to (2, 0)
+Hogweed (18, 25): Was created
+Hogweed (19, 25): Spread to (18, 25)
+Dandelion (17, 39): Was created
+Dandelion (18, 39): Spread to (17, 39)
+-- Turn 6 --
+Fox (4, 12): Moved to (4, 13)
+Wolf (15, 12): Moved to (14, 12)
+Sheep (0, 2): Moved to (0, 3)
+Sheep (1, 0): Moved to (0, 0)
+Antelope (2, 0): Moved to (4, 0)
+Turtle (0, 11): Moved to (0, 12)
+-- Turn 7 --
+Fox (4, 13): Moved to (4, 12)
+Wolf (14, 12): Moved to (14, 11)
+Sheep (0, 3): Moved to (0, 2)
+Sheep (0, 0): Moved to (0, 1)
+Antelope (4, 0): Moved to (2, 0)
+Dandelion (19, 40): Was created
+Dandelion (19, 39): Spread to (19, 40)
+Guarana (0, 41): Was created
+Guarana (0, 40): Spread to (0, 41)
+-- Turn 8 --
+Fox (4, 12): Moved to (5, 12)
+Wolf (14, 11): Moved to (14, 10)
+Sheep (0, 2): Moved to (0, 3)
+Sheep (0, 1): Moved to (0, 0)
+Antelope (2, 0): Moved to (4, 0)
+Hogweed (19, 24): Was created
+Hogweed (19, 25): Spread to (19, 24)
+Dandelion (18, 37): Was created
+Dandelion (19, 37): Spread to (18, 37)
+Hogweed (18, 24): Was created
+Hogweed (18, 25): Spread to (18, 24)
+Dandelion (17, 38): Was created
+Dandelion (17, 39): Spread to (17, 38)
+Guarana (1, 41): Was created
+Guarana (0, 41): Spread to (1, 41)
+-- Turn 9 --
+Fox (5, 12): Moved to (5, 13)
+Wolf (14, 10): Moved to (15, 10)
+Sheep (0, 3): Moved to (1, 3)
+Sheep (0, 0): Moved to (1, 0)
+Antelope (4, 0): Moved to (6, 0)
+Turtle (0, 12): Moved to (1, 12)
+Dandelion (16, 39): Was created
+Dandelion (17, 39): Spread to (16, 39)
+-- Turn 10 --
+Fox (5, 13): Moved to (4, 13)
+Wolf (15, 10): Moved to (14, 10)
+Sheep (1, 3): Moved to (2, 3)
+Sheep (1, 0): Moved to (1, 1)
+Antelope (6, 0): Moved to (6, 2)
+Grass (11, 50): Was created
+Grass (10, 50): Spread to (11, 50)
+Guarana (1, 40): Was created
+Guarana (0, 40): Spread to (1, 40)
+Dandelion (18, 38): Was created
+Dandelion (19, 38): Spread to (18, 38)
+Dandelion (18, 36): Was created
+Dandelion (18, 37): Spread to (18, 36)
+Dandelion (17, 37): Was created
+Dandelion (18, 37): Spread to (17, 37)
+Dandelion (16, 38): Was created
+Dandelion (17, 38): Spread to (16, 38)
+-- Turn 11 --
+Fox (4, 13): Moved to (4, 14)
+Wolf (14, 10): Moved to (13, 10)
+Sheep (2, 3): Moved to (2, 4)
+Sheep (1, 1): Moved to (0, 1)
+Antelope (6, 2): Moved to (6, 0)
+Dandelion (18, 40): Was created
+Dandelion (19, 40): Spread to (18, 40)
+Guarana (2, 41): Was created
+Guarana (1, 41): Spread to (2, 41)
+Dandelion (15, 39): Was created
+Dandelion (16, 39): Spread to (15, 39)
+Dandelion (18, 35): Was created
+Dandelion (18, 36): Spread to (18, 35)
+Dandelion (16, 37): Was created
+Dandelion (16, 38): Spread to (16, 37)
+-- Turn 12 --
+Fox (4, 14): Moved to (4, 15)
+Wolf (13, 10): Moved to (13, 11)
+Sheep (2, 4): Moved to (1, 4)
+Sheep (0, 1): Moved to (0, 2)
+Antelope (6, 0): Moved to (8, 0)
+Dandelion (19, 36): Was created
+Dandelion (19, 37): Spread to (19, 36)
+Dandelion (19, 41): Was created
+Dandelion (19, 40): Spread to (19, 41)
+Hogweed (19, 23): Was created
+Hogweed (19, 24): Spread to (19, 23)
+Dandelion (16, 40): Was created
+Dandelion (16, 39): Spread to (16, 40)
+Dandelion (17, 36): Was created
+Dandelion (17, 37): Spread to (17, 36)
+Dandelion (16, 36): Was created
+Dandelion (16, 37): Spread to (16, 36)
+-- Turn 13 --
+Fox (4, 15): Moved to (3, 15)
+Wolf (13, 11): Moved to (13, 12)
+Sheep (1, 4): Moved to (1, 5)
+Sheep (0, 2): Moved to (1, 2)
+Antelope (8, 0): Moved to (8, 2)
+Dandelion (15, 38): Was created
+Dandelion (16, 38): Spread to (15, 38)
+Dandelion (14, 39): Was created
+Dandelion (15, 39): Spread to (14, 39)
+Dandelion (17, 35): Was created
+Dandelion (17, 36): Spread to (17, 35)
+-- Turn 14 --
+Fox (3, 15): Moved to (2, 15)
+Wolf (13, 12): Moved to (14, 12)
+Sheep (1, 5): Moved to (2, 5)
+Sheep (1, 2): Moved to (2, 2)
+Antelope (8, 2): Moved to (10, 2)
+Dandelion (18, 41): Was created
+Dandelion (18, 40): Spread to (18, 41)
+Hogweed (18, 23): Was created
+Hogweed (19, 23): Spread to (18, 23)
+Dandelion (17, 34): Was created
+Dandelion (17, 35): Spread to (17, 34)
+-- Turn 15 --
+Fox (2, 15): Moved to (1, 15)
+Wolf (14, 12): Moved to (14, 13)
+Sheep (2, 5): Moved to (2, 6)
+Sheep (2, 2): Moved to (2, 3)
+Antelope (10, 2): Moved to (10, 4)
+Turtle (1, 12): Moved to (1, 13)
+Grass (10, 49): Was created
+Grass (10, 50): Spread to (10, 49)
+Grass (11, 51): Was created
+Grass (11, 50): Spread to (11, 51)
+Dandelion (15, 37): Was created
+Dandelion (16, 37): Spread to (15, 37)
+Dandelion (19, 35): Was created
+Dandelion (19, 36): Spread to (19, 35)
+Dandelion (19, 42): Was created
+Dandelion (19, 41): Spread to (19, 42)
+Dandelion (15, 36): Was created
+Dandelion (16, 36): Spread to (15, 36)
+Dandelion (14, 38): Was created
+Dandelion (15, 38): Spread to (14, 38)
+Dandelion (16, 34): Was created
+Dandelion (17, 34): Spread to (16, 34)
+-- Turn 16 --
+Fox (1, 15): Moved to (1, 16)
+Wolf (14, 13): Moved to (15, 13)
+Sheep (2, 6): Moved to (2, 7)
+Sheep (2, 3): Moved to (2, 2)
+Antelope (10, 4): Moved to (10, 6)
+Grass (12, 50): Was created
+Grass (11, 50): Spread to (12, 50)
+Dandelion (15, 40): Was created
+Dandelion (15, 39): Spread to (15, 40)
+Dandelion (17, 33): Was created
+Dandelion (17, 34): Spread to (17, 33)
+Dandelion (16, 33): Was created
+Dandelion (16, 34): Spread to (16, 33)
+-- Turn 17 --
+Fox (1, 16): Moved to (1, 15)
+Wolf (15, 13): Moved to (16, 13)
+Sheep (2, 7): Moved to (2, 8)
+Sheep (2, 2): Moved to (2, 1)
+Antelope (10, 6): Moved to (8, 6)
+Deadly Nightshade (19, 19): Was created
+Deadly Nightshade (19, 20): Spread to (19, 19)
+Dandelion (17, 40): Was created
+Dandelion (18, 40): Spread to (17, 40)
+Guarana (3, 41): Was created
+Guarana (2, 41): Spread to (3, 41)
+Hogweed (19, 22): Was created
+Hogweed (19, 23): Spread to (19, 22)
+Dandelion (16, 41): Was created
+Dandelion (16, 40): Spread to (16, 41)
+Dandelion (16, 35): Was created
+Dandelion (16, 36): Spread to (16, 35)
+Dandelion (14, 40): Was created
+Dandelion (14, 39): Spread to (14, 40)
+Dandelion (19, 34): Was created
+Dandelion (19, 35): Spread to (19, 34)
+Dandelion (15, 41): Was created
+Dandelion (15, 40): Spread to (15, 41)
+-- Turn 18 --
+Fox (1, 15): Moved to (2, 15)
+Wolf (16, 13): Moved to (16, 12)
+Sheep (2, 8): Moved to (2, 7)
+Sheep (2, 1): Moved to (3, 1)
+Antelope (8, 6): Moved to (10, 6)
+Turtle (1, 13): Moved to (1, 14)
+Dandelion (13, 39): Was created
+Dandelion (14, 39): Spread to (13, 39)
+Dandelion (18, 34): Was created
+Dandelion (17, 34): Spread to (18, 34)
+Grass (11, 52): Was created
+Grass (11, 51): Spread to (11, 52)
+Dandelion (14, 37): Was created
+Dandelion (15, 37): Spread to (14, 37)
+Dandelion (18, 33): Was created
+Dandelion (17, 33): Spread to (18, 33)
+Dandelion (17, 41): Was created
+Dandelion (17, 40): Spread to (17, 41)
+Dandelion (16, 42): Was created
+Dandelion (16, 41): Spread to (16, 42)
+-- Turn 19 --
+Fox (2, 15): Moved to (2, 14)
+Wolf (16, 12): Moved to (15, 12)
+Sheep (2, 7): Moved to (2, 6)
+Sheep (3, 1): Moved to (4, 1)
+Antelope (10, 6): Moved to (12, 6)
+Guarana (1, 42): Was created
+Guarana (1, 41): Spread to (1, 42)
+Grass (11, 49): Was created
+Grass (11, 50): Spread to (11, 49)
+Guarana (1, 39): Was created
+Guarana (1, 40): Spread to (1, 39)
+Guarana (2, 40): Was created
+Guarana (2, 41): Spread to (2, 40)
+Dandelion (18, 42): Was created
+Dandelion (18, 41): Spread to (18, 42)
+Grass (12, 51): Was created
+Grass (11, 51): Spread to (12, 51)
+Dandelion (13, 38): Was created
+Dandelion (14, 38): Spread to (13, 38)
+Dandelion (15, 34): Was created
+Dandelion (16, 34): Spread to (15, 34)
+Guarana (3, 40): Was created
+Guarana (3, 41): Spread to (3, 40)
+Grass (11, 53): Was created
+Grass (11, 52): Spread to (11, 53)
+Dandelion (14, 36): Was created
+Dandelion (14, 37): Spread to (14, 36)
+Dandelion (13, 37): Was created
+Dandelion (14, 37): Spread to (13, 37)
+Dandelion (18, 32): Was created
+Dandelion (18, 33): Spread to (18, 32)
+Dandelion (17, 42): Was created
+Dandelion (16, 42): Spread to (17, 42)
+-- Turn 20 --
+Fox (2, 14): Moved to (2, 15)
+Wolf (15, 12): Moved to (15, 13)
+Sheep (2, 6): Moved to (1, 6)
+Sheep (4, 1): Moved to (4, 0)
+Antelope (12, 6): Moved to (12, 8)
+Dandelion (15, 35): Was created
+Dandelion (15, 36): Spread to (15, 35)
+Grass (12, 49): Was created
+Grass (12, 50): Spread to (12, 49)
+Hogweed (18, 22): Was created
+Hogweed (19, 22): Spread to (18, 22)
+Dandelion (19, 33): Was created
+Dandelion (19, 34): Spread to (19, 33)
+Dandelion (18, 31): Was created
+Dandelion (18, 32): Spread to (18, 31)
+-- Turn 21 --
+Fox (2, 15): Moved to (3, 15)
+Wolf (15, 13): Moved to (15, 14)
+Sheep (1, 6): Moved to (1, 7)
+Sheep (4, 0): Moved to (4, 1)
+Antelope (12, 8): Moved to (12, 6)
+Grass (9, 50): Was created
+Grass (10, 50): Spread to (9, 50)
+Guarana (0, 42): Was created
+Guarana (0, 41): Spread to (0, 42)
+Dandelion (15, 33): Was created
+Dandelion (16, 33): Spread to (15, 33)
+Dandelion (14, 41): Was created
+Dandelion (15, 41): Spread to (14, 41)
+Grass (11, 48): Was created
+Grass (11, 49): Spread to (11, 48)
+Guarana (0, 39): Was created
+Guarana (1, 39): Spread to (0, 39)
+Dandelion (18, 43): Was created
+Dandelion (18, 42): Spread to (18, 43)
+Dandelion (12, 38): Was created
+Dandelion (13, 38): Spread to (12, 38)
+Dandelion (17, 32): Was created
+Dandelion (18, 32): Spread to (17, 32)
+Dandelion (17, 43): Was created
+Dandelion (17, 42): Spread to (17, 43)
+Dandelion (14, 35): Was created
+Dandelion (15, 35): Spread to (14, 35)
+Grass (12, 48): Was created
+Grass (12, 49): Spread to (12, 48)
+Hogweed (17, 22): Was created
+Hogweed (18, 22): Spread to (17, 22)
+-- Turn 22 --
+Fox (3, 15): Moved to (3, 14)
+Wolf (15, 14): Moved to (15, 13)
+Sheep (1, 7): Moved to (2, 7)
+Sheep (4, 1): Moved to (4, 2)
+Antelope (12, 6): Moved to (12, 4)
+Grass (13, 50): Was created
+Grass (12, 50): Spread to (13, 50)
+Dandelion (12, 39): Was created
+Dandelion (13, 39): Spread to (12, 39)
+Grass (12, 52): Was created
+Grass (12, 51): Spread to (12, 52)
+Guarana (3, 39): Was created
+Guarana (3, 40): Spread to (3, 39)
+Grass (13, 49): Was created
+Grass (12, 49): Spread to (13, 49)
+Dandelion (19, 32): Was created
+Dandelion (19, 33): Spread to (19, 32)
+Dandelion (17, 31): Was created
+Dandelion (18, 31): Spread to (17, 31)
+Dandelion (14, 42): Was created
+Dandelion (14, 41): Spread to (14, 42)
+Dandelion (12, 37): Was created
+Dandelion (12, 38): Spread to (12, 37)
+Dandelion (17, 44): Was created
+Dandelion (17, 43): Spread to (17, 44)
+Dandelion (14, 34): Was created
+Dandelion (14, 35): Spread to (14, 34)
+-- Turn 23 --
+Fox (3, 14): Moved to (4, 14)
+Wolf (15, 13): Moved to (15, 12)
+Sheep (2, 7): Moved to (1, 7)
+Sheep (4, 2): Moved to (4, 3)
+Antelope (12, 4): Moved to (12, 6)
+Hogweed (17, 24): Was created
+Hogweed (18, 24): Spread to (17, 24)
+Dandelion (19, 43): Was created
+Dandelion (19, 42): Spread to (19, 43)
+Guarana (4, 40): Was created
+Guarana (3, 40): Spread to (4, 40)
+Dandelion (13, 36): Was created
+Dandelion (14, 36): Spread to (13, 36)
+Dandelion (15, 32): Was created
+Dandelion (15, 33): Spread to (15, 32)
+Dandelion (16, 32): Was created
+Dandelion (17, 32): Spread to (16, 32)
+Dandelion (16, 43): Was created
+Dandelion (17, 43): Spread to (16, 43)
+Dandelion (17, 30): Was created
+Dandelion (17, 31): Spread to (17, 30)
+-- Turn 24 --
+Fox (4, 14): Moved to (4, 15)
+Wolf (15, 12): Moved to (16, 12)
+Sheep (1, 7): Moved to (0, 7)
+Sheep (4, 3): Moved to (4, 4)
+Antelope (12, 6): Moved to (12, 8)
+Deadly Nightshade (18, 20): Was created
+Deadly Nightshade (19, 20): Spread to (18, 20)
+Grass (10, 48): Was created
+Grass (10, 49): Spread to (10, 48)
+Dandelion (15, 42): Was created
+Dandelion (16, 42): Spread to (15, 42)
+Grass (13, 51): Was created
+Grass (12, 51): Spread to (13, 51)
+Hogweed (18, 21): Was created
+Hogweed (18, 22): Spread to (18, 21)
+Dandelion (13, 41): Was created
+Dandelion (14, 41): Spread to (13, 41)
+Grass (13, 48): Was created
+Grass (12, 48): Spread to (13, 48)
+Grass (14, 49): Was created
+Grass (13, 49): Spread to (14, 49)
+Dandelion (19, 31): Was created
+Dandelion (19, 32): Spread to (19, 31)
+Dandelion (16, 31): Was created
+Dandelion (17, 31): Spread to (16, 31)
+Dandelion (12, 36): Was created
+Dandelion (12, 37): Spread to (12, 36)
+Dandelion (18, 44): Was created
+Dandelion (17, 44): Spread to (18, 44)
+Dandelion (13, 34): Was created
+Dandelion (14, 34): Spread to (13, 34)
+Dandelion (13, 35): Was created
+Dandelion (13, 36): Spread to (13, 35)
+-- Turn 25 --
+Fox (4, 15): Moved to (5, 15)
+Wolf (16, 12): Moved to (17, 12)
+Sheep (0, 7): Moved to (0, 6)
+Sheep (4, 4): Moved to (4, 3)
+Antelope (12, 8): Moved to (14, 8)
+Grass (10, 52): Was created
+Grass (11, 52): Spread to (10, 52)
+Guarana (0, 38): Was created
+Guarana (0, 39): Spread to (0, 38)
+Dandelion (12, 40): Was created
+Dandelion (12, 39): Spread to (12, 40)
+Dandelion (16, 44): Was created
+Dandelion (17, 44): Spread to (16, 44)
+Dandelion (14, 33): Was created
+Dandelion (14, 34): Spread to (14, 33)
+Dandelion (15, 31): Was created
+Dandelion (15, 32): Spread to (15, 31)
+Dandelion (15, 43): Was created
+Dandelion (16, 43): Spread to (15, 43)
+Dandelion (16, 30): Was created
+Dandelion (17, 30): Spread to (16, 30)
+Dandelion (12, 41): Was created
+Dandelion (13, 41): Spread to (12, 41)
+Dandelion (12, 34): Was created
+Dandelion (13, 34): Spread to (12, 34)
+-- Turn 26 --
+Fox (5, 15): Moved to (5, 14)
+Wolf (17, 12): Moved to (16, 12)
+Sheep (0, 6): Moved to (1, 6)
+Sheep (4, 3): Moved to (4, 4)
+Antelope (14, 8): Moved to (16, 8)
+Turtle (1, 14): Moved to (1, 15)
+Dandelion (18, 30): Was created
+Dandelion (18, 31): Spread to (18, 30)
+Dandelion (14, 43): Was created
+Dandelion (14, 42): Spread to (14, 43)
+Dandelion (17, 45): Was created
+Dandelion (17, 44): Spread to (17, 45)
+Guarana (4, 39): Was created
+Guarana (4, 40): Spread to (4, 39)
+Dandelion (14, 32): Was created
+Dandelion (15, 32): Spread to (14, 32)
+Grass (13, 52): Was created
+Grass (13, 51): Spread to (13, 52)
+Dandelion (13, 42): Was created
+Dandelion (13, 41): Spread to (13, 42)
+Dandelion (13, 33): Was created
+Dandelion (13, 34): Spread to (13, 33)
+Dandelion (15, 44): Was created
+Dandelion (15, 43): Spread to (15, 44)
+Dandelion (11, 34): Was created
+Dandelion (12, 34): Spread to (11, 34)
+-- Turn 27 --
+Fox (5, 14): Moved to (6, 14)
+Wolf (16, 12): Moved to (16, 13)
+Sheep (1, 6): Moved to (1, 5)
+Sheep (4, 4): Moved to (3, 4)
+Antelope (16, 8): Moved to (16, 6)
+Grass (10, 51): Was created
+Grass (11, 51): Spread to (10, 51)
+Dandelion (13, 40): Was created
+Dandelion (13, 39): Spread to (13, 40)
+Grass (11, 47): Was created
+Grass (11, 48): Spread to (11, 47)
+Grass (9, 48): Was created
+Grass (10, 48): Spread to (9, 48)
+Dandelion (19, 30): Was created
+Dandelion (19, 31): Spread to (19, 30)
+Dandelion (11, 40): Was created
+Dandelion (12, 40): Spread to (11, 40)
+Dandelion (16, 29): Was created
+Dandelion (16, 30): Spread to (16, 29)
+Dandelion (11, 41): Was created
+Dandelion (12, 41): Spread to (11, 41)
+Dandelion (13, 32): Was created
+Dandelion (14, 32): Spread to (13, 32)
+-- Turn 28 --
+Fox (6, 14): Moved to (5, 14)
+Wolf (16, 13): Moved to (15, 13)
+Sheep (1, 5): Moved to (1, 4)
+Sheep (3, 4): Moved to (2, 4)
+Antelope (16, 6): Moved to (16, 8)
+Turtle (1, 15): Moved to (0, 15)
+Grass (12, 53): Was created
+Grass (12, 52): Spread to (12, 53)
+Dandelion (19, 44): Was created
+Dandelion (19, 43): Spread to (19, 44)
+Dandelion (18, 45): Was created
+Dandelion (18, 44): Spread to (18, 45)
+Dandelion (12, 42): Was created
+Dandelion (12, 41): Spread to (12, 42)
+Dandelion (13, 43): Was created
+Dandelion (13, 42): Spread to (13, 43)
+Dandelion (15, 45): Was created
+Dandelion (15, 44): Spread to (15, 45)
+Grass (9, 47): Was created
+Grass (9, 48): Spread to (9, 47)
+Dandelion (11, 42): Was created
+Dandelion (11, 41): Spread to (11, 42)
+-- Turn 29 --
+Fox (5, 14): Moved to (6, 14)
+Wolf (15, 13): Moved to (16, 13)
+Sheep (1, 4): Moved to (0, 4)
+Sheep (2, 4): Moved to (2, 3)
+Antelope (16, 8): Moved to (16, 10)
+Deadly Nightshade (18, 19): Was created
+Deadly Nightshade (19, 19): Spread to (18, 19)
+Dandelion (11, 38): Was created
+Dandelion (12, 38): Spread to (11, 38)
+Hogweed (16, 22): Was created
+Hogweed (17, 22): Spread to (16, 22)
+Guarana (3, 38): Was created
+Guarana (3, 39): Spread to (3, 38)
+Grass (14, 48): Was created
+Grass (13, 48): Spread to (14, 48)
+Dandelion (12, 35): Was created
+Dandelion (13, 35): Spread to (12, 35)
+Dandelion (15, 30): Was created
+Dandelion (15, 31): Spread to (15, 30)
+Dandelion (14, 44): Was created
+Dandelion (14, 43): Spread to (14, 44)
+Dandelion (16, 45): Was created
+Dandelion (17, 45): Spread to (16, 45)
+Dandelion (12, 32): Was created
+Dandelion (13, 32): Spread to (12, 32)
+-- Turn 30 --
+Fox (6, 14): Moved to (7, 14)
+Wolf (16, 13): Moved to (15, 13)
+Sheep (0, 4): Moved to (1, 4)
+Sheep (2, 3): Moved to (2, 4)
+Antelope (16, 10): Moved to (14, 10)
+Turtle (0, 15): Moved to (0, 16)
+Hogweed (17, 23): Was created
+Hogweed (17, 22): Spread to (17, 23)
+Dandelion (11, 39): Was created
+Dandelion (12, 39): Spread to (11, 39)
+Guarana (4, 41): Was created
+Guarana (4, 40): Spread to (4, 41)
+Grass (14, 51): Was created
+Grass (13, 51): Spread to (14, 51)
+Grass (9, 52): Was created
+Grass (10, 52): Spread to (9, 52)
+Dandelion (10, 41): Was created
+Dandelion (11, 41): Spread to (10, 41)
+Grass (9, 46): Was created
+Grass (9, 47): Spread to (9, 46)
+Dandelion (10, 42): Was created
+Dandelion (11, 42): Spread to (10, 42)
+Dandelion (11, 35): Was created
+Dandelion (12, 35): Spread to (11, 35)
+Dandelion (11, 32): Was created
+Dandelion (12, 32): Spread to (11, 32)
+-- Turn 31 --
+Fox (7, 14): Moved to (7, 13)
+Wolf (15, 13): Moved to (15, 12)
+Sheep (0, 4): Was created
+Sheep (1, 4): Reproduce with Sheep (2, 4)
+Sheep (2, 4): Moved to (2, 5)
+Antelope (14, 10): Moved to (14, 8)
+Dandelion (17, 29): Was created
+Dandelion (17, 30): Spread to (17, 29)
+Hogweed (17, 21): Was created
+Hogweed (18, 21): Spread to (17, 21)
+Dandelion (14, 31): Was created
+Dandelion (15, 31): Spread to (14, 31)
+Dandelion (17, 46): Was created
+Dandelion (17, 45): Spread to (17, 46)
+Dandelion (11, 33): Was created
+Dandelion (11, 34): Spread to (11, 33)
+Dandelion (19, 29): Was created
+Dandelion (19, 30): Spread to (19, 29)
+Dandelion (13, 31): Was created
+Dandelion (13, 32): Spread to (13, 31)
+Dandelion (12, 43): Was created
+Dandelion (12, 42): Spread to (12, 43)
+Dandelion (13, 44): Was created
+Dandelion (13, 43): Spread to (13, 44)
+Dandelion (15, 46): Was created
+Dandelion (15, 45): Spread to (15, 46)
+Dandelion (15, 29): Was created
+Dandelion (15, 30): Spread to (15, 29)
+Dandelion (9, 42): Was created
+Dandelion (10, 42): Spread to (9, 42)
+Dandelion (11, 36): Was created
+Dandelion (11, 35): Spread to (11, 36)
+-- Turn 32 --
+Fox (7, 13): Moved to (8, 13)
+Wolf (15, 12): Moved to (15, 11)
+Sheep (1, 4): Moved to (1, 3)
+Sheep (2, 5): Moved to (3, 5)
+Antelope (14, 8): Moved to (14, 10)
+Sheep (0, 4): Moved to (1, 4)
+Guarana (3, 42): Was created
+Guarana (3, 41): Spread to (3, 42)
+Grass (9, 51): Was created
+Grass (9, 50): Spread to (9, 51)
+Guarana (2, 39): Was created
+Guarana (3, 39): Spread to (2, 39)
+Dandelion (11, 37): Was created
+Dandelion (12, 37): Spread to (11, 37)
+Grass (13, 47): Was created
+Grass (13, 48): Spread to (13, 47)
+Grass (10, 53): Was created
+Grass (10, 52): Spread to (10, 53)
+Dandelion (12, 33): Was created
+Dandelion (13, 33): Spread to (12, 33)
+Dandelion (16, 28): Was created
+Dandelion (16, 29): Spread to (16, 28)
+Dandelion (19, 45): Was created
+Dandelion (18, 45): Spread to (19, 45)
+Dandelion (11, 43): Was created
+Dandelion (11, 42): Spread to (11, 43)
+Dandelion (10, 38): Was created
+Dandelion (11, 38): Spread to (10, 38)
+Grass (14, 52): Was created
+Grass (14, 51): Spread to (14, 52)
+Dandelion (10, 43): Was created
+Dandelion (10, 42): Spread to (10, 43)
+Dandelion (11, 31): Was created
+Dandelion (11, 32): Spread to (11, 31)
+Dandelion (10, 33): Was created
+Dandelion (11, 33): Spread to (10, 33)
+-- Turn 33 --
+Fox (8, 13): Moved to (9, 13)
+Wolf (15, 11): Moved to (16, 11)
+Sheep (1, 3): Moved to (1, 2)
+Sheep (3, 5): Moved to (4, 5)
+Antelope (14, 10): Moved to (14, 8)
+Sheep (1, 4): Moved to (0, 4)
+Guarana (2, 42): Was created
+Guarana (2, 41): Spread to (2, 42)
+Guarana (1, 38): Was created
+Guarana (1, 39): Spread to (1, 38)
+Grass (11, 54): Was created
+Grass (11, 53): Spread to (11, 54)
+Guarana (1, 43): Was created
+Guarana (1, 42): Spread to (1, 43)
+Guarana (5, 40): Was created
+Guarana (4, 40): Spread to (5, 40)
+Dandelion (10, 34): Was created
+Dandelion (11, 34): Spread to (10, 34)
+Grass (8, 47): Was created
+Grass (9, 47): Spread to (8, 47)
+Grass (14, 47): Was created
+Grass (14, 48): Spread to (14, 47)
+Dandelion (14, 45): Was created
+Dandelion (14, 44): Spread to (14, 45)
+Dandelion (10, 39): Was created
+Dandelion (11, 39): Spread to (10, 39)
+Dandelion (16, 46): Was created
+Dandelion (17, 46): Spread to (16, 46)
+Dandelion (12, 44): Was created
+Dandelion (12, 43): Spread to (12, 44)
+Dandelion (15, 47): Was created
+Dandelion (15, 46): Spread to (15, 47)
+Dandelion (10, 36): Was created
+Dandelion (11, 36): Spread to (10, 36)
+-- Turn 34 --
+Fox (9, 13): Moved to (10, 13)
+Wolf (16, 11): Moved to (15, 11)
+Sheep (1, 2): Moved to (2, 2)
+Sheep (4, 5): Moved to (3, 5)
+Antelope (14, 8): Moved to (16, 8)
+Sheep (0, 4): Moved to (0, 5)
+Guarana (0, 43): Was created
+Guarana (0, 42): Spread to (0, 43)
+Grass (9, 49): Was created
+Grass (9, 50): Spread to (9, 49)
+Dandelion (18, 46): Was created
+Dandelion (18, 45): Spread to (18, 46)
+Grass (10, 47): Was created
+Grass (9, 47): Spread to (10, 47)
+Grass (13, 53): Was created
+Grass (12, 53): Spread to (13, 53)
+Dandelion (9, 41): Was created
+Dandelion (10, 41): Spread to (9, 41)
+Dandelion (17, 28): Was created
+Dandelion (17, 29): Spread to (17, 28)
+Dandelion (14, 30): Was created
+Dandelion (14, 31): Spread to (14, 30)
+Dandelion (19, 28): Was created
+Dandelion (19, 29): Spread to (19, 28)
+Dandelion (13, 45): Was created
+Dandelion (13, 44): Spread to (13, 45)
+Grass (8, 51): Was created
+Grass (9, 51): Spread to (8, 51)
+Dandelion (10, 37): Was created
+Dandelion (11, 37): Spread to (10, 37)
+Dandelion (9, 33): Was created
+Dandelion (10, 33): Spread to (9, 33)
+Dandelion (14, 46): Was created
+Dandelion (14, 45): Spread to (14, 46)
+Dandelion (16, 47): Was created
+Dandelion (16, 46): Spread to (16, 47)
+Dandelion (12, 45): Was created
+Dandelion (12, 44): Spread to (12, 45)
+Dandelion (9, 36): Was created
+Dandelion (10, 36): Spread to (9, 36)
+-- Turn 35 --
+Fox (10, 13): Moved to (9, 13)
+Wolf (15, 11): Moved to (15, 12)
+Sheep (2, 2): Moved to (2, 3)
+Sheep (3, 5): Moved to (3, 6)
+Antelope (16, 8): Moved to (14, 8)
+Sheep (0, 5): Moved to (0, 4)
+Hogweed (19, 26): Was created
+Hogweed (19, 25): Spread to (19, 26)
+Grass (12, 47): Was created
+Grass (12, 48): Spread to (12, 47)
+Grass (8, 50): Was created
+Grass (9, 50): Spread to (8, 50)
+Grass (15, 48): Was created
+Grass (14, 48): Spread to (15, 48)
+Guarana (5, 41): Was created
+Guarana (4, 41): Spread to (5, 41)
+Grass (8, 46): Was created
+Grass (9, 46): Spread to (8, 46)
+Dandelion (9, 38): Was created
+Dandelion (10, 38): Spread to (9, 38)
+Grass (14, 53): Was created
+Grass (14, 52): Spread to (14, 53)
+Guarana (2, 38): Was created
+Guarana (1, 38): Spread to (2, 38)
+Dandelion (10, 35): Was created
+Dandelion (10, 34): Spread to (10, 35)
+-- Turn 36 --
+Fox (9, 13): Moved to (8, 13)
+Wolf (15, 12): Moved to (15, 11)
+Sheep (2, 3): Moved to (2, 2)
+Sheep (3, 6): Moved to (3, 5)
+Antelope (14, 8): Moved to (16, 8)
+Sheep (0, 4): Moved to (1, 4)
+Turtle (0, 16): Moved to (1, 16)
+Hogweed (16, 24): Was created
+Hogweed (17, 24): Spread to (16, 24)
+Guarana (0, 37): Was created
+Guarana (0, 38): Spread to (0, 37)
+Guarana (3, 37): Was created
+Guarana (3, 38): Spread to (3, 37)
+Guarana (4, 42): Was created
+Guarana (4, 41): Spread to (4, 42)
+Grass (9, 45): Was created
+Grass (9, 46): Spread to (9, 45)
+Hogweed (16, 21): Was created
+Hogweed (17, 21): Spread to (16, 21)
+Dandelion (17, 47): Was created
+Dandelion (17, 46): Spread to (17, 47)
+Dandelion (9, 43): Was created
+Dandelion (9, 42): Spread to (9, 43)
+Grass (9, 53): Was created
+Grass (10, 53): Spread to (9, 53)
+Dandelion (16, 27): Was created
+Dandelion (16, 28): Spread to (16, 27)
+Dandelion (11, 44): Was created
+Dandelion (11, 43): Spread to (11, 44)
+Dandelion (10, 44): Was created
+Dandelion (10, 43): Spread to (10, 44)
+Guarana (2, 43): Was created
+Guarana (2, 42): Spread to (2, 43)
+Guarana (1, 37): Was created
+Guarana (1, 38): Spread to (1, 37)
+Dandelion (19, 46): Was created
+Dandelion (18, 46): Spread to (19, 46)
+Dandelion (17, 27): Was created
+Dandelion (17, 28): Spread to (17, 27)
+Dandelion (18, 28): Was created
+Dandelion (17, 28): Spread to (18, 28)
+Dandelion (9, 39): Was created
+Dandelion (9, 38): Spread to (9, 39)
+-- Turn 37 --
+Fox (8, 13): Moved to (8, 12)
+Wolf (15, 11): Moved to (15, 12)
+Sheep (2, 2): Moved to (2, 1)
+Sheep (3, 5): Moved to (4, 5)
+Antelope (16, 8): Moved to (18, 8)
+Sheep (1, 4): Moved to (1, 3)
+Dandelion (18, 29): Was created
+Dandelion (17, 29): Spread to (18, 29)
+Dandelion (8, 42): Was created
+Dandelion (9, 42): Spread to (8, 42)
+Grass (11, 55): Was created
+Grass (11, 54): Spread to (11, 55)
+Dandelion (19, 27): Was created
+Dandelion (19, 28): Spread to (19, 27)
+Dandelion (9, 37): Was created
+Dandelion (10, 37): Spread to (9, 37)
+Dandelion (18, 47): Was created
+Dandelion (17, 47): Spread to (18, 47)
+Dandelion (8, 43): Was created
+Dandelion (9, 43): Spread to (8, 43)
+-- Turn 38 --
+Fox (8, 12): Moved to (8, 13)
+Wolf (15, 12): Moved to (15, 11)
+Sheep (2, 1): Moved to (1, 1)
+Sheep (4, 5): Moved to (5, 5)
+Antelope (18, 8): Moved to (18, 6)
+Sheep (1, 3): Moved to (0, 3)
+Turtle (1, 16): Moved to (1, 15)
+Hogweed (17, 25): Was created
+Hogweed (17, 24): Spread to (17, 25)
+Dandelion (10, 40): Was created
+Dandelion (11, 40): Spread to (10, 40)
+Grass (12, 54): Was created
+Grass (12, 53): Spread to (12, 54)
+Grass (8, 52): Was created
+Grass (9, 52): Spread to (8, 52)
+Dandelion (10, 32): Was created
+Dandelion (11, 32): Spread to (10, 32)
+Hogweed (18, 26): Was created
+Hogweed (19, 26): Spread to (18, 26)
+Grass (12, 46): Was created
+Grass (12, 47): Spread to (12, 46)
+Grass (16, 48): Was created
+Grass (15, 48): Spread to (16, 48)
+Guarana (2, 37): Was created
+Guarana (2, 38): Spread to (2, 37)
+Dandelion (17, 48): Was created
+Dandelion (17, 47): Spread to (17, 48)
+Dandelion (11, 45): Was created
+Dandelion (11, 44): Spread to (11, 45)
+Dandelion (9, 44): Was created
+Dandelion (10, 44): Spread to (9, 44)
+Dandelion (19, 47): Was created
+Dandelion (19, 46): Spread to (19, 47)
+Dandelion (7, 43): Was created
+Dandelion (8, 43): Spread to (7, 43)
+-- Turn 39 --
+Fox (8, 13): Moved to (9, 13)
+Wolf (15, 11): Moved to (15, 10)
+Sheep (1, 1): Moved to (1, 2)
+Sheep (5, 5): Moved to (4, 5)
+Antelope (18, 6): Moved to (18, 4)
+Sheep (0, 3): Moved to (0, 4)
+Guarana (4, 38): Was created
+Guarana (3, 38): Spread to (4, 38)
+Deadly Nightshade (18, 18): Was created
+Deadly Nightshade (18, 19): Spread to (18, 18)
+Hogweed (17, 20): Was created
+Hogweed (17, 21): Spread to (17, 20)
+Dandelion (14, 29): Was created
+Dandelion (15, 29): Spread to (14, 29)
+Grass (15, 52): Was created
+Grass (14, 52): Spread to (15, 52)
+Dandelion (10, 31): Was created
+Dandelion (11, 31): Spread to (10, 31)
+Dandelion (9, 34): Was created
+Dandelion (10, 34): Spread to (9, 34)
+Grass (8, 49): Was created
+Grass (9, 49): Spread to (8, 49)
+Grass (13, 54): Was created
+Grass (13, 53): Spread to (13, 54)
+Dandelion (9, 40): Was created
+Dandelion (9, 41): Spread to (9, 40)
+Dandelion (8, 41): Was created
+Dandelion (9, 41): Spread to (8, 41)
+Grass (7, 51): Was created
+Grass (8, 51): Spread to (7, 51)
+Grass (8, 45): Was created
+Grass (8, 46): Spread to (8, 45)
+Dandelion (9, 35): Was created
+Dandelion (10, 35): Spread to (9, 35)
+Grass (10, 45): Was created
+Grass (9, 45): Spread to (10, 45)
+Dandelion (15, 27): Was created
+Dandelion (16, 27): Spread to (15, 27)
+Dandelion (18, 27): Was created
+Dandelion (19, 27): Spread to (18, 27)
+Hogweed (17, 26): Was created
+Hogweed (18, 26): Spread to (17, 26)
+Grass (16, 49): Was created
+Grass (16, 48): Spread to (16, 49)
+-- Turn 40 --
+Fox (9, 13): Moved to (10, 13)
+Wolf (15, 10): Moved to (14, 10)
+Sheep (1, 2): Moved to (1, 1)
+Sheep (4, 5): Moved to (4, 6)
+Antelope (18, 4): Moved to (18, 6)
+Sheep (0, 4): Moved to (0, 5)
+Guarana (0, 44): Was created
+Guarana (0, 43): Spread to (0, 44)
+Dandelion (13, 46): Was created
+Dandelion (13, 45): Spread to (13, 46)
+Dandelion (8, 33): Was created
+Dandelion (9, 33): Spread to (8, 33)
+Dandelion (8, 38): Was created
+Dandelion (9, 38): Spread to (8, 38)
+Guarana (0, 36): Was created
+Guarana (0, 37): Spread to (0, 36)
+Guarana (4, 43): Was created
+Guarana (4, 42): Spread to (4, 43)
+Dandelion (16, 26): Was created
+Dandelion (16, 27): Spread to (16, 26)
+Dandelion (7, 42): Was created
+Dandelion (8, 42): Spread to (7, 42)
+Dandelion (18, 48): Was created
+Dandelion (18, 47): Spread to (18, 48)
+Dandelion (11, 46): Was created
+Dandelion (11, 45): Spread to (11, 46)
+Dandelion (8, 44): Was created
+Dandelion (9, 44): Spread to (8, 44)
+Deadly Nightshade (18, 17): Was created
+Deadly Nightshade (18, 18): Spread to (18, 17)
+-- Turn 41 --
+Fox (10, 13): Moved to (11, 13)
+Wolf (14, 10): Moved to (14, 11)
+Sheep (1, 1): Moved to (0, 1)
+Sheep (4, 6): Moved to (3, 6)
+Antelope (18, 6): Moved to (18, 8)
+Sheep (0, 5): Moved to (0, 4)
+Guarana (6, 40): Was created
+Guarana (5, 40): Spread to (6, 40)
+Hogweed (15, 21): Was created
+Hogweed (16, 21): Spread to (15, 21)
+Guarana (3, 43): Was created
+Guarana (2, 43): Spread to (3, 43)
+Dandelion (8, 39): Was created
+Dandelion (9, 39): Spread to (8, 39)
+Grass (12, 55): Was created
+Grass (11, 55): Spread to (12, 55)
+Dandelion (17, 49): Was created
+Dandelion (17, 48): Spread to (17, 49)
+Dandelion (19, 48): Was created
+Dandelion (19, 47): Spread to (19, 48)
+Deadly Nightshade (19, 18): Was created
+Deadly Nightshade (18, 18): Spread to (19, 18)
+Dandelion (14, 28): Was created
+Dandelion (14, 29): Spread to (14, 28)
+Dandelion (8, 34): Was created
+Dandelion (9, 34): Spread to (8, 34)
+Dandelion (7, 41): Was created
+Dandelion (8, 41): Spread to (7, 41)
+Dandelion (8, 35): Was created
+Dandelion (9, 35): Spread to (8, 35)
+Grass (10, 46): Was created
+Grass (10, 45): Spread to (10, 46)
+Guarana (1, 36): Was created
+Guarana (0, 36): Spread to (1, 36)
+Dandelion (6, 42): Was created
+Dandelion (7, 42): Spread to (6, 42)
+Deadly Nightshade (19, 17): Was created
+Deadly Nightshade (18, 17): Spread to (19, 17)
+-- Turn 42 --
+Fox (11, 13): Moved to (11, 14)
+Wolf (14, 11): Moved to (14, 12)
+Sheep (0, 1): Moved to (0, 2)
+Sheep (3, 6): Moved to (4, 6)
+Antelope (18, 8): Moved to (16, 8)
+Sheep (0, 4): Moved to (0, 3)
+Grass (8, 48): Was created
+Grass (9, 48): Spread to (8, 48)
+Dandelion (13, 30): Was created
+Dandelion (13, 31): Spread to (13, 30)
+Guarana (5, 39): Was created
+Guarana (5, 40): Spread to (5, 39)
+Dandelion (9, 32): Was created
+Dandelion (9, 33): Spread to (9, 32)
+Grass (15, 53): Was created
+Grass (14, 53): Spread to (15, 53)
+Hogweed (16, 20): Was created
+Hogweed (16, 21): Spread to (16, 20)
+Grass (10, 55): Was created
+Grass (11, 55): Spread to (10, 55)
+Guarana (2, 36): Was created
+Guarana (2, 37): Spread to (2, 36)
+Dandelion (6, 43): Was created
+Dandelion (7, 43): Spread to (6, 43)
+Dandelion (13, 29): Was created
+Dandelion (14, 29): Spread to (13, 29)
+Dandelion (8, 40): Was created
+Dandelion (8, 41): Spread to (8, 40)
+Dandelion (15, 26): Was created
+Dandelion (15, 27): Spread to (15, 26)
+Dandelion (7, 44): Was created
+Dandelion (8, 44): Spread to (7, 44)
+Hogweed (14, 21): Was created
+Hogweed (15, 21): Spread to (14, 21)
+Dandelion (19, 49): Was created
+Dandelion (19, 48): Spread to (19, 49)
+-- Turn 43 --
+Fox (11, 14): Moved to (12, 14)
+Wolf (14, 12): Moved to (13, 12)
+Sheep (0, 2): Moved to (0, 1)
+Sheep (4, 6): Moved to (5, 6)
+Antelope (16, 8): Moved to (14, 8)
+Sheep (0, 3): Moved to (1, 3)
+Hogweed (15, 22): Was created
+Hogweed (16, 22): Spread to (15, 22)
+Deadly Nightshade (17, 19): Was created
+Deadly Nightshade (18, 19): Spread to (17, 19)
+Dandelion (15, 28): Was created
+Dandelion (16, 28): Spread to (15, 28)
+Guarana (5, 42): Was created
+Guarana (4, 42): Spread to (5, 42)
+Dandelion (7, 39): Was created
+Dandelion (8, 39): Spread to (7, 39)
+Dandelion (13, 28): Was created
+Dandelion (14, 28): Spread to (13, 28)
+Grass (7, 48): Was created
+Grass (8, 48): Spread to (7, 48)
+Hogweed (15, 20): Was created
+Hogweed (16, 20): Spread to (15, 20)
+Dandelion (6, 44): Was created
+Dandelion (7, 44): Spread to (6, 44)
+Dandelion (7, 45): Was created
+Dandelion (7, 44): Spread to (7, 45)
+Dandelion (19, 50): Was created
+Dandelion (19, 49): Spread to (19, 50)
+-- Turn 44 --
+Fox (12, 14): Moved to (12, 13)
+Wolf (13, 12): Moved to (13, 11)
+Sheep (0, 1): Moved to (0, 0)
+Sheep (5, 6): Moved to (4, 6)
+Antelope (14, 8): Moved to (14, 6)
+Sheep (1, 3): Moved to (1, 2)
+Dandelion (8, 36): Was created
+Dandelion (9, 36): Spread to (8, 36)
+Grass (7, 50): Was created
+Grass (8, 50): Spread to (7, 50)
+Grass (15, 49): Was created
+Grass (15, 48): Spread to (15, 49)
+Dandelion (8, 37): Was created
+Dandelion (9, 37): Spread to (8, 37)
+Hogweed (16, 25): Was created
+Hogweed (17, 25): Spread to (16, 25)
+Dandelion (14, 27): Was created
+Dandelion (15, 27): Spread to (14, 27)
+Dandelion (7, 38): Was created
+Dandelion (8, 38): Spread to (7, 38)
+Dandelion (18, 49): Was created
+Dandelion (18, 48): Spread to (18, 49)
+Dandelion (17, 50): Was created
+Dandelion (17, 49): Spread to (17, 50)
+Dandelion (6, 41): Was created
+Dandelion (6, 42): Spread to (6, 41)
+Hogweed (16, 19): Was created
+Hogweed (16, 20): Spread to (16, 19)
+Dandelion (7, 40): Was created
+Dandelion (8, 40): Spread to (7, 40)
+Dandelion (15, 25): Was created
+Dandelion (15, 26): Spread to (15, 25)
+Dandelion (14, 26): Was created
+Dandelion (15, 26): Spread to (14, 26)
+Hogweed (13, 21): Was created
+Hogweed (14, 21): Spread to (13, 21)
+Dandelion (13, 27): Was created
+Dandelion (13, 28): Spread to (13, 27)
+Dandelion (6, 45): Was created
+Dandelion (6, 44): Spread to (6, 45)
+-- Turn 45 --
+Fox (12, 13): Moved to (12, 14)
+Wolf (13, 11): Moved to (13, 12)
+Sheep (0, 0): Moved to (1, 0)
+Sheep (4, 6): Moved to (3, 6)
+Antelope (14, 6): Moved to (16, 6)
+Sheep (1, 2): Moved to (1, 3)
+Grass (14, 50): Was created
+Grass (14, 49): Spread to (14, 50)
+Guarana (0, 45): Was created
+Guarana (0, 44): Spread to (0, 45)
+Dandelion (7, 35): Was created
+Dandelion (8, 35): Spread to (7, 35)
+Deadly Nightshade (17, 18): Was created
+Deadly Nightshade (17, 19): Spread to (17, 18)
+Guarana (5, 43): Was created
+Guarana (5, 42): Spread to (5, 43)
+Dandelion (19, 51): Was created
+Dandelion (19, 50): Spread to (19, 51)
+Dandelion (7, 36): Was created
+Dandelion (8, 36): Spread to (7, 36)
+Dandelion (6, 38): Was created
+Dandelion (7, 38): Spread to (6, 38)
+Dandelion (15, 24): Was created
+Dandelion (15, 25): Spread to (15, 24)
+Dandelion (14, 25): Was created
+Dandelion (15, 25): Spread to (14, 25)
+-- Turn 46 --
+Fox (12, 14): Moved to (12, 15)
+Wolf (13, 12): Moved to (14, 12)
+Sheep (1, 0): Moved to (0, 0)
+Sheep (3, 6): Moved to (3, 5)
+Antelope (16, 6): Moved to (16, 8)
+Sheep (1, 3): Moved to (2, 3)
+Dandelion (12, 31): Was created
+Dandelion (13, 31): Spread to (12, 31)
+Dandelion (11, 30): Was created
+Dandelion (11, 31): Spread to (11, 30)
+Hogweed (16, 23): Was created
+Hogweed (16, 24): Spread to (16, 23)
+Grass (16, 50): Was created
+Grass (16, 49): Spread to (16, 50)
+Guarana (6, 39): Was created
+Guarana (5, 39): Spread to (6, 39)
+Grass (15, 54): Was created
+Grass (15, 53): Spread to (15, 54)
+Dandelion (12, 29): Was created
+Dandelion (13, 29): Spread to (12, 29)
+Hogweed (14, 22): Was created
+Hogweed (14, 21): Spread to (14, 22)
+Dandelion (17, 51): Was created
+Dandelion (17, 50): Spread to (17, 51)
+Dandelion (13, 26): Was created
+Dandelion (13, 27): Spread to (13, 26)
+Guarana (1, 45): Was created
+Guarana (0, 45): Spread to (1, 45)
+Dandelion (18, 51): Was created
+Dandelion (19, 51): Spread to (18, 51)
+Dandelion (6, 37): Was created
+Dandelion (6, 38): Spread to (6, 37)
+-- Turn 47 --
+Fox (12, 15): Moved to (11, 15)
+Wolf (14, 12): Moved to (15, 12)
+Sheep (0, 0): Moved to (0, 1)
+Sheep (3, 5): Moved to (2, 5)
+Antelope (16, 8): Moved to (14, 8)
+Sheep (2, 3): Moved to (2, 4)
+Grass (15, 51): Was created
+Grass (14, 51): Spread to (15, 51)
+Guarana (1, 44): Was created
+Guarana (1, 43): Spread to (1, 44)
+Grass (9, 54): Was created
+Grass (9, 53): Spread to (9, 54)
+Guarana (2, 44): Was created
+Guarana (2, 43): Spread to (2, 44)
+Dandelion (10, 30): Was created
+Dandelion (10, 31): Spread to (10, 30)
+Grass (14, 54): Was created
+Grass (13, 54): Spread to (14, 54)
+Grass (10, 54): Was created
+Grass (10, 55): Spread to (10, 54)
+Grass (7, 49): Was created
+Grass (7, 48): Spread to (7, 49)
+Dandelion (19, 52): Was created
+Dandelion (19, 51): Spread to (19, 52)
+Dandelion (5, 38): Was created
+Dandelion (6, 38): Spread to (5, 38)
+Dandelion (14, 24): Was created
+Dandelion (15, 24): Spread to (14, 24)
+-- Turn 48 --
+Fox (11, 15): Moved to (11, 14)
+Wolf (15, 12): Moved to (14, 12)
+Sheep (0, 1): Moved to (0, 0)
+Sheep (1, 5): Was created
+Sheep (2, 5): Reproduce with Sheep (2, 4)
+Antelope (14, 8): Moved to (16, 8)
+Sheep (1, 4): Was created
+Sheep (2, 4): Reproduce with Sheep (2, 5)
+Guarana (3, 36): Was created
+Guarana (3, 37): Spread to (3, 36)
+Guarana (0, 35): Was created
+Guarana (0, 36): Spread to (0, 35)
+Guarana (4, 44): Was created
+Guarana (4, 43): Spread to (4, 44)
+Hogweed (15, 23): Was created
+Hogweed (15, 22): Spread to (15, 23)
+Dandelion (7, 37): Was created
+Dandelion (7, 38): Spread to (7, 37)
+Dandelion (5, 45): Was created
+Dandelion (6, 45): Spread to (5, 45)
+Dandelion (6, 35): Was created
+Dandelion (7, 35): Spread to (6, 35)
+Dandelion (18, 52): Was created
+Dandelion (19, 52): Spread to (18, 52)
+-- Turn 49 --
+Fox (11, 14): Moved to (11, 13)
+Wolf (14, 12): Moved to (13, 12)
+Sheep (0, 0): Moved to (0, 1)
+Sheep (3, 5): Was created
+Sheep (2, 5): Reproduce with Sheep (1, 5)
+Antelope (16, 8): Moved to (16, 10)
+Sheep (3, 4): Was created
+Sheep (2, 4): Reproduce with Sheep (2, 5)
+Sheep (0, 5): Was created
+Sheep (1, 5): Reproduce with Sheep (1, 4)
+Sheep (1, 4): Moved to (1, 3)
+Guarana (4, 37): Was created
+Guarana (4, 38): Spread to (4, 37)
+Grass (13, 55): Was created
+Grass (12, 55): Spread to (13, 55)
+Dandelion (7, 34): Was created
+Dandelion (8, 34): Spread to (7, 34)
+Dandelion (8, 32): Was created
+Dandelion (9, 32): Spread to (8, 32)
+Dandelion (12, 30): Was created
+Dandelion (13, 30): Spread to (12, 30)
+Dandelion (18, 50): Was created
+Dandelion (17, 50): Spread to (18, 50)
+Dandelion (17, 52): Was created
+Dandelion (17, 51): Spread to (17, 52)
+Grass (9, 55): Was created
+Grass (9, 54): Spread to (9, 55)
+Dandelion (13, 24): Was created
+Dandelion (14, 24): Spread to (13, 24)
+Dandelion (6, 34): Was created
+Dandelion (6, 35): Spread to (6, 34)
+-- Turn 50 --
+Fox (11, 13): Moved to (12, 13)
+Wolf (13, 12): Moved to (13, 13)
+Sheep (0, 1): Moved to (1, 1)
+Sheep (2, 6): Was created
+Sheep (2, 5): Reproduce with Sheep (3, 5)
+Antelope (16, 10): Moved to (16, 8)
+Sheep (2, 4): Moved to (2, 3)
+Sheep (1, 5): Moved to (1, 4)
+Sheep (0, 3): Was created
+Sheep (1, 3): Reproduce with Sheep (1, 4)
+Sheep (4, 5): Was created
+Sheep (3, 5): Reproduce with Sheep (3, 4)
+Sheep (3, 4): Moved to (2, 4)
+Sheep (0, 5): Moved to (0, 4)
+Grass (16, 53): Was created
+Grass (15, 53): Spread to (16, 53)
+Grass (7, 47): Was created
+Grass (7, 48): Spread to (7, 47)
+Dandelion (13, 25): Was created
+Dandelion (14, 25): Spread to (13, 25)
+Dandelion (12, 26): Was created
+Dandelion (13, 26): Spread to (12, 26)
+Dandelion (11, 29): Was created
+Dandelion (11, 30): Spread to (11, 29)
+Guarana (1, 35): Was created
+Guarana (0, 35): Spread to (1, 35)
+Dandelion (7, 32): Was created
+Dandelion (8, 32): Spread to (7, 32)
+Dandelion (16, 52): Was created
+Dandelion (17, 52): Spread to (16, 52)
+-- Turn 51 --
+Fox (12, 13): Moved to (11, 13)
+Wolf (13, 13): Moved to (12, 13)
+Sheep (1, 1): Moved to (2, 1)
+Sheep (2, 5): Moved to (1, 5)
+Antelope (16, 8): Moved to (18, 8)
+Sheep (3, 3): Was created
+Sheep (2, 3): Reproduce with Sheep (1, 3)
+Sheep (3, 4): Was created
+Sheep (1, 4): Reproduce with Sheep (2, 4)
+Sheep (1, 2): Was created
+Sheep (1, 3): Reproduce with Sheep (0, 3)
+Sheep (2, 5): Was created
+Sheep (3, 5): Reproduce with Sheep (3, 4)
+Sheep (4, 4): Was created
+Sheep (2, 4): Reproduce with Sheep (3, 4)
+Sheep (0, 5): Was created
+Sheep (0, 4): Reproduce with Sheep (0, 3)
+Sheep (2, 6): Moved to (3, 6)
+Sheep (0, 2): Was created
+Sheep (0, 3): Reproduce with Sheep (0, 4)
+Sheep (4, 5): Moved to (5, 5)
+Turtle (1, 15): Moved to (0, 15)
+Grass (7, 46): Was created
+Grass (8, 46): Spread to (7, 46)
+Dandelion (9, 31): Was created
+Dandelion (10, 31): Spread to (9, 31)
+Dandelion (12, 28): Was created
+Dandelion (13, 28): Spread to (12, 28)
+Dandelion (12, 27): Was created
+Dandelion (13, 27): Spread to (12, 27)
+Dandelion (6, 46): Was created
+Dandelion (6, 45): Spread to (6, 46)
+Grass (15, 50): Was created
+Grass (14, 50): Spread to (15, 50)
+Dandelion (6, 36): Was created
+Dandelion (6, 37): Spread to (6, 36)
+Dandelion (19, 53): Was created
+Dandelion (19, 52): Spread to (19, 53)
+Dandelion (5, 44): Was created
+Dandelion (5, 45): Spread to (5, 44)
+Dandelion (12, 25): Was created
+Dandelion (13, 25): Spread to (12, 25)
+-- Turn 52 --
+Fox (11, 13): Moved to (10, 13)
+Wolf (12, 13): Moved to (12, 14)
+Sheep (2, 1): Moved to (1, 1)
+Sheep (1, 6): Was created
+Sheep (1, 5): Reproduce with Sheep (0, 5)
+Antelope (18, 8): Moved to (16, 8)
+Sheep (2, 2): Was created
+Sheep (2, 3): Reproduce with Sheep (3, 3)
+Sheep (4, 5): Was created
+Sheep (3, 5): Reproduce with Sheep (2, 5)
+Sheep (0, 6): Was created
+Sheep (0, 4): Reproduce with Sheep (0, 5)
+Sheep (3, 6): Moved to (3, 7)
+Sheep (5, 5): Moved to (5, 6)
+Sheep (3, 3): Moved to (3, 2)
+Sheep (3, 3): Was created
+Sheep (3, 4): Reproduce with Sheep (2, 4)
+Sheep (2, 1): Was created
+Sheep (1, 2): Reproduce with Sheep (2, 2)
+Sheep (2, 6): Was created
+Sheep (2, 5): Reproduce with Sheep (2, 4)
+Sheep (4, 4): Moved to (5, 4)
+Sheep (0, 7): Was created
+Sheep (0, 5): Reproduce with Sheep (0, 6)
+Sheep (0, 1): Was created
+Sheep (0, 2): Reproduce with Sheep (1, 2)
+Grass (8, 53): Was created
+Grass (8, 52): Spread to (8, 53)
+Dandelion (7, 33): Was created
+Dandelion (8, 33): Spread to (7, 33)
+Dandelion (10, 29): Was created
+Dandelion (10, 30): Spread to (10, 29)
+Grass (16, 51): Was created
+Grass (15, 51): Spread to (16, 51)
+Guarana (4, 45): Was created
+Guarana (4, 44): Spread to (4, 45)
+Hogweed (14, 23): Was created
+Hogweed (15, 23): Spread to (14, 23)
+Dandelion (11, 26): Was created
+Dandelion (12, 26): Spread to (11, 26)
+Dandelion (8, 31): Was created
+Dandelion (9, 31): Spread to (8, 31)
+Dandelion (11, 28): Was created
+Dandelion (12, 28): Spread to (11, 28)
+Dandelion (11, 27): Was created
+Dandelion (12, 27): Spread to (11, 27)
+Dandelion (5, 36): Was created
+Dandelion (6, 36): Spread to (5, 36)
+-- Turn 53 --
+Fox (10, 13): Moved to (11, 13)
+Wolf (12, 14): Moved to (12, 13)
+Sheep (1, 0): Was created
+Sheep (1, 1): Reproduce with Sheep (0, 1)
+Antelope (16, 8): Moved to (14, 8)
+Sheep (3, 6): Was created
+Sheep (3, 5): Reproduce with Sheep (3, 4)
+Sheep (4, 4): Was created
+Sheep (2, 4): Reproduce with Sheep (3, 4)
+Sheep (3, 7): Moved to (4, 7)
+Sheep (5, 6): Moved to (4, 6)
+Sheep (4, 2): Was created
+Sheep (3, 2): Reproduce with Sheep (2, 2)
+Sheep (5, 4): Moved to (5, 3)
+Sheep (1, 6): Moved to (1, 7)
+Sheep (5, 5): Was created
+Sheep (4, 5): Reproduce with Sheep (4, 4)
+Sheep (0, 6): Moved to (1, 6)
+Sheep (4, 3): Was created
+Sheep (3, 3): Reproduce with Sheep (3, 2)
+Sheep (3, 1): Was created
+Sheep (2, 1): Reproduce with Sheep (1, 1)
+Sheep (2, 6): Moved to (2, 7)
+Sheep (0, 7): Moved to (0, 8)
+Sheep (0, 1): Moved to (0, 0)
+Dandelion (5, 37): Was created
+Dandelion (6, 37): Spread to (5, 37)
+Grass (8, 54): Was created
+Grass (9, 54): Spread to (8, 54)
+Dandelion (9, 30): Was created
+Dandelion (10, 30): Spread to (9, 30)
+Dandelion (5, 46): Was created
+Dandelion (5, 45): Spread to (5, 46)
+Dandelion (6, 33): Was created
+Dandelion (6, 34): Spread to (6, 33)
+Dandelion (12, 24): Was created
+Dandelion (12, 25): Spread to (12, 24)
+Dandelion (10, 28): Was created
+Dandelion (11, 28): Spread to (10, 28)
+Dandelion (10, 27): Was created
+Dandelion (11, 27): Spread to (10, 27)
+-- Turn 54 --
+Fox (11, 13): Moved to (11, 12)
+Wolf (12, 13): Moved to (13, 13)
+Sheep (0, 1): Was created
+Sheep (1, 1): Reproduce with Sheep (1, 0)
+Sheep (0, 6): Was created
+Sheep (1, 5): Reproduce with Sheep (0, 5)
+Antelope (14, 8): Moved to (16, 8)
+Sheep (2, 6): Was created
+Sheep (3, 5): Reproduce with Sheep (3, 6)
+Sheep (3, 7): Was created
+Sheep (4, 7): Reproduce with Sheep (4, 6)
+Sheep (5, 6): Was created
+Sheep (4, 6): Reproduce with Sheep (4, 5)
+Sheep (5, 3): Moved to (5, 2)
+Sheep (0, 7): Was created
+Sheep (1, 7): Reproduce with Sheep (2, 7)
+Sheep (2, 0): Was created
+Sheep (2, 2): Reproduce with Sheep (2, 1)
+Sheep (5, 4): Was created
+Sheep (4, 5): Reproduce with Sheep (4, 4)
+Sheep (3, 0): Was created
+Sheep (2, 1): Reproduce with Sheep (2, 0)
+Sheep (2, 8): Was created
+Sheep (2, 7): Reproduce with Sheep (2, 6)
+Sheep (1, 8): Was created
+Sheep (0, 8): Reproduce with Sheep (0, 7)
+Sheep (3, 8): Was created
+Sheep (3, 6): Reproduce with Sheep (3, 7)
+Sheep (6, 4): Was created
+Sheep (4, 4): Reproduce with Sheep (5, 4)
+Sheep (4, 1): Was created
+Sheep (4, 2): Reproduce with Sheep (3, 2)
+Sheep (6, 5): Was created
+Sheep (5, 5): Reproduce with Sheep (5, 6)
+Sheep (5, 3): Was created
+Sheep (4, 3): Reproduce with Sheep (4, 2)
+Turtle (0, 15): Moved to (1, 15)
+Deadly Nightshade (19, 16): Was created
+Deadly Nightshade (19, 17): Spread to (19, 16)
+Dandelion (18, 53): Was created
+Dandelion (18, 52): Spread to (18, 53)
+Dandelion (9, 27): Was created
+Dandelion (10, 27): Spread to (9, 27)
+-- Turn 55 --
+Fox (11, 12): Moved to (12, 12)
+Wolf (13, 13): Moved to (13, 14)
+Antelope (16, 8): Moved to (16, 6)
+Sheep (5, 7): Was created
+Sheep (4, 7): Reproduce with Sheep (4, 6)
+Sheep (4, 8): Was created
+Sheep (4, 6): Reproduce with Sheep (4, 7)
+Sheep (6, 2): Was created
+Sheep (5, 2): Reproduce with Sheep (4, 2)
+Sheep (2, 9): Was created
+Sheep (2, 7): Reproduce with Sheep (2, 8)
+Sheep (0, 8): Moved to (0, 9)
+Sheep (6, 6): Was created
+Sheep (5, 6): Reproduce with Sheep (5, 7)
+Sheep (0, 8): Was created
+Sheep (0, 7): Reproduce with Sheep (1, 7)
+Sheep (3, 0): Moved to (4, 0)
+Sheep (3, 9): Was created
+Sheep (2, 8): Reproduce with Sheep (2, 9)
+Sheep (1, 9): Was created
+Sheep (1, 8): Reproduce with Sheep (1, 7)
+Sheep (5, 8): Was created
+Sheep (3, 8): Reproduce with Sheep (4, 8)
+Sheep (7, 4): Was created
+Sheep (6, 4): Reproduce with Sheep (6, 5)
+Sheep (5, 1): Was created
+Sheep (4, 1): Reproduce with Sheep (4, 0)
+Sheep (7, 5): Was created
+Sheep (6, 5): Reproduce with Sheep (5, 5)
+Sheep (6, 3): Was created
+Sheep (5, 3): Reproduce with Sheep (4, 3)
+Turtle (1, 15): Moved to (1, 14)
+Grass (7, 52): Was created
+Grass (8, 52): Spread to (7, 52)
+Grass (10, 56): Was created
+Grass (10, 55): Spread to (10, 56)
+Grass (14, 55): Was created
+Grass (14, 54): Spread to (14, 55)
+Dandelion (7, 31): Was created
+Dandelion (7, 32): Spread to (7, 31)
+Dandelion (6, 47): Was created
+Dandelion (6, 46): Spread to (6, 47)
+Dandelion (11, 25): Was created
+Dandelion (11, 26): Spread to (11, 25)
+Dandelion (10, 26): Was created
+Dandelion (11, 26): Spread to (10, 26)
+Dandelion (5, 47): Was created
+Dandelion (5, 46): Spread to (5, 47)
+Dandelion (12, 23): Was created
+Dandelion (12, 24): Spread to (12, 23)
+Dandelion (9, 28): Was created
+Dandelion (10, 28): Spread to (9, 28)
+Dandelion (9, 26): Was created
+Dandelion (9, 27): Spread to (9, 26)
+-- Turn 56 --
+Fox (12, 12): Moved to (12, 13)
+Wolf (13, 14): Moved to (13, 13)
+Antelope (16, 6): Moved to (14, 6)
+Sheep (4, 9): Was created
+Sheep (4, 7): Reproduce with Sheep (4, 8)
+Sheep (6, 1): Was created
+Sheep (5, 2): Reproduce with Sheep (5, 1)
+Sheep (3, 0): Was created
+Sheep (2, 1): Reproduce with Sheep (2, 0)
+Sheep (0, 9): Moved to (0, 10)
+Sheep (5, 0): Was created
+Sheep (4, 0): Reproduce with Sheep (3, 0)
+Sheep (8, 5): Was created
+Sheep (6, 5): Reproduce with Sheep (7, 5)
+Sheep (6, 7): Was created
+Sheep (5, 7): Reproduce with Sheep (4, 7)
+Sheep (6, 8): Was created
+Sheep (4, 8): Reproduce with Sheep (5, 8)
+Sheep (7, 2): Was created
+Sheep (6, 2): Reproduce with Sheep (6, 3)
+Sheep (2, 10): Was created
+Sheep (2, 9): Reproduce with Sheep (2, 8)
+Sheep (7, 6): Was created
+Sheep (6, 6): Reproduce with Sheep (6, 7)
+Sheep (0, 8): Moved to (0, 9)
+Sheep (3, 10): Was created
+Sheep (3, 9): Reproduce with Sheep (2, 9)
+Sheep (1, 10): Was created
+Sheep (1, 9): Reproduce with Sheep (1, 8)
+Sheep (5, 9): Was created
+Sheep (5, 8): Reproduce with Sheep (6, 8)
+Sheep (8, 4): Was created
+Sheep (7, 4): Reproduce with Sheep (6, 4)
+Sheep (6, 3): Moved to (7, 3)
+Grass (6, 51): Was created
+Grass (7, 51): Spread to (6, 51)
+Guarana (4, 46): Was created
+Guarana (4, 45): Spread to (4, 46)
+Dandelion (8, 30): Was created
+Dandelion (8, 31): Spread to (8, 30)
+Grass (7, 53): Was created
+Grass (8, 53): Spread to (7, 53)
+Dandelion (9, 29): Was created
+Dandelion (10, 29): Spread to (9, 29)
+Dandelion (17, 53): Was created
+Dandelion (18, 53): Spread to (17, 53)
+Dandelion (10, 25): Was created
+Dandelion (11, 25): Spread to (10, 25)
+Dandelion (8, 28): Was created
+Dandelion (9, 28): Spread to (8, 28)
+Dandelion (8, 26): Was created
+Dandelion (9, 26): Spread to (8, 26)
+Dandelion (9, 25): Was created
+Dandelion (9, 26): Spread to (9, 25)
+-- Turn 57 --
+Fox (12, 13): Moved to (12, 14)
+Wolf (13, 13): Moved to (12, 13)
+Antelope (14, 6): Moved to (14, 8)
+Sheep (6, 3): Was created
+Sheep (5, 2): Reproduce with Sheep (5, 3)
+Sheep (0, 8): Was created
+Sheep (1, 7): Reproduce with Sheep (0, 7)
+Sheep (0, 11): Was created
+Sheep (0, 10): Reproduce with Sheep (1, 10)
+Sheep (8, 6): Was created
+Sheep (6, 6): Reproduce with Sheep (7, 6)
+Sheep (4, 10): Was created
+Sheep (3, 9): Reproduce with Sheep (4, 9)
+Sheep (7, 3): Moved to (8, 3)
+Sheep (6, 1): Moved to (7, 1)
+Sheep (6, 0): Was created
+Sheep (5, 0): Reproduce with Sheep (4, 0)
+Sheep (9, 5): Was created
+Sheep (8, 5): Reproduce with Sheep (7, 5)
+Sheep (7, 7): Was created
+Sheep (6, 7): Reproduce with Sheep (6, 6)
+Sheep (7, 8): Was created
+Sheep (6, 8): Reproduce with Sheep (6, 7)
+Sheep (7, 2): Moved to (7, 3)
+Sheep (2, 11): Was created
+Sheep (2, 10): Reproduce with Sheep (3, 10)
+Sheep (3, 11): Was created
+Sheep (3, 10): Reproduce with Sheep (3, 9)
+Sheep (1, 11): Was created
+Sheep (1, 10): Reproduce with Sheep (2, 10)
+Sheep (5, 9): Moved to (6, 9)
+Sheep (9, 4): Was created
+Sheep (8, 4): Reproduce with Sheep (8, 3)
+Turtle (1, 14): Moved to (1, 15)
+Guarana (3, 44): Was created
+Guarana (3, 43): Spread to (3, 44)
+Grass (12, 56): Was created
+Grass (12, 55): Spread to (12, 56)
+Hogweed (14, 20): Was created
+Hogweed (14, 21): Spread to (14, 20)
+Hogweed (12, 21): Was created
+Hogweed (13, 21): Spread to (12, 21)
+Guarana (0, 46): Was created
+Guarana (0, 45): Spread to (0, 46)
+Dandelion (5, 35): Was created
+Dandelion (6, 35): Spread to (5, 35)
+Guarana (4, 36): Was created
+Guarana (4, 37): Spread to (4, 36)
+Dandelion (6, 32): Was created
+Dandelion (7, 32): Spread to (6, 32)
+Dandelion (11, 24): Was created
+Dandelion (12, 24): Spread to (11, 24)
+Dandelion (4, 47): Was created
+Dandelion (5, 47): Spread to (4, 47)
+Dandelion (11, 23): Was created
+Dandelion (12, 23): Spread to (11, 23)
+Dandelion (7, 30): Was created
+Dandelion (8, 30): Spread to (7, 30)
+Dandelion (17, 54): Was created
+Dandelion (17, 53): Spread to (17, 54)
+-- Turn 58 --
+Fox (12, 14): Moved to (11, 14)
+Wolf (12, 13): Moved to (13, 13)
+Antelope (14, 8): Moved to (12, 8)
+Sheep (7, 2): Was created
+Sheep (5, 2): Reproduce with Sheep (6, 2)
+Sheep (0, 12): Was created
+Sheep (0, 10): Reproduce with Sheep (0, 11)
+Sheep (5, 9): Was created
+Sheep (4, 8): Reproduce with Sheep (5, 8)
+Sheep (6, 1): Was created
+Sheep (6, 2): Reproduce with Sheep (5, 2)
+Sheep (5, 10): Was created
+Sheep (5, 8): Reproduce with Sheep (5, 9)
+Sheep (8, 3): Moved to (8, 2)
+Sheep (4, 11): Was created
+Sheep (4, 9): Reproduce with Sheep (4, 10)
+Sheep (7, 1): Moved to (7, 0)
+Sheep (10, 5): Was created
+Sheep (8, 5): Reproduce with Sheep (9, 5)
+Sheep (8, 3): Was created
+Sheep (7, 3): Reproduce with Sheep (6, 3)
+Sheep (9, 6): Was created
+Sheep (7, 6): Reproduce with Sheep (8, 6)
+Sheep (6, 9): Moved to (7, 9)
+Sheep (10, 4): Was created
+Sheep (8, 4): Reproduce with Sheep (9, 4)
+Sheep (1, 12): Was created
+Sheep (0, 11): Reproduce with Sheep (1, 11)
+Sheep (8, 6): Moved to (8, 7)
+Sheep (10, 6): Was created
+Sheep (9, 5): Reproduce with Sheep (9, 6)
+Sheep (7, 8): Moved to (8, 8)
+Sheep (2, 11): Moved to (2, 12)
+Sheep (2, 11): Was created
+Sheep (3, 11): Reproduce with Sheep (3, 10)
+Sheep (9, 3): Was created
+Sheep (9, 4): Reproduce with Sheep (9, 5)
+Dandelion (5, 34): Was created
+Dandelion (6, 34): Spread to (5, 34)
+Dandelion (6, 48): Was created
+Dandelion (6, 47): Spread to (6, 48)
+Dandelion (10, 24): Was created
+Dandelion (10, 25): Spread to (10, 24)
+Dandelion (8, 25): Was created
+Dandelion (8, 26): Spread to (8, 25)
+Dandelion (8, 29): Was created
+Dandelion (8, 30): Spread to (8, 29)
+Dandelion (3, 47): Was created
+Dandelion (4, 47): Spread to (3, 47)
+-- Turn 59 --
+Fox (11, 14): Moved to (11, 15)
+Wolf (13, 13): Moved to (13, 12)
+Antelope (12, 8): Moved to (14, 8)
+Sheep (8, 6): Was created
+Sheep (6, 6): Reproduce with Sheep (7, 6)
+Sheep (7, 1): Was created
+Sheep (5, 1): Reproduce with Sheep (6, 1)
+Sheep (8, 2): Moved to (8, 1)
+Sheep (6, 9): Was created
+Sheep (4, 9): Reproduce with Sheep (5, 9)
+Sheep (8, 0): Was created
+Sheep (7, 0): Reproduce with Sheep (6, 0)
+Sheep (7, 8): Was created
+Sheep (6, 7): Reproduce with Sheep (7, 7)
+Sheep (6, 10): Was created
+Sheep (6, 8): Reproduce with Sheep (6, 9)
+Sheep (8, 2): Was created
+Sheep (7, 3): Reproduce with Sheep (8, 3)
+Sheep (8, 9): Was created
+Sheep (7, 9): Reproduce with Sheep (7, 8)
+Sheep (0, 13): Was created
+Sheep (0, 11): Reproduce with Sheep (0, 12)
+Sheep (9, 7): Was created
+Sheep (8, 7): Reproduce with Sheep (8, 8)
+Sheep (8, 8): Moved to (9, 8)
+Sheep (3, 12): Was created
+Sheep (2, 12): Reproduce with Sheep (2, 11)
+Sheep (5, 11): Was created
+Sheep (5, 9): Reproduce with Sheep (5, 10)
+Sheep (6, 11): Was created
+Sheep (5, 10): Reproduce with Sheep (5, 11)
+Sheep (4, 12): Was created
+Sheep (4, 11): Reproduce with Sheep (5, 11)
+Sheep (11, 5): Was created
+Sheep (10, 5): Reproduce with Sheep (9, 5)
+Sheep (11, 6): Was created
+Sheep (9, 6): Reproduce with Sheep (10, 6)
+Sheep (10, 4): Moved to (10, 3)
+Sheep (1, 12): Moved to (1, 13)
+Sheep (10, 7): Was created
+Sheep (10, 6): Reproduce with Sheep (10, 5)
+Sheep (9, 2): Was created
+Sheep (9, 3): Reproduce with Sheep (9, 4)
+Turtle (1, 15): Moved to (0, 15)
+Grass (11, 56): Was created
+Grass (11, 55): Spread to (11, 56)
+Guarana (0, 34): Was created
+Guarana (0, 35): Spread to (0, 34)
+Dandelion (13, 23): Was created
+Dandelion (13, 24): Spread to (13, 23)
+Dandelion (5, 33): Was created
+Dandelion (6, 33): Spread to (5, 33)
+Deadly Nightshade (18, 16): Was created
+Deadly Nightshade (19, 16): Spread to (18, 16)
+Dandelion (18, 54): Was created
+Dandelion (18, 53): Spread to (18, 54)
+Dandelion (5, 32): Was created
+Dandelion (6, 32): Spread to (5, 32)
+Dandelion (6, 49): Was created
+Dandelion (6, 48): Spread to (6, 49)
+Dandelion (2, 47): Was created
+Dandelion (3, 47): Spread to (2, 47)
+-- Turn 60 --
+Fox (11, 15): Moved to (11, 16)
+Wolf (13, 12): Moved to (13, 11)
+Antelope (14, 8): Moved to (14, 6)
+Sheep (9, 1): Was created
+Sheep (8, 1): Reproduce with Sheep (8, 2)
+Sheep (8, 8): Was created
+Sheep (6, 8): Reproduce with Sheep (7, 8)
+Sheep (7, 10): Was created
+Sheep (7, 9): Reproduce with Sheep (7, 8)
+Sheep (1, 12): Was created
+Sheep (0, 11): Reproduce with Sheep (0, 12)
+Sheep (10, 8): Was created
+Sheep (9, 8): Reproduce with Sheep (8, 8)
+Sheep (2, 12): Moved to (2, 13)
+Sheep (2, 12): Was created
+Sheep (1, 11): Reproduce with Sheep (1, 12)
+Sheep (10, 4): Was created
+Sheep (9, 4): Reproduce with Sheep (8, 4)
+Sheep (0, 14): Was created
+Sheep (0, 12): Reproduce with Sheep (0, 13)
+Sheep (12, 5): Was created
+Sheep (10, 5): Reproduce with Sheep (11, 5)
+Sheep (11, 3): Was created
+Sheep (10, 3): Reproduce with Sheep (9, 3)
+Sheep (1, 14): Was created
+Sheep (1, 13): Reproduce with Sheep (2, 13)
+Sheep (10, 2): Was created
+Sheep (9, 3): Reproduce with Sheep (10, 3)
+Sheep (8, 0): Moved to (9, 0)
+Sheep (8, 0): Was created
+Sheep (8, 2): Reproduce with Sheep (8, 1)
+Sheep (8, 9): Moved to (8, 10)
+Sheep (9, 9): Was created
+Sheep (9, 7): Reproduce with Sheep (9, 8)
+Sheep (3, 13): Was created
+Sheep (3, 12): Reproduce with Sheep (3, 11)
+Sheep (5, 12): Was created
+Sheep (5, 11): Reproduce with Sheep (4, 11)
+Sheep (6, 11): Moved to (6, 12)
+Sheep (4, 13): Was created
+Sheep (4, 12): Reproduce with Sheep (4, 11)
+Sheep (11, 4): Was created
+Sheep (11, 5): Reproduce with Sheep (12, 5)
+Sheep (12, 6): Was created
+Sheep (11, 6): Reproduce with Sheep (11, 5)
+Sheep (11, 7): Was created
+Sheep (10, 7): Reproduce with Sheep (10, 6)
+Sheep (10, 1): Was created
+Sheep (9, 2): Reproduce with Sheep (9, 1)
+Hogweed (13, 22): Was created
+Hogweed (13, 21): Spread to (13, 22)
+Grass (8, 55): Was created
+Grass (9, 55): Spread to (8, 55)
+Grass (13, 56): Was created
+Grass (13, 55): Spread to (13, 56)
+Grass (6, 52): Was created
+Grass (7, 52): Spread to (6, 52)
+Dandelion (8, 27): Was created
+Dandelion (8, 26): Spread to (8, 27)
+Grass (6, 53): Was created
+Grass (7, 53): Spread to (6, 53)
+Dandelion (4, 48): Was created
+Dandelion (4, 47): Spread to (4, 48)
+Dandelion (10, 23): Was created
+Dandelion (11, 23): Spread to (10, 23)
+Dandelion (11, 22): Was created
+Dandelion (11, 23): Spread to (11, 22)
+Grass (12, 57): Was created
+Grass (12, 56): Spread to (12, 57)
+Hogweed (12, 20): Was created
+Hogweed (12, 21): Spread to (12, 20)
+Dandelion (4, 34): Was created
+Dandelion (5, 34): Spread to (4, 34)
+Dandelion (19, 54): Was created
+Dandelion (18, 54): Spread to (19, 54)
+Dandelion (2, 46): Was created
+Dandelion (2, 47): Spread to (2, 46)
+-- Turn 61 --
+Fox (11, 16): Moved to (11, 17)
+Wolf (13, 11): Moved to (13, 12)
+Antelope (14, 6): Attacked Sheep (12, 6)
+Sheep (12, 6): Died
+Sheep (8, 9): Was created
+Sheep (7, 9): Reproduce with Sheep (7, 8)
+Sheep (2, 13): Moved to (2, 14)
+Sheep (6, 11): Was created
+Sheep (5, 10): Reproduce with Sheep (6, 10)
+Sheep (1, 13): Moved to (2, 13)
+Sheep (10, 0): Was created
+Sheep (9, 0): Reproduce with Sheep (9, 1)
+Sheep (7, 11): Was created
+Sheep (6, 10): Reproduce with Sheep (7, 10)
+Sheep (9, 10): Was created
+Sheep (8, 10): Reproduce with Sheep (8, 9)
+Sheep (0, 13): Moved to (1, 13)
+Sheep (3, 14): Was created
+Sheep (3, 12): Reproduce with Sheep (3, 13)
+Sheep (6, 12): Moved to (6, 13)
+Sheep (12, 7): Was created
+Sheep (11, 6): Reproduce with Sheep (11, 7)
+Sheep (8, 11): Was created
+Sheep (7, 10): Reproduce with Sheep (8, 10)
+Sheep (0, 13): Was created
+Sheep (1, 12): Reproduce with Sheep (0, 12)
+Sheep (11, 8): Was created
+Sheep (10, 8): Reproduce with Sheep (9, 8)
+Sheep (0, 14): Attacked Turtle (0, 15)
+Turtle (0, 15): Pushed Sheep (0, 14) back
+Sheep (12, 5): Moved to (13, 5)
+Sheep (12, 3): Was created
+Sheep (11, 3): Reproduce with Sheep (11, 4)
+Sheep (1, 15): Was created
+Sheep (1, 14): Reproduce with Sheep (2, 14)
+Sheep (11, 2): Was created
+Sheep (10, 2): Reproduce with Sheep (10, 1)
+Sheep (9, 9): Moved to (10, 9)
+Sheep (5, 12): Moved to (5, 13)
+Sheep (4, 14): Was created
+Sheep (4, 13): Reproduce with Sheep (3, 13)
+Sheep (12, 4): Was created
+Sheep (11, 4): Reproduce with Sheep (10, 4)
+Sheep (11, 1): Was created
+Sheep (10, 1): Reproduce with Sheep (9, 1)
+Deadly Nightshade (16, 18): Was created
+Deadly Nightshade (17, 18): Spread to (16, 18)
+Guarana (1, 46): Was created
+Guarana (1, 45): Spread to (1, 46)
+Guarana (2, 35): Was created
+Guarana (1, 35): Spread to (2, 35)
+Dandelion (9, 24): Was created
+Dandelion (10, 24): Spread to (9, 24)
+Dandelion (4, 33): Was created
+Dandelion (5, 33): Spread to (4, 33)
+Dandelion (9, 23): Was created
+Dandelion (10, 23): Spread to (9, 23)
+Dandelion (10, 22): Was created
+Dandelion (11, 22): Spread to (10, 22)
+Grass (12, 58): Was created
+Grass (12, 57): Spread to (12, 58)
+Dandelion (3, 46): Was created
+Dandelion (2, 46): Spread to (3, 46)
+-- Turn 62 --
+Fox (11, 17): Moved to (11, 16)
+Wolf (13, 12): Moved to (14, 12)
+Antelope (12, 6): Moved to (14, 6)
+Sheep (9, 9): Was created
+Sheep (9, 8): Reproduce with Sheep (10, 8)
+Sheep (2, 15): Was created
+Sheep (2, 14): Reproduce with Sheep (2, 13)
+Sheep (5, 12): Was created
+Sheep (4, 11): Reproduce with Sheep (5, 11)
+Sheep (11, 0): Was created
+Sheep (9, 0): Reproduce with Sheep (10, 0)
+Sheep (6, 12): Was created
+Sheep (5, 11): Reproduce with Sheep (6, 11)
+Sheep (7, 13): Was created
+Sheep (6, 13): Reproduce with Sheep (5, 13)
+Sheep (12, 5): Was created
+Sheep (11, 5): Reproduce with Sheep (11, 4)
+Sheep (12, 6): Was created
+Sheep (11, 6): Reproduce with Sheep (11, 5)
+Sheep (11, 9): Was created
+Sheep (10, 8): Reproduce with Sheep (10, 9)
+Sheep (0, 14): Attacked Turtle (0, 15)
+Turtle (0, 15): Pushed Sheep (0, 14) back
+Sheep (13, 5): Moved to (14, 5)
+Sheep (10, 9): Moved to (10, 10)
+Sheep (5, 14): Was created
+Sheep (5, 13): Reproduce with Sheep (4, 13)
+Sheep (7, 12): Was created
+Sheep (7, 11): Reproduce with Sheep (6, 11)
+Sheep (9, 10): Moved to (9, 11)
+Sheep (3, 15): Was created
+Sheep (3, 14): Reproduce with Sheep (3, 13)
+Sheep (13, 7): Was created
+Sheep (12, 7): Reproduce with Sheep (11, 7)
+Sheep (8, 12): Was created
+Sheep (8, 11): Reproduce with Sheep (8, 10)
+Sheep (12, 8): Was created
+Sheep (11, 8): Reproduce with Sheep (10, 8)
+Sheep (12, 3): Moved to (13, 3)
+Sheep (1, 15): Moved to (1, 16)
+Sheep (12, 2): Was created
+Sheep (11, 2): Reproduce with Sheep (11, 3)
+Sheep (4, 15): Was created
+Sheep (4, 14): Reproduce with Sheep (4, 13)
+Sheep (13, 4): Was created
+Sheep (12, 4): Reproduce with Sheep (12, 5)
+Sheep (12, 1): Was created
+Sheep (11, 1): Reproduce with Sheep (11, 0)
+Dandelion (6, 31): Was created
+Dandelion (6, 32): Spread to (6, 31)
+Dandelion (6, 30): Was created
+Dandelion (7, 30): Spread to (6, 30)
+Guarana (3, 45): Was created
+Guarana (3, 44): Spread to (3, 45)
+Dandelion (2, 48): Was created
+Dandelion (2, 47): Spread to (2, 48)
+Dandelion (12, 22): Was created
+Dandelion (11, 22): Spread to (12, 22)
+Dandelion (4, 35): Was created
+Dandelion (4, 34): Spread to (4, 35)
+Dandelion (19, 55): Was created
+Dandelion (19, 54): Spread to (19, 55)
+-- Turn 63 --
+Fox (11, 16): Moved to (11, 17)
+Wolf (14, 12): Moved to (14, 11)
+Antelope (14, 6): Moved to (14, 8)
+Sheep (10, 9): Was created
+Sheep (9, 8): Reproduce with Sheep (9, 9)
+Sheep (8, 10): Moved to (9, 10)
+Sheep (1, 15): Was created
+Sheep (1, 13): Reproduce with Sheep (1, 14)
+Sheep (6, 14): Was created
+Sheep (6, 13): Reproduce with Sheep (7, 13)
+Sheep (13, 6): Was created
+Sheep (11, 6): Reproduce with Sheep (12, 6)
+Sheep (8, 10): Was created
+Sheep (7, 10): Reproduce with Sheep (7, 11)
+Sheep (0, 14): Attacked Turtle (0, 15)
+Turtle (0, 15): Pushed Sheep (0, 14) back
+Sheep (14, 5): Moved to (15, 5)
+Sheep (12, 3): Was created
+Sheep (11, 3): Reproduce with Sheep (10, 3)
+Sheep (11, 10): Was created
+Sheep (10, 10): Reproduce with Sheep (9, 10)
+Sheep (5, 15): Was created
+Sheep (5, 13): Reproduce with Sheep (5, 14)
+Sheep (10, 11): Was created
+Sheep (9, 11): Reproduce with Sheep (9, 10)
+Sheep (13, 8): Was created
+Sheep (11, 8): Reproduce with Sheep (12, 8)
+Sheep (14, 3): Was created
+Sheep (13, 3): Reproduce with Sheep (13, 4)
+Sheep (1, 16): Moved to (0, 16)
+Sheep (12, 0): Was created
+Sheep (11, 1): Reproduce with Sheep (11, 0)
+Sheep (2, 16): Was created
+Sheep (2, 15): Reproduce with Sheep (3, 15)
+Sheep (8, 13): Was created
+Sheep (7, 13): Reproduce with Sheep (7, 12)
+Sheep (13, 5): Was created
+Sheep (12, 5): Reproduce with Sheep (12, 6)
+Sheep (14, 6): Was created
+Sheep (12, 6): Reproduce with Sheep (13, 6)
+Sheep (12, 9): Was created
+Sheep (11, 9): Reproduce with Sheep (11, 8)
+Sheep (6, 15): Was created
+Sheep (5, 14): Reproduce with Sheep (5, 15)
+Sheep (9, 12): Was created
+Sheep (7, 12): Reproduce with Sheep (8, 12)
+Sheep (3, 15): Moved to (3, 16)
+Sheep (14, 7): Was created
+Sheep (13, 7): Reproduce with Sheep (13, 8)
+Sheep (13, 2): Was created
+Sheep (12, 2): Reproduce with Sheep (11, 2)
+Sheep (3, 15): Was created
+Sheep (4, 15): Reproduce with Sheep (4, 14)
+Sheep (14, 4): Was created
+Sheep (13, 4): Reproduce with Sheep (12, 4)
+Sheep (13, 1): Was created
+Sheep (12, 1): Reproduce with Sheep (12, 2)
+Turtle (0, 15): Attacked Sheep (0, 14)
+Turtle (0, 14): Died
+Grass (7, 54): Was created
+Grass (8, 54): Spread to (7, 54)
+Dandelion (7, 29): Was created
+Dandelion (7, 30): Spread to (7, 29)
+Dandelion (16, 54): Was created
+Dandelion (17, 54): Spread to (16, 54)
+Dandelion (3, 48): Was created
+Dandelion (3, 47): Spread to (3, 48)
+Dandelion (5, 31): Was created
+Dandelion (5, 32): Spread to (5, 31)
+Dandelion (1, 47): Was created
+Dandelion (2, 47): Spread to (1, 47)
+Dandelion (3, 34): Was created
+Dandelion (4, 34): Spread to (3, 34)
+Dandelion (4, 32): Was created
+Dandelion (4, 33): Spread to (4, 32)
+Dandelion (10, 21): Was created
+Dandelion (10, 22): Spread to (10, 21)
+Dandelion (2, 49): Was created
+Dandelion (2, 48): Spread to (2, 49)
+Dandelion (3, 35): Was created
+Dandelion (4, 35): Spread to (3, 35)
+-- Turn 64 --
+Fox (11, 17): Moved to (11, 16)
+Wolf (14, 11): Moved to (14, 12)
+Antelope (14, 8): Attacked Sheep (14, 6)
+Sheep (14, 6): Died
+Sheep (7, 14): Was created
+Sheep (6, 13): Reproduce with Sheep (7, 13)
+Sheep (0, 15): Was created
+Sheep (0, 14): Reproduce with Sheep (0, 13)
+Sheep (15, 5): Moved to (15, 6)
+Sheep (10, 12): Was created
+Sheep (9, 11): Reproduce with Sheep (9, 12)
+Sheep (1, 16): Was created
+Sheep (0, 16): Reproduce with Sheep (0, 15)
+Sheep (8, 14): Was created
+Sheep (7, 13): Reproduce with Sheep (7, 14)
+Sheep (12, 10): Was created
+Sheep (11, 9): Reproduce with Sheep (11, 10)
+Sheep (4, 16): Was created
+Sheep (3, 16): Reproduce with Sheep (3, 15)
+Sheep (15, 7): Was created
+Sheep (13, 7): Reproduce with Sheep (14, 7)
+Sheep (13, 6): Attacked Antelope (14, 6)
+Antelope (14, 6): Died
+Sheep (11, 11): Was created
+Sheep (11, 10): Reproduce with Sheep (12, 10)
+Sheep (5, 16): Was created
+Sheep (5, 15): Reproduce with Sheep (5, 14)
+Sheep (14, 8): Was created
+Sheep (13, 8): Reproduce with Sheep (12, 8)
+Sheep (15, 3): Was created
+Sheep (14, 3): Reproduce with Sheep (13, 3)
+Sheep (13, 0): Was created
+Sheep (12, 0): Reproduce with Sheep (12, 1)
+Sheep (2, 17): Was created
+Sheep (2, 16): Reproduce with Sheep (3, 16)
+Sheep (8, 13): Moved to (9, 13)
+Sheep (14, 5): Was created
+Sheep (13, 5): Reproduce with Sheep (12, 5)
+Sheep (12, 9): Moved to (13, 9)
+Sheep (6, 15): Moved to (7, 15)
+Sheep (13, 6): Was created
+Sheep (14, 7): Reproduce with Sheep (14, 6)
+Sheep (14, 2): Was created
+Sheep (13, 2): Reproduce with Sheep (12, 2)
+Sheep (14, 4): Moved to (15, 4)
+Sheep (14, 1): Was created
+Sheep (13, 1): Reproduce with Sheep (13, 0)
+Hogweed (11, 21): Was created
+Hogweed (12, 21): Spread to (11, 21)
+Dandelion (8, 24): Was created
+Dandelion (8, 25): Spread to (8, 24)
+Dandelion (6, 50): Was created
+Dandelion (6, 49): Spread to (6, 50)
+Grass (13, 57): Was created
+Grass (12, 57): Spread to (13, 57)
+Dandelion (1, 48): Was created
+Dandelion (2, 48): Spread to (1, 48)
+Dandelion (6, 29): Was created
+Dandelion (7, 29): Spread to (6, 29)
+Dandelion (3, 32): Was created
+Dandelion (4, 32): Spread to (3, 32)
+Dandelion (1, 49): Was created
+Dandelion (2, 49): Spread to (1, 49)
+-- Turn 65 --
+Fox (11, 16): Moved to (10, 16)
+Wolf (14, 12): Moved to (14, 11)
+Sheep (8, 13): Was created
+Sheep (6, 13): Reproduce with Sheep (7, 13)
+Sheep (15, 6): Moved to (15, 5)
+Sheep (12, 9): Was created
+Sheep (12, 7): Reproduce with Sheep (12, 8)
+Sheep (14, 4): Was created
+Sheep (13, 3): Reproduce with Sheep (13, 4)
+Sheep (0, 17): Was created
+Sheep (0, 16): Reproduce with Sheep (1, 16)
+Sheep (6, 15): Was created
+Sheep (5, 14): Reproduce with Sheep (5, 15)
+Sheep (3, 17): Was created
+Sheep (3, 16): Reproduce with Sheep (4, 16)
+Sheep (4, 17): Was created
+Sheep (4, 15): Reproduce with Sheep (4, 16)
+Sheep (6, 16): Was created
+Sheep (6, 14): Reproduce with Sheep (6, 15)
+Sheep (14, 6): Moved to (15, 6)
+Sheep (13, 10): Was created
+Sheep (11, 10): Reproduce with Sheep (12, 10)
+Sheep (14, 9): Was created
+Sheep (13, 8): Reproduce with Sheep (13, 9)
+Sheep (16, 3): Was created
+Sheep (14, 3): Reproduce with Sheep (15, 3)
+Sheep (1, 17): Was created
+Sheep (2, 16): Reproduce with Sheep (1, 16)
+Sheep (9, 13): Moved to (9, 14)
+Sheep (14, 6): Was created
+Sheep (13, 5): Reproduce with Sheep (14, 5)
+Sheep (14, 10): Was created
+Sheep (13, 9): Reproduce with Sheep (13, 10)
+Sheep (7, 15): Moved to (7, 16)
+Sheep (9, 13): Was created
+Sheep (9, 12): Reproduce with Sheep (10, 12)
+Sheep (15, 8): Was created
+Sheep (14, 7): Reproduce with Sheep (14, 8)
+Sheep (15, 2): Was created
+Sheep (13, 2): Reproduce with Sheep (14, 2)
+Sheep (16, 4): Was created
+Sheep (15, 4): Reproduce with Sheep (15, 5)
+Sheep (7, 15): Was created
+Sheep (7, 14): Reproduce with Sheep (6, 14)
+Sheep (10, 12): Moved to (10, 13)
+Sheep (8, 15): Was created
+Sheep (8, 14): Reproduce with Sheep (9, 14)
+Sheep (12, 11): Was created
+Sheep (12, 10): Reproduce with Sheep (12, 9)
+Sheep (5, 17): Was created
+Sheep (4, 16): Reproduce with Sheep (5, 16)
+Sheep (15, 7): Moved to (16, 7)
+Sheep (11, 12): Was created
+Sheep (11, 11): Reproduce with Sheep (10, 11)
+Sheep (6, 17): Was created
+Sheep (5, 16): Reproduce with Sheep (6, 16)
+Sheep (16, 8): Was created
+Sheep (14, 8): Reproduce with Sheep (15, 8)
+Sheep (16, 2): Was created
+Sheep (15, 3): Reproduce with Sheep (15, 2)
+Sheep (14, 0): Was created
+Sheep (13, 0): Reproduce with Sheep (12, 0)
+Sheep (2, 17): Moved to (2, 18)
+Sheep (15, 1): Was created
+Sheep (14, 2): Reproduce with Sheep (15, 2)
+Sheep (15, 0): Was created
+Sheep (14, 1): Reproduce with Sheep (14, 0)
+Guarana (1, 34): Was created
+Guarana (1, 35): Spread to (1, 34)
+Dandelion (17, 55): Was created
+Dandelion (17, 54): Spread to (17, 55)
+Dandelion (2, 45): Was created
+Dandelion (2, 46): Spread to (2, 45)
+Grass (8, 56): Was created
+Grass (8, 55): Spread to (8, 56)
+Dandelion (4, 49): Was created
+Dandelion (4, 48): Spread to (4, 49)
+Grass (11, 58): Was created
+Grass (12, 58): Spread to (11, 58)
+Dandelion (5, 30): Was created
+Dandelion (6, 30): Spread to (5, 30)
+Dandelion (18, 55): Was created
+Dandelion (19, 55): Spread to (18, 55)
+Dandelion (4, 31): Was created
+Dandelion (4, 32): Spread to (4, 31)
+Dandelion (2, 34): Was created
+Dandelion (3, 34): Spread to (2, 34)
+Hogweed (11, 20): Was created
+Hogweed (11, 21): Spread to (11, 20)
+Dandelion (8, 23): Was created
+Dandelion (8, 24): Spread to (8, 23)
+Dandelion (6, 28): Was created
+Dandelion (6, 29): Spread to (6, 28)
+Dandelion (2, 32): Was created
+Dandelion (3, 32): Spread to (2, 32)
+Dandelion (3, 33): Was created
+Dandelion (3, 32): Spread to (3, 33)
+-- Turn 66 --
+Fox (10, 16): Moved to (10, 17)
+Wolf (14, 11): Moved to (13, 11)
+Sheep (15, 5): Moved to (16, 5)
+Sheep (10, 12): Was created
+Sheep (9, 11): Reproduce with Sheep (9, 12)
+Sheep (0, 18): Was created
+Sheep (0, 16): Reproduce with Sheep (0, 17)
+Sheep (2, 17): Was created
+Sheep (3, 16): Reproduce with Sheep (2, 16)
+Sheep (15, 6): Moved to (15, 7)
+Sheep (9, 14): Moved to (10, 14)
+Sheep (15, 9): Was created
+Sheep (13, 9): Reproduce with Sheep (14, 9)
+Sheep (7, 16): Moved to (8, 16)
+Sheep (15, 6): Was created
+Sheep (14, 7): Reproduce with Sheep (15, 7)
+Sheep (15, 5): Was created
+Sheep (15, 4): Reproduce with Sheep (16, 4)
+Sheep (7, 16): Was created
+Sheep (7, 14): Reproduce with Sheep (7, 15)
+Sheep (10, 13): Moved to (11, 13)
+Sheep (9, 14): Was created
+Sheep (8, 14): Reproduce with Sheep (7, 14)
+Sheep (12, 12): Was created
+Sheep (12, 10): Reproduce with Sheep (12, 11)
+Sheep (17, 7): Was created
+Sheep (16, 7): Reproduce with Sheep (16, 8)
+Sheep (2, 18): Moved to (3, 18)
+Sheep (1, 18): Was created
+Sheep (0, 17): Reproduce with Sheep (1, 17)
+Sheep (4, 18): Was created
+Sheep (3, 17): Reproduce with Sheep (4, 17)
+Sheep (5, 18): Was created
+Sheep (4, 17): Reproduce with Sheep (5, 17)
+Sheep (17, 3): Was created
+Sheep (16, 3): Reproduce with Sheep (16, 4)
+Sheep (14, 10): Moved to (14, 11)
+Sheep (9, 13): Moved to (10, 13)
+Sheep (16, 4): Moved to (17, 4)
+Sheep (7, 17): Was created
+Sheep (7, 15): Reproduce with Sheep (7, 16)
+Sheep (9, 15): Was created
+Sheep (8, 15): Reproduce with Sheep (8, 14)
+Sheep (13, 12): Was created
+Sheep (11, 12): Reproduce with Sheep (12, 12)
+Sheep (6, 18): Was created
+Sheep (6, 17): Reproduce with Sheep (7, 17)
+Sheep (17, 8): Was created
+Sheep (16, 8): Reproduce with Sheep (15, 8)
+Sheep (16, 2): Moved to (16, 1)
+Sheep (17, 1): Was created
+Sheep (15, 1): Reproduce with Sheep (16, 1)
+Sheep (16, 0): Was created
+Sheep (15, 0): Reproduce with Sheep (15, 1)
+Dandelion (5, 48): Was created
+Dandelion (6, 48): Spread to (5, 48)
+Dandelion (7, 25): Was created
+Dandelion (8, 25): Spread to (7, 25)
+Dandelion (5, 49): Was created
+Dandelion (6, 49): Spread to (5, 49)
+Dandelion (9, 22): Was created
+Dandelion (10, 22): Spread to (9, 22)
+Grass (13, 58): Was created
+Grass (12, 58): Spread to (13, 58)
+Dandelion (10, 20): Was created
+Dandelion (10, 21): Spread to (10, 20)
+Dandelion (3, 49): Was created
+Dandelion (2, 49): Spread to (3, 49)
+Dandelion (16, 55): Was created
+Dandelion (16, 54): Spread to (16, 55)
+Dandelion (5, 50): Was created
+Dandelion (6, 50): Spread to (5, 50)
+Dandelion (4, 30): Was created
+Dandelion (5, 30): Spread to (4, 30)
+Dandelion (3, 31): Was created
+Dandelion (4, 31): Spread to (3, 31)
+Dandelion (6, 27): Was created
+Dandelion (6, 28): Spread to (6, 27)
+-- Turn 67 --
+Fox (10, 17): Moved to (10, 18)
+Wolf (13, 11): Attacked Sheep (13, 12)
+Sheep (13, 12): Died
+Sheep (16, 5): Moved to (17, 5)
+Sheep (9, 13): Was created
+Sheep (8, 12): Reproduce with Sheep (9, 12)
+Sheep (10, 14): Moved to (10, 15)
+Sheep (14, 10): Was created
+Sheep (13, 9): Reproduce with Sheep (14, 9)
+Sheep (8, 16): Moved to (9, 16)
+Sheep (16, 4): Was created
+Sheep (15, 4): Reproduce with Sheep (14, 4)
+Sheep (11, 13): Moved to (12, 13)
+Sheep (16, 6): Was created
+Sheep (16, 7): Reproduce with Sheep (15, 7)
+Sheep (16, 2): Was created
+Sheep (15, 3): Reproduce with Sheep (15, 2)
+Sheep (2, 18): Was created
+Sheep (3, 18): Reproduce with Sheep (3, 17)
+Sheep (0, 19): Was created
+Sheep (0, 17): Reproduce with Sheep (0, 18)
+Sheep (13, 10): Moved to (13, 11)
+Sheep (15, 10): Was created
+Sheep (14, 9): Reproduce with Sheep (14, 10)
+Sheep (16, 5): Was created
+Sheep (16, 3): Reproduce with Sheep (16, 4)
+Sheep (1, 19): Was created
+Sheep (1, 17): Reproduce with Sheep (1, 18)
+Sheep (14, 11): Moved to (14, 12)
+Sheep (11, 13): Was created
+Sheep (10, 13): Reproduce with Sheep (10, 12)
+Sheep (18, 4): Was created
+Sheep (17, 4): Reproduce with Sheep (17, 3)
+Sheep (8, 16): Was created
+Sheep (8, 15): Reproduce with Sheep (9, 15)
+Sheep (13, 10): Was created
+Sheep (12, 11): Reproduce with Sheep (12, 10)
+Sheep (16, 9): Was created
+Sheep (16, 8): Reproduce with Sheep (15, 8)
+Sheep (18, 1): Was created
+Sheep (16, 1): Reproduce with Sheep (17, 1)
+Sheep (17, 0): Was created
+Sheep (15, 0): Reproduce with Sheep (16, 0)
+Sheep (16, 10): Was created
+Sheep (15, 9): Reproduce with Sheep (15, 10)
+Sheep (8, 17): Was created
+Sheep (7, 16): Reproduce with Sheep (8, 16)
+Sheep (10, 14): Was created
+Sheep (9, 14): Reproduce with Sheep (9, 15)
+Sheep (13, 13): Was created
+Sheep (12, 12): Reproduce with Sheep (12, 13)
+Sheep (17, 7): Moved to (18, 7)
+Sheep (4, 18): Moved to (4, 19)
+Sheep (5, 18): Moved to (4, 18)
+Sheep (17, 3): Moved to (17, 2)
+Sheep (7, 18): Was created
+Sheep (7, 17): Reproduce with Sheep (7, 16)
+Sheep (6, 18): Moved to (5, 18)
+Sheep (17, 8): Moved to (17, 7)
+Sheep (18, 0): Was created
+Sheep (17, 1): Reproduce with Sheep (17, 0)
+Dandelion (7, 28): Was created
+Dandelion (8, 28): Spread to (7, 28)
+Grass (5, 51): Was created
+Grass (6, 51): Spread to (5, 51)
+Dandelion (7, 27): Was created
+Dandelion (8, 27): Spread to (7, 27)
+Dandelion (0, 47): Was created
+Dandelion (1, 47): Spread to (0, 47)
+Dandelion (2, 50): Was created
+Dandelion (2, 49): Spread to (2, 50)
+Dandelion (0, 48): Was created
+Dandelion (1, 48): Spread to (0, 48)
+Dandelion (8, 22): Was created
+Dandelion (8, 23): Spread to (8, 22)
+Dandelion (5, 28): Was created
+Dandelion (6, 28): Spread to (5, 28)
+Dandelion (9, 21): Was created
+Dandelion (9, 22): Spread to (9, 21)
+Dandelion (3, 50): Was created
+Dandelion (3, 49): Spread to (3, 50)
+Dandelion (4, 50): Was created
+Dandelion (5, 50): Spread to (4, 50)
+Dandelion (5, 27): Was created
+Dandelion (6, 27): Spread to (5, 27)
+-- Turn 68 --
+Fox (10, 18): Moved to (10, 17)
+Wolf (13, 12): Attacked Sheep (13, 13)
+Sheep (13, 13): Died
+Sheep (18, 5): Was created
+Sheep (17, 5): Reproduce with Sheep (17, 4)
+Sheep (11, 15): Was created
+Sheep (10, 15): Reproduce with Sheep (9, 15)
+Sheep (9, 16): Moved to (9, 17)
+Sheep (12, 13): Moved to (12, 14)
+Sheep (17, 8): Was created
+Sheep (16, 7): Reproduce with Sheep (17, 7)
+Sheep (3, 19): Was created
+Sheep (3, 18): Reproduce with Sheep (2, 18)
+Sheep (13, 11): Moved to (14, 11)
+Sheep (17, 3): Was created
+Sheep (16, 3): Reproduce with Sheep (16, 2)
+Sheep (14, 12): Moved to (13, 12)
+Sheep (19, 4): Was created
+Sheep (17, 4): Reproduce with Sheep (18, 4)
+Sheep (9, 16): Was created
+Sheep (8, 15): Reproduce with Sheep (8, 16)
+Sheep (13, 11): Was created
+Sheep (12, 11): Reproduce with Sheep (12, 12)
+Sheep (6, 18): Was created
+Sheep (5, 17): Reproduce with Sheep (5, 18)
+Sheep (12, 13): Was created
+Sheep (11, 12): Reproduce with Sheep (12, 12)
+Sheep (18, 8): Was created
+Sheep (16, 8): Reproduce with Sheep (17, 8)
+Sheep (17, 9): Was created
+Sheep (15, 9): Reproduce with Sheep (16, 9)
+Sheep (14, 12): Was created
+Sheep (12, 12): Reproduce with Sheep (13, 12)
+Sheep (19, 7): Was created
+Sheep (18, 7): Reproduce with Sheep (18, 8)
+Sheep (2, 19): Was created
+Sheep (1, 18): Reproduce with Sheep (2, 18)
+Sheep (5, 19): Was created
+Sheep (4, 19): Reproduce with Sheep (3, 19)
+Sheep (18, 2): Was created
+Sheep (17, 2): Reproduce with Sheep (17, 1)
+Sheep (10, 16): Was created
+Sheep (9, 15): Reproduce with Sheep (10, 15)
+Sheep (17, 6): Was created
+Sheep (17, 7): Reproduce with Sheep (16, 7)
+Sheep (2, 20): Was created
+Sheep (2, 18): Reproduce with Sheep (2, 19)
+Sheep (0, 20): Was created
+Sheep (0, 19): Reproduce with Sheep (0, 18)
+Sheep (15, 11): Was created
+Sheep (15, 10): Reproduce with Sheep (16, 10)
+Sheep (1, 20): Was created
+Sheep (1, 19): Reproduce with Sheep (1, 18)
+Sheep (11, 14): Was created
+Sheep (11, 13): Reproduce with Sheep (11, 12)
+Sheep (18, 3): Was created
+Sheep (18, 4): Reproduce with Sheep (18, 5)
+Sheep (19, 1): Was created
+Sheep (18, 1): Reproduce with Sheep (18, 2)
+Sheep (19, 0): Was created
+Sheep (17, 0): Reproduce with Sheep (18, 0)
+Sheep (17, 10): Was created
+Sheep (16, 10): Reproduce with Sheep (16, 9)
+Sheep (8, 17): Moved to (8, 18)
+Sheep (7, 19): Was created
+Sheep (7, 18): Reproduce with Sheep (7, 17)
+Hogweed (13, 20): Was created
+Hogweed (14, 20): Spread to (13, 20)
+Guarana (0, 33): Was created
+Guarana (0, 34): Spread to (0, 33)
+Dandelion (10, 19): Was created
+Dandelion (10, 20): Spread to (10, 19)
+Dandelion (2, 31): Was created
+Dandelion (3, 31): Spread to (2, 31)
+Dandelion (7, 26): Was created
+Dandelion (7, 27): Spread to (7, 26)
+Dandelion (0, 49): Was created
+Dandelion (0, 48): Spread to (0, 49)
+-- Turn 69 --
+Fox (10, 17): Moved to (10, 18)
+Wolf (13, 13): Attacked Sheep (12, 13)
+Sheep (12, 13): Died
+Sheep (18, 6): Was created
+Sheep (17, 5): Reproduce with Sheep (17, 6)
+Sheep (11, 16): Was created
+Sheep (10, 15): Reproduce with Sheep (10, 16)
+Sheep (9, 17): Moved to (9, 18)
+Sheep (13, 14): Was created
+Sheep (12, 14): Reproduce with Sheep (11, 14)
+Sheep (3, 20): Was created
+Sheep (3, 18): Reproduce with Sheep (3, 19)
+Sheep (13, 13): Was created
+Sheep (13, 12): Reproduce with Sheep (12, 12)
+Sheep (8, 17): Was created
+Sheep (6, 17): Reproduce with Sheep (7, 17)
+Sheep (19, 8): Was created
+Sheep (18, 7): Reproduce with Sheep (19, 7)
+Sheep (4, 20): Was created
+Sheep (4, 19): Reproduce with Sheep (3, 19)
+Sheep (19, 2): Was created
+Sheep (17, 2): Reproduce with Sheep (18, 2)
+Sheep (9, 17): Was created
+Sheep (9, 15): Reproduce with Sheep (9, 16)
+Sheep (6, 19): Was created
+Sheep (5, 18): Reproduce with Sheep (6, 18)
+Sheep (0, 21): Was created
+Sheep (0, 19): Reproduce with Sheep (0, 20)
+Sheep (19, 3): Was created
+Sheep (18, 4): Reproduce with Sheep (18, 3)
+Sheep (18, 9): Was created
+Sheep (16, 9): Reproduce with Sheep (17, 9)
+Sheep (16, 11): Was created
+Sheep (16, 10): Reproduce with Sheep (17, 10)
+Sheep (8, 18): Moved to (8, 19)
+Sheep (8, 18): Was created
+Sheep (7, 18): Reproduce with Sheep (7, 17)
+Sheep (19, 5): Was created
+Sheep (18, 5): Reproduce with Sheep (18, 4)
+Sheep (12, 15): Was created
+Sheep (11, 15): Reproduce with Sheep (11, 14)
+Sheep (10, 17): Was created
+Sheep (9, 16): Reproduce with Sheep (10, 16)
+Sheep (6, 20): Was created
+Sheep (6, 18): Reproduce with Sheep (6, 19)
+Sheep (19, 9): Was created
+Sheep (18, 8): Reproduce with Sheep (19, 8)
+Sheep (15, 12): Was created
+Sheep (14, 12): Reproduce with Sheep (13, 12)
+Sheep (19, 6): Was created
+Sheep (19, 7): Reproduce with Sheep (19, 8)
+Sheep (2, 21): Was created
+Sheep (2, 19): Reproduce with Sheep (2, 20)
+Sheep (5, 20): Was created
+Sheep (5, 19): Reproduce with Sheep (6, 19)
+Sheep (12, 16): Was created
+Sheep (10, 16): Reproduce with Sheep (11, 16)
+Sheep (1, 21): Was created
+Sheep (2, 20): Reproduce with Sheep (1, 20)
+Sheep (17, 11): Was created
+Sheep (15, 11): Reproduce with Sheep (16, 11)
+Sheep (18, 10): Was created
+Sheep (17, 10): Reproduce with Sheep (16, 10)
+Sheep (7, 20): Was created
+Sheep (7, 19): Reproduce with Sheep (6, 19)
+Grass (7, 55): Was created
+Grass (8, 55): Spread to (7, 55)
+Deadly Nightshade (16, 17): Was created
+Deadly Nightshade (16, 18): Spread to (16, 17)
+Dandelion (19, 56): Was created
+Dandelion (19, 55): Spread to (19, 56)
+Dandelion (5, 29): Was created
+Dandelion (6, 29): Spread to (5, 29)
+Dandelion (2, 33): Was created
+Dandelion (2, 34): Spread to (2, 33)
+Dandelion (9, 20): Was created
+Dandelion (10, 20): Spread to (9, 20)
+Dandelion (15, 55): Was created
+Dandelion (16, 55): Spread to (15, 55)
+Dandelion (16, 56): Was created
+Dandelion (16, 55): Spread to (16, 56)
+Dandelion (6, 26): Was created
+Dandelion (6, 27): Spread to (6, 26)
+-- Turn 70 --
+Fox (10, 18): Moved to (11, 18)
+Wolf (12, 13): Attacked Sheep (11, 13)
+Sheep (11, 13): Died
+Sheep (9, 18): Moved to (10, 18)
+Sheep (12, 13): Was created
+Sheep (12, 14): Reproduce with Sheep (11, 14)
+Sheep (14, 13): Was created
+Sheep (14, 11): Reproduce with Sheep (14, 12)
+Sheep (4, 21): Was created
+Sheep (4, 19): Reproduce with Sheep (4, 20)
+Sheep (9, 19): Was created
+Sheep (8, 19): Reproduce with Sheep (7, 19)
+Sheep (3, 21): Was created
+Sheep (3, 19): Reproduce with Sheep (3, 20)
+Sheep (9, 18): Was created
+Sheep (9, 16): Reproduce with Sheep (9, 17)
+Sheep (11, 17): Was created
+Sheep (10, 16): Reproduce with Sheep (11, 16)
+Sheep (1, 22): Was created
+Sheep (1, 20): Reproduce with Sheep (1, 21)
+Sheep (13, 14): Moved to (13, 15)
+Sheep (13, 14): Was created
+Sheep (13, 13): Reproduce with Sheep (13, 12)
+Sheep (19, 10): Was created
+Sheep (19, 8): Reproduce with Sheep (19, 9)
+Sheep (0, 22): Was created
+Sheep (0, 21): Reproduce with Sheep (1, 21)
+Sheep (18, 11): Was created
+Sheep (18, 9): Reproduce with Sheep (18, 10)
+Sheep (16, 11): Moved to (16, 12)
+Sheep (13, 16): Was created
+Sheep (12, 15): Reproduce with Sheep (12, 16)
+Sheep (6, 21): Was created
+Sheep (6, 20): Reproduce with Sheep (7, 20)
+Sheep (15, 13): Was created
+Sheep (15, 12): Reproduce with Sheep (16, 12)
+Sheep (2, 21): Moved to (2, 22)
+Sheep (5, 21): Was created
+Sheep (5, 20): Reproduce with Sheep (4, 20)
+Sheep (12, 17): Was created
+Sheep (12, 16): Reproduce with Sheep (12, 15)
+Sheep (2, 21): Was created
+Sheep (1, 21): Reproduce with Sheep (0, 21)
+Sheep (17, 11): Moved to (16, 11)
+Sheep (17, 11): Was created
+Sheep (18, 10): Reproduce with Sheep (17, 10)
+Sheep (8, 20): Was created
+Sheep (7, 20): Reproduce with Sheep (7, 19)
+Hogweed (15, 19): Was created
+Hogweed (16, 19): Spread to (15, 19)
+Grass (11, 57): Was created
+Grass (11, 56): Spread to (11, 57)
+Dandelion (1, 50): Was created
+Dandelion (1, 49): Spread to (1, 50)
+Grass (14, 57): Was created
+Grass (13, 57): Spread to (14, 57)
+Dandelion (7, 23): Was created
+Dandelion (8, 23): Spread to (7, 23)
+Dandelion (3, 30): Was created
+Dandelion (3, 31): Spread to (3, 30)
+Dandelion (4, 27): Was created
+Dandelion (5, 27): Spread to (4, 27)
+Dandelion (2, 51): Was created
+Dandelion (2, 50): Spread to (2, 51)
+Dandelion (11, 19): Was created
+Dandelion (10, 19): Spread to (11, 19)
+-- Turn 71 --
+Fox (11, 18): Moved to (11, 19)
+Fox (11, 19): Ate Dandelion (11, 19)
+Dandelion (11, 19): Died
+Wolf (11, 13): Attacked Sheep (10, 13)
+Sheep (10, 13): Died
+Sheep (10, 18): Moved to (11, 18)
+Sheep (11, 13): Was created
+Sheep (12, 14): Reproduce with Sheep (12, 13)
+Sheep (10, 12): Attacked Wolf (10, 13)
+Sheep (10, 13): Died
+Sheep (10, 14): Attacked Wolf (10, 13)
+Sheep (10, 13): Died
+Sheep (10, 14): Was created
+Sheep (11, 15): Reproduce with Sheep (11, 14)
+Sheep (17, 12): Was created
+Sheep (17, 10): Reproduce with Sheep (17, 11)
+Sheep (14, 15): Was created
+Sheep (13, 15): Reproduce with Sheep (13, 16)
+Sheep (10, 18): Was created
+Sheep (9, 17): Reproduce with Sheep (10, 17)
+Sheep (0, 23): Was created
+Sheep (0, 21): Reproduce with Sheep (0, 22)
+Sheep (16, 13): Was created
+Sheep (16, 12): Reproduce with Sheep (15, 12)
+Sheep (7, 21): Was created
+Sheep (6, 20): Reproduce with Sheep (7, 20)
+Sheep (3, 22): Was created
+Sheep (2, 22): Reproduce with Sheep (2, 21)
+Sheep (13, 17): Was created
+Sheep (12, 16): Reproduce with Sheep (12, 17)
+Sheep (19, 11): Was created
+Sheep (18, 10): Reproduce with Sheep (19, 10)
+Sheep (14, 14): Was created
+Sheep (14, 13): Reproduce with Sheep (14, 12)
+Sheep (4, 22): Was created
+Sheep (4, 21): Reproduce with Sheep (5, 21)
+Sheep (1, 23): Was created
+Sheep (1, 22): Reproduce with Sheep (0, 22)
+Sheep (19, 12): Was created
+Sheep (19, 10): Reproduce with Sheep (19, 11)
+Sheep (18, 12): Was created
+Sheep (18, 11): Reproduce with Sheep (18, 10)
+Sheep (13, 16): Moved to (14, 16)
+Sheep (6, 22): Was created
+Sheep (6, 21): Reproduce with Sheep (5, 21)
+Sheep (15, 14): Was created
+Sheep (15, 13): Reproduce with Sheep (15, 12)
+Sheep (5, 22): Was created
+Sheep (5, 21): Reproduce with Sheep (5, 20)
+Sheep (12, 17): Moved to (12, 18)
+Sheep (8, 20): Moved to (9, 20)
+Sheep (9, 20): Ate Dandelion (9, 20)
+Dandelion (9, 20): Died
+Deadly Nightshade (19, 15): Was created
+Deadly Nightshade (19, 16): Spread to (19, 15)
+Grass (9, 56): Was created
+Grass (10, 56): Spread to (9, 56)
+Grass (5, 52): Was created
+Grass (6, 52): Spread to (5, 52)
+Fox (11, 19): Died
+Hogweed (11, 20): Killed 1 animals adjacent to it
+Dandelion (1, 32): Was created
+Dandelion (2, 32): Spread to (1, 32)
+Dandelion (4, 29): Was created
+Dandelion (4, 30): Spread to (4, 29)
+Dandelion (8, 21): Was created
+Dandelion (8, 22): Spread to (8, 21)
+Dandelion (5, 26): Was created
+Dandelion (6, 26): Spread to (5, 26)
+Dandelion (2, 30): Was created
+Dandelion (3, 30): Spread to (2, 30)
+Dandelion (2, 52): Was created
+Dandelion (2, 51): Spread to (2, 52)
+-- Turn 72 --
+Wolf (10, 13): Attacked Sheep (11, 13)
+Sheep (11, 13): Died
+Sheep (10, 12): Was created
+Sheep (10, 11): Reproduce with Sheep (9, 11)
+Sheep (11, 19): Was created
+Sheep (11, 18): Reproduce with Sheep (12, 18)
+Sheep (11, 12): Attacked Wolf (11, 13)
+Sheep (11, 13): Died
+Sheep (10, 13): Was created
+Sheep (9, 14): Reproduce with Sheep (10, 14)
+Sheep (11, 12): Was created
+Sheep (12, 12): Reproduce with Sheep (12, 11)
+Sheep (8, 19): Moved to (8, 20)
+Sheep (8, 19): Was created
+Sheep (7, 18): Reproduce with Sheep (8, 18)
+Sheep (12, 17): Was created
+Sheep (11, 16): Reproduce with Sheep (11, 17)
+Sheep (13, 15): Moved to (13, 16)
+Sheep (13, 15): Was created
+Sheep (13, 13): Reproduce with Sheep (13, 14)
+Sheep (2, 23): Was created
+Sheep (2, 22): Reproduce with Sheep (3, 22)
+Sheep (0, 24): Was created
+Sheep (0, 22): Reproduce with Sheep (0, 23)
+Sheep (18, 13): Was created
+Sheep (18, 11): Reproduce with Sheep (18, 12)
+Sheep (15, 16): Was created
+Sheep (14, 16): Reproduce with Sheep (14, 15)
+Sheep (17, 13): Was created
+Sheep (15, 13): Reproduce with Sheep (16, 13)
+Sheep (12, 18): Moved to (12, 19)
+Sheep (9, 20): Moved to (10, 20)
+Sheep (10, 20): Ate Dandelion (10, 20)
+Dandelion (10, 20): Died
+Sheep (15, 15): Was created
+Sheep (14, 15): Reproduce with Sheep (14, 14)
+Sheep (10, 18): Moved to (10, 19)
+Sheep (10, 19): Ate Dandelion (10, 19)
+Dandelion (10, 19): Died
+Sheep (1, 24): Was created
+Sheep (0, 23): Reproduce with Sheep (1, 23)
+Sheep (16, 14): Was created
+Sheep (16, 13): Reproduce with Sheep (15, 13)
+Sheep (7, 22): Was created
+Sheep (7, 21): Reproduce with Sheep (7, 20)
+Sheep (3, 23): Was created
+Sheep (3, 22): Reproduce with Sheep (3, 21)
+Sheep (13, 17): Moved to (13, 18)
+Sheep (19, 13): Was created
+Sheep (19, 11): Reproduce with Sheep (19, 12)
+Sheep (4, 23): Was created
+Sheep (4, 22): Reproduce with Sheep (3, 22)
+Sheep (2, 24): Was created
+Sheep (1, 23): Reproduce with Sheep (1, 24)
+Sheep (6, 23): Was created
+Sheep (6, 22): Reproduce with Sheep (7, 22)
+Sheep (17, 14): Was created
+Sheep (15, 14): Reproduce with Sheep (16, 14)
+Sheep (5, 23): Was created
+Sheep (5, 22): Reproduce with Sheep (6, 22)
+Sheep (12, 19): Died
+Hogweed (12, 20): Killed 1 animals adjacent to it
+Hogweed (12, 19): Was created
+Hogweed (12, 20): Spread to (12, 19)
+Grass (6, 54): Was created
+Grass (6, 53): Spread to (6, 54)
+Sheep (10, 20): Died
+Sheep (11, 19): Died
+Hogweed (11, 20): Killed 2 animals adjacent to it
+Dandelion (17, 56): Was created
+Dandelion (17, 55): Spread to (17, 56)
+Grass (10, 58): Was created
+Grass (11, 58): Spread to (10, 58)
+Dandelion (9, 20): Was created
+Dandelion (9, 21): Spread to (9, 20)
+Dandelion (19, 57): Was created
+Dandelion (19, 56): Spread to (19, 57)
+Dandelion (7, 24): Was created
+Dandelion (7, 23): Spread to (7, 24)
+Dandelion (3, 29): Was created
+Dandelion (3, 30): Spread to (3, 29)
+Dandelion (4, 26): Was created
+Dandelion (4, 27): Spread to (4, 26)
+Hogweed (14, 19): Was created
+Hogweed (15, 19): Spread to (14, 19)
+Dandelion (0, 50): Was created
+Dandelion (1, 50): Spread to (0, 50)
+Dandelion (0, 32): Was created
+Dandelion (1, 32): Spread to (0, 32)
+Dandelion (5, 25): Was created
+Dandelion (5, 26): Spread to (5, 25)
+Dandelion (1, 30): Was created
+Dandelion (2, 30): Spread to (1, 30)

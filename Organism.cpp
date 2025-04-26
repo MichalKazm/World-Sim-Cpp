@@ -42,3 +42,6 @@ void Organism::setWorld(World* world) {
 void Organism::setStrength(int strength) {
     this->strength = strength;
 }
+void Organism::setAge(int age) {
+    this->age = age;
+}

@@ -61,8 +61,8 @@ int main() {
     WINDOW* gameWindow = newwin(ROWS + 2, COLS + 2, 0, 0);
     WINDOW* logWindow = newwin(LOG_ROWS + 2, LOG_COLS + 2, ROWS + 2 + 3, 0);
 
-    World* world = new World(ROWS,COLS, LOG_ROWS, gameWindow, logWindow);
-    world->addOrganism(new Human(1, 1));
+    World* world = new World(ROWS,COLS, LOG_ROWS, LOG_COLS, gameWindow, logWindow);
+    // world->addOrganism(new Human(1, 1));
     world->addOrganism(new Wolf(15, 15));
     // world->addOrganism(new Wolf(4, 4));
     world->addOrganism(new Sheep(2,2));

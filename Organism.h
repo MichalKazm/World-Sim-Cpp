@@ -27,6 +27,7 @@ public:
     void print() const;
     void setWorld(World* world);
     void setStrength(int strength);
+    void setAge (int age);
 
     virtual std::string getName() const = 0;
     virtual Organism* createNew(int y, int x) = 0;

@@ -1,12 +1,24 @@
 #include "World.h"
 #include "Human.h"
+#include "Antelope.h"
+#include "Dandelion.h"
+#include "DeadlyNightshade.h"
+#include "Fox.h"
+#include "Grass.h"
+#include "Guarana.h"
+#include "Hogweed.h"
+#include "Sheep.h"
+#include "Turtle.h"
+#include "Wolf.h"
 
 #include <curses.h>
 #include <vector>
 #include <string>
+#include <cstdio>
+#include <cstring>
 
-World::World(int rows, int cols, int logRows, WINDOW* gameWindow, WINDOW* logWindow)
-    : rows(rows), cols(cols), logRows(logRows), turn(1), gameWindow(gameWindow), logWindow(logWindow), human(nullptr) {
+World::World(int rows, int cols, int logRows, int logCols, WINDOW* gameWindow, WINDOW* logWindow)
+    : rows(rows), cols(cols), logRows(logRows), logCols(logCols), turn(1), gameWindow(gameWindow), logWindow(logWindow), human(nullptr) {
     logs.push_back("-- Turn 0 --");
 }
 int World::getRows() const {
@@ -56,7 +68,7 @@ Organism *World::getOrganism(int y, int x) const{
 
     return nullptr;
 }
-void World::addLog(std::string message) {
+void World::addLog(const std::string& message) {
     logs.push_back(message);
 }
 void World::removeDead() {
@@ -137,6 +149,172 @@ void World::printLogs(size_t offset) const {
 
     wrefresh(logWindow);
 }
+void World::save() {
+    FILE* saveFile = fopen("save.txt", "w");
+
+    if (!saveFile) {
+        addLog("ERROR: Cannot save the game!");
+        return;
+    }
+
+    fprintf(saveFile, "WORLD:\n\n");
+    fprintf(saveFile, "Rows: %d\n", rows);
+    fprintf(saveFile, "Columns: %d\n", cols);
+    fprintf(saveFile, "Log Rows: %d\n", logRows);
+    fprintf(saveFile, "Log Columns: %d\n", logCols);
+    fprintf(saveFile, "Turn: %d\n", turn);
+
+    fprintf(saveFile, "\nORGANISM:\n\n");
+    for (Organism* organism : order) {
+        fprintf(saveFile, "%s: Age - %d, Strength - %d\n", organism->getName().c_str(), organism->getAge(), organism->getStrength());
+    }
+
+    fprintf(saveFile, "\nLOGS:\n\n");
+    for (const std::string& log : logs) {
+        fprintf(saveFile, "%s\n", log.c_str());
+    }
+
+    if (human != nullptr) {
+        fprintf(saveFile, "\nHUMAN:\n\n");
+        fprintf(saveFile, "Ability timer: %d\n", human->getAbilityTimer());
+    }
+
+    fclose(saveFile);
+}
+void World::load() {
+    FILE* saveFile = fopen("save.txt", "r");
+
+    if (!saveFile) {
+        addLog("ERROR: Cannot load the game!");
+        return;
+    }
+
+    char line[256];
+
+    fgets(line, sizeof(line), saveFile);    // WORLD:\n
+    fgets(line, sizeof(line), saveFile);    // \n
+
+    fscanf(saveFile, "Rows: %d\n", &rows);
+    fscanf(saveFile, "Columns: %d\n", &cols);
+    fscanf(saveFile, "Log Rows: %d\n", &logRows);
+    fscanf(saveFile, "Log Columns: %d\n", &logCols);
+    fscanf(saveFile, "Turn: %d\n", &turn);
+
+    // Clear windows
+    if (gameWindow != nullptr) {
+        delwin(gameWindow);
+        gameWindow = nullptr;
+    }
+    if (logWindow != nullptr) {
+        delwin(logWindow);
+        logWindow = nullptr;
+    }
+
+    // Create windows
+    gameWindow = newwin(rows + 2, cols + 2, 0, 0);
+    logWindow = newwin(logRows + 2, logCols + 2, rows + 2 + 3, 0);
+    refresh();
+
+    fgets(line, sizeof(line), saveFile);    // ORGANISM:\n
+    fgets(line, sizeof(line), saveFile);    // \n
+
+    // Clear order vector
+    for (Organism* organism : order) {
+        delete organism;
+    }
+    order.clear();
+
+    human = nullptr;
+
+    // Read organisms
+    while (fgets(line, sizeof(line), saveFile)) {
+        if (strcmp(line, "\n") == 0) {
+            break;
+        }
+
+        char name[30];
+        int y, x, age, strength;
+
+        sscanf(line, "%29[^(](%d, %d): Age - %d, Strength - %d)", name, &y, &x, &age, &strength);
+
+        // Remove space from name
+        name[strlen(name) - 1] = '\0';
+
+        Organism* newOrganism = nullptr;
+
+        if (strcmp(name, "Antelope") == 0) {
+            newOrganism = new Antelope(y, x);
+        }
+        else if (strcmp(name, "Dandelion") == 0) {
+            newOrganism = new Dandelion(y, x);
+        }
+        else if (strcmp(name, "Deadly Nightshade") == 0) {
+            newOrganism = new DeadlyNightshade(y, x);
+        }
+        else if (strcmp(name, "Fox") == 0) {
+            newOrganism = new Fox(y, x);
+        }
+        else if (strcmp(name, "Grass") == 0) {
+            newOrganism = new Grass(y, x);
+        }
+        else if (strcmp(name, "Guarana") == 0) {
+            newOrganism = new Guarana(y, x);
+        }
+        else if (strcmp(name, "Hogweed") == 0) {
+            newOrganism = new Hogweed(y, x);
+        }
+        else if (strcmp(name, "Human") == 0) {
+            newOrganism = new Human(y, x);
+        }
+        else if (strcmp(name, "Sheep") == 0) {
+            newOrganism = new Sheep(y, x);
+        }
+        else if (strcmp(name, "Turtle") == 0) {
+            newOrganism = new Turtle(y, x);
+        }
+        else if (strcmp(name, "Wolf") == 0) {
+            newOrganism = new Wolf(y, x);
+        }
+
+        if (newOrganism != nullptr) {
+            newOrganism->setAge(age);
+            newOrganism->setStrength(strength);
+
+            addOrganism(newOrganism);
+        }
+    }
+
+    fgets(line, sizeof(line), saveFile);    // LOGS:\n
+    fgets(line, sizeof(line), saveFile);    // \n
+
+    logs.clear();
+
+    // Read logs
+    while (fgets(line, sizeof(line), saveFile)) {
+        if (strcmp(line, "\n") == 0) {
+            break;
+        }
+
+        // Remove new line character
+        if (line[strlen(line) - 1] == '\n') {
+            line[strlen(line) - 1] = '\0';
+        }
+
+        addLog(line);
+    }
+
+    if (human != nullptr) {
+        int abilityTimer;
+        fscanf(saveFile, "\nHUMAN:\n\n");
+        fscanf(saveFile, "Ability timer: %d\n", &abilityTimer);
+        human->setAbilityTimer(abilityTimer);
+    }
+
+    fclose(saveFile);
+
+    printGame();
+    printLogs(0);
+}
 void World::takeTurn() {
     sortOrder();
 
@@ -211,7 +389,7 @@ void World::run() {
                 }
                 break;
             case 'w':
-                if (offset < logs.size() - logRows - 1) {
+                if (offset < logs.size() - logRows) {
                     offset++;
                 }
                 break;
@@ -219,6 +397,13 @@ void World::run() {
                 if (offset > 0) {
                     offset--;
                 }
+                break;
+            case 'k':
+                save();
+                break;
+            case 'l':
+                load();
+                offset = 0;
                 break;
             case 'q':
                 return;
